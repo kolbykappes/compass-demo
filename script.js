@@ -402,13 +402,15 @@ function router() {
 function renderLandingPage() {
     content.innerHTML = `
         <div class="landing-page">
-            <section class="hero-section">
+            <section class="hero-section" style="padding: 2rem 0;">
                 <div class="hero-content">
-                    <h2>Data & AI Practice Sales Sequences</h2>
-                    <p class="hero-description">
+                    <div style="text-align: center; margin-bottom: 1.5rem;">
+                        <img src="images/Compass-fullres.png" alt="COMPASS" style="max-width: 600px; height: auto; margin-bottom: 1rem;">
+                    </div>
+                    <p class="hero-description" style="margin-bottom: 1.5rem;">
                         COMPASS provides curated sequences of sales outreach modules designed to engage 
-                        VP of Data prospects and showcase our Data & AI practice capabilities through strategic, 
-                        persona-focused messaging.
+                        prospects across different personas and showcase practice capabilities through strategic, 
+                        targeted messaging and optimal sequencing.
                     </p>
                     <div class="cta-buttons">
                         <button id="start-compass" class="primary-btn">View Sales Pursuits</button>
@@ -416,7 +418,7 @@ function renderLandingPage() {
                 </div>
             </section>
             
-            <section class="features-section">
+            <section class="features-section" style="padding: 1.5rem 0;">
                 <div class="features-grid">
                     <div class="feature-card">
                         <h3>📊 Strategic Sequencing</h3>
@@ -424,7 +426,7 @@ function renderLandingPage() {
                     </div>
                     <div class="feature-card">
                         <h3>🎯 Persona-Focused</h3>
-                        <p>Tailored content for VP of Data prospects and data leadership challenges</p>
+                        <p>Tailored content for different prospect personas and leadership challenges</p>
                     </div>
                     <div class="feature-card">
                         <h3>📝 Multi-Channel</h3>
