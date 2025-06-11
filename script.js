@@ -3,6 +3,8 @@ const headerNav = document.getElementById('header-nav');
 let config = {};
 let backButton;
 
+
+
 async function init() {
     try {
         const response = await fetch('config.json');
@@ -336,25 +338,35 @@ function renderEmailContent(email) {
 }
 
 function renderPursuitList() {
-    let html = '<h2>Select a Pursuit</h2><div class="pursuit-list">';
-    for (const id in config.pursuits) {
-        const pursuit = config.pursuits[id];
-        html += `
-            <div class="pursuit-card" data-pursuit-id="${id}">
-                <h3>${pursuit.title}</h3>
-                <p>${pursuit.description}</p>
+    const pursuitEntries = Object.entries(config.pursuits);
+    
+    content.innerHTML = `
+        <div style="max-width: 800px; margin: 0 auto; padding: 2rem;">
+            <h2>COMPASS Demo</h2>
+            <p>This demonstration shows how COMPASS guides sales teams through strategic outreach sequences. Click any pursuit below to see the recommended module sequence for that sales scenario.</p>
+            
+            <div class="pursuit-list">
+                ${pursuitEntries.map(([pursuitId, pursuit]) => `
+                    <div class="pursuit-card" onclick="location.hash='#pursuit=${pursuitId}'">
+                        <div class="pursuit-header">
+                            <h3>${pursuit.title}</h3>
+                            <span class="pursuit-type">${pursuit.prospect?.industry || 'General'}</span>
+                        </div>
+                        <p>${pursuit.description}</p>
+                        <div class="pursuit-footer">
+                            <span class="module-count">${pursuit.modules?.length || 0} modules</span>
+                            ${pursuit.status === 'coming-soon' ? '<span class="status-badge">Coming Soon</span>' : '<span class="status-badge">Available</span>'}
+                        </div>
+                    </div>
+                `).join('')}
             </div>
-        `;
-    }
-    html += '</div>';
-    content.innerHTML = html;
-
-    document.querySelectorAll('.pursuit-card').forEach(card => {
-        card.addEventListener('click', () => {
-            location.hash = `#pursuit=${card.dataset.pursuitId}`;
-        });
-    });
-
+            
+            <div style="margin-top: 3rem; text-align: center;">
+                <p style="color: #666; font-style: italic;">Select a pursuit type above to explore the COMPASS methodology with real sales content.</p>
+            </div>
+        </div>
+    `;
+    
     backButton.style.display = 'inline-block';
     backButton.textContent = '← Back to Home';
     backButton.onclick = () => location.hash = '';
@@ -422,7 +434,7 @@ function renderLandingPage() {
         </div>
     `;
     
-    // Add event listener for the start button
+    // Add event listener for the button
     document.getElementById('start-compass').addEventListener('click', () => {
         location.hash = '#pursuits';
     });
@@ -446,6 +458,13 @@ function renderComingSoon(pursuit) {
     backButton.style.display = 'inline-block';
     backButton.onclick = () => location.hash = '';
 }
+
+
+
+
+
+
+
 
 
 document.addEventListener('DOMContentLoaded', init);
