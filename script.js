@@ -36,6 +36,17 @@ function convertToClassname(text) {
         .replace(/^-|-$/g, '');
 }
 
+function shortenModuleType(moduleType) {
+    const typeMap = {
+        'Company Introduction': 'Company Intro',
+        'Practice-Specific Type A (Core Capability)': 'Core Capability',
+        'Practice-Specific Type B (Solution)': 'Solution',
+        'Practice-Specific Type D (Success Story)': 'Success Story',
+        'Practice-Specific Type E (Talent)': 'Talent'
+    };
+    return typeMap[moduleType] || moduleType;
+}
+
 async function renderModuleList(pursuitId) {
     const pursuit = config.pursuits[pursuitId];
     if (!pursuit) {
@@ -62,6 +73,7 @@ async function renderModuleList(pursuitId) {
                 <th>Module</th>
                 <th>Recommended Delay</th>
                 <th>Notes</th>
+                <th>Tags</th>
             </tr>
         </thead>
         <tbody>
@@ -79,16 +91,16 @@ async function renderModuleList(pursuitId) {
                 <tr data-module-id="${moduleInfo.id}">
                     <td class="sequence-step">${moduleInfo.sequence}</td>
                     <td>
-                        <div class="module-info">
-                            <div class="module-title-text">${module.metadata.title}</div>
-                            <div class="module-tags">
-                                <span class="tag module-type ${convertToClassname(module.metadata.module_type)}">${module.metadata.module_type}</span>
-                                <span class="tag practice-area ${convertToClassname(module.metadata.practice_area)}">${module.metadata.practice_area}</span>
-                            </div>
-                        </div>
+                        <div class="module-title-text">${module.metadata.title}</div>
                     </td>
                     <td>${moduleInfo.delay}</td>
-                    <td>${moduleInfo.notes}</td>
+                    <td class="notes-column">${moduleInfo.notes}</td>
+                    <td class="tags-column">
+                        <div class="module-tags">
+                            <span class="tag module-type ${convertToClassname(module.metadata.module_type)}">${shortenModuleType(module.metadata.module_type)}</span>
+                            <span class="tag practice-area ${convertToClassname(module.metadata.practice_area)}">${module.metadata.practice_area}</span>
+                        </div>
+                    </td>
                 </tr>
             `;
         } catch (error) {

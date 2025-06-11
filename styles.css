@@ -9,30 +9,34 @@
 
 .header-content {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    width: 1200px;
 }
 
 .header-logo {
     display: flex;
-    align-items: center;
-    gap: 1.5rem;
+    align-items: flex-start;
+    gap: 2rem;
+    flex: 1;
 }
 
 .header-logo .logo {
-    height: 60px;
+    height: 50px;
     width: auto;
+    margin-top: 0.2rem;
 }
 
 .header-text h1 {
     color: white;
     margin: 0;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.3;
+    text-align: left;
 }
 
 #header-nav {
@@ -180,6 +184,7 @@ main {
     margin-bottom: 1.5rem;
     padding: 1.25rem;
     text-align: center;
+    width: 1200px;
 }
 
 /* App Container */
@@ -212,7 +217,8 @@ h2 {
 
 h3 {
     font-size: 1.4em;
-    text-align: center;
+    text-align: left;
+    margin: 2rem 0 1.5rem 0;
 }
 
 /* Links and Buttons */
@@ -252,20 +258,24 @@ a:hover {
     background-color: #eaf3fa;
     border-left: 4px solid #005a9e;
     padding: 1rem 1.5rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    width: 100%;
     border-radius: 8px;
 }
 
 .pursuit-info h2 {
     margin-top: 0;
-    text-align: center;
+    margin-bottom: 0.5rem;
+    text-align: left;
     border-bottom: none;
     display: block;
     width: auto;
+    font-size: 1.5em;
+}
+
+.pursuit-info p {
+    margin: 0.3rem 0;
 }
 
 .pursuit-list {
@@ -300,15 +310,13 @@ a:hover {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .module-table th, .module-table td {
     padding: 1rem;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    vertical-align: top;
 }
 
 .module-table th {
@@ -316,51 +324,44 @@ a:hover {
     font-weight: 600;
 }
 
-.module-table tbody tr {
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-.module-table tbody tr:hover {
-    background-color: #f1f8fd;
-}
-
 .module-table .sequence-step {
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     color: #005a9e;
-    padding-right: 1.5rem;
-}
-
-.module-table .module-title {
-    font-weight: 600;
-}
-
-.module-table .module-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    width: 60px;
 }
 
 .module-table .module-title-text {
-    flex: 1;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.module-table .notes-column {
+    width: 35%;
+    padding-right: 1.5rem;
+}
+
+.module-table .tags-column {
+    width: 160px;
+    text-align: right;
 }
 
 .module-table .module-tags {
-    margin-left: 1rem;
-    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: flex-end;
 }
 
 .tag {
     display: inline-block;
     color: white;
-    padding: 0.25rem 0.5rem;
+    padding: 0.3rem 0.6rem;
     border-radius: 4px;
-    font-size: 0.75rem;
-    margin-left: 0.5rem;
+    font-size: 0.8rem;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 /* Module Type Colors */
@@ -693,4 +694,13 @@ pre {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+.module-table tbody tr {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.module-table tbody tr:hover {
+    background-color: #f1f8fd;
 } 
