@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "module_id": "m8",
+    "title": "IoT for Predictive Maintenance",
+    "module_type": "Success Story",
+    "practice_area": "Application Development",
+    "relevant_roles": ["Director of IT", "Operations Manager"],
+    "overview": "Case study on developing and deploying an IoT application for predictive maintenance, reducing downtime by 40%."
+  },
+  "content": {
+    "email": {
+      "subject": "Case Study: 40% Downtime Reduction with IoT",
+      "body": "Placeholder email body for IoT Predictive Maintenance."
+    },
+    "phone": {
+      "opening": "Placeholder phone opening.",
+      "key_message": "Placeholder key message.",
+      "evidence_point": "Placeholder evidence point.",
+      "engagement_question": "Placeholder engagement question.",
+      "voicemail": "Placeholder voicemail."
+    },
+    "linkedin": {
+      "connection_request": "Placeholder LinkedIn connection request.",
+      "inmessage_subject": "Predictive Maintenance with IoT",
+      "inmessage_body": "Placeholder InMessage body."
+    },
+    "objections": [
+      {
+        "objection": "We don't have the skills to manage an IoT platform.",
+        "response": "Our solution includes managed services and training to ensure your team is fully equipped for success."
+      }
+    ],
+    "collateral": {
+      "title": "IoT Predictive Maintenance Case Study",
+      "link": "#"
+    }
+  }
+} 

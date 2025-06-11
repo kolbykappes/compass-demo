@@ -1,0 +1,492 @@
+/* General Body Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f7f9;
+    color: #333;
+}
+
+header {
+    background-color: #002346; /* Eliassen Group Dark Blue */
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+}
+
+/* App Container */
+#app-container {
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #003366; /* Darker Blue */
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.75em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+/* Links and Buttons */
+a {
+    color: #005ea2;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #003d73;
+    text-decoration: underline;
+}
+
+.back-button {
+    background-color: #005ea2;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.back-button:hover {
+    background-color: #003d73;
+}
+
+.button {
+    display: inline-block;
+    background-color: #005ea2;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #003d73;
+    color: white;
+    text-decoration: none;
+}
+
+/* Card Views (Pursuits and Modules) */
+.pursuit-info {
+    background-color: #eaf3fa;
+    border-left: 4px solid #005a9e;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.pursuit-info h2 {
+    margin-top: 0;
+}
+
+.pursuit-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.pursuit-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.pursuit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+.pursuit-card h3 {
+    margin-top: 0;
+}
+
+.module-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.module-table th, .module-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.module-table th {
+    background-color: #f7f7f7;
+    font-weight: 600;
+}
+
+.module-table tbody tr {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.module-table tbody tr:hover {
+    background-color: #f1f8fd;
+}
+
+.module-table .sequence-step {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #005a9e;
+    padding-right: 1.5rem;
+}
+
+.module-table .module-title {
+    font-weight: 600;
+}
+
+.module-table .module-tags {
+    margin-top: 0.5rem;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+    font-weight: 500;
+}
+
+.card-grid {
+    /* display: none; /* remove grid display */
+}
+
+.card {
+    /* display: none; /* remove card display */
+}
+
+/* Badges and Tags */
+.badge {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    font-size: 0.8em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    color: #fff;
+}
+
+.badge.practice-area {
+    background-color: #6c757d; /* Gray */
+}
+
+.badge.module-type {
+    background-color: #17a2b8; /* Info Blue */
+}
+
+/* Prospect Info Box */
+.prospect-info {
+    background-color: #e7f3ff;
+    border-left: 5px solid #005ea2;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+}
+
+.prospect-info p {
+    margin: 0.5rem 0;
+}
+.prospect-info strong {
+    color: #003366;
+}
+
+/* Module Detail Header */
+.module-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 1rem;
+}
+.module-title-container {
+    flex-grow: 1;
+}
+.module-detail-header h2 {
+    margin: 0;
+    line-height: 1.2;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.module-overview-text {
+    margin: -0.5rem 0 1.5rem 0;
+    max-width: 80ch;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Remove column layout styles */
+.content-columns, .content-column-main, .content-column-side {
+    display: block;
+    flex: none;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+}
+
+/* Module Intel Box */
+details.module-intel-details {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    margin: 1rem 0;
+    background-color: #f8f9fa;
+}
+details.module-intel-details summary {
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+details.module-intel-details[open] > summary {
+    border-bottom: 1px solid #dee2e6;
+}
+.module-intel-box {
+    padding: 1.5rem;
+}
+
+/* Tab Navigation */
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #dee2e6;
+    margin-bottom: 1.5rem;
+}
+
+.tab-link {
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    color: #005ea2;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.2s;
+}
+
+.tab-link.active, .tab-link:hover {
+    color: #003366;
+    border-color: #005ea2;
+    background-color: #e7f3ff;
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 1rem;
+}
+
+.content-box h4 {
+    margin-top: 0;
+    color: #003366;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-content {
+    margin-top: 1rem;
+}
+
+pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Allow wrapping */
+    word-wrap: break-word;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9em;
+}
+
+/* Placeholder Highlighting */
+.placeholder {
+    background-color: #ffeeb6;
+    border-radius: 3px;
+    padding: 0.1em 0.4em;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Copy Button */
+.copy-btn {
+    background-color: #e7f3ff;
+    color: #005ea2;
+    border: 1px solid #005ea2;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.copy-btn:hover {
+    background-color: #005ea2;
+    color: white;
+}
+.copy-btn.copied {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+/* Objections List */
+.objection {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.objection:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.objection p {
+    margin: 0.5rem 0;
+}
+
+/* Pursuit List Header */
+.pursuit-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.pursuit-list-header h2 {
+    border-bottom: none;
+    margin: 0;
+}
+
+/* Utility Classes */
+.margin-top-2 {
+    margin-top: 2rem;
+}
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+    .tabs {
+        flex-direction: column;
+    }
+    .tab-link {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #dee2e6;
+    }
+    .tab-link.active {
+        border-width: 0 0 0 4px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body {
+        font-size: 12pt;
+        background-color: #fff;
+    }
+    header, .button, .card-grid a {
+        display: none;
+    }
+    main {
+        padding: 0;
+        max-width: 100%;
+    }
+    .card, .module-overview, .content-box {
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    .tab-content {
+        display: block !important; /* Show all tab content */
+    }
+    .tabs {
+        display: none;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+} 

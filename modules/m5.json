@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "module_id": "m5",
+    "title": "Cybersecurity for Patient Data",
+    "module_type": "Solution-focused",
+    "practice_area": "Cybersecurity",
+    "relevant_roles": ["Chief Information Security Officer", "VP of IT"],
+    "overview": "A solution overview for protecting patient data against modern cybersecurity threats in a cloud environment."
+  },
+  "content": {
+    "email": {
+      "subject": "Protecting Your Patient Data",
+      "body": "Placeholder email body for Cybersecurity."
+    },
+    "phone": {
+      "opening": "Placeholder phone opening.",
+      "key_message": "Placeholder key message.",
+      "evidence_point": "Placeholder evidence point.",
+      "engagement_question": "Placeholder engagement question.",
+      "voicemail": "Placeholder voicemail."
+    },
+    "linkedin": {
+      "connection_request": "Placeholder LinkedIn connection request.",
+      "inmessage_subject": "Patient Data Security",
+      "inmessage_body": "Placeholder InMessage body."
+    },
+    "objections": [
+      {
+        "objection": "We already have a security team.",
+        "response": "We partner with existing teams to augment their capabilities with specialized cloud security expertise."
+      }
+    ],
+    "collateral": {
+      "title": "Cybersecurity Solution Brief",
+      "link": "#"
+    }
+  }
+} 

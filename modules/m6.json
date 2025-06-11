@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "module_id": "m6",
+    "title": "Telehealth Infrastructure Scalability",
+    "module_type": "Success Story",
+    "practice_area": "Infrastructure",
+    "relevant_roles": ["VP of Information Technology", "CTO"],
+    "overview": "Case study on how we scaled a telehealth platform's infrastructure to support a 500% increase in user traffic."
+  },
+  "content": {
+    "email": {
+      "subject": "Case Study: Scaling Telehealth",
+      "body": "Placeholder email body for Telehealth Infrastructure."
+    },
+    "phone": {
+      "opening": "Placeholder phone opening.",
+      "key_message": "Placeholder key message.",
+      "evidence_point": "Placeholder evidence point.",
+      "engagement_question": "Placeholder engagement question.",
+      "voicemail": "Placeholder voicemail."
+    },
+    "linkedin": {
+      "connection_request": "Placeholder LinkedIn connection request.",
+      "inmessage_subject": "Telehealth Scalability",
+      "inmessage_body": "Placeholder InMessage body."
+    },
+    "objections": [
+      {
+        "objection": "We are concerned about performance during peak loads.",
+        "response": "Our architecture is designed for auto-scaling, ensuring high performance and availability during demand spikes."
+      }
+    ],
+    "collateral": {
+      "title": "Telehealth Infrastructure Case Study",
+      "link": "#"
+    }
+  }
+} 

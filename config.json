@@ -1,0 +1,52 @@
+{
+  "pursuits": {
+    "financial-services-ai": {
+      "title": "Financial Services - AI & Data Transformation",
+      "description": "Recommended modules for financial services prospects exploring AI and data modernization",
+      "prospect": {
+        "company": "Regional Bank Corp",
+        "role": "Chief Technology Officer",
+        "industry": "Financial Services"
+      },
+      "modules": [
+        { "id": "m13", "sequence": 1, "delay": "Day 0", "notes": "Initial outreach introducing the practice's capabilities." },
+        { "id": "m12", "sequence": 2, "delay": "Day 3", "notes": "Follow-up focusing on modernizing their data architecture." },
+        { "id": "m10", "sequence": 3, "delay": "Day 7", "notes": "Introduce the importance of a robust governance framework." },
+        { "id": "m11", "sequence": 4, "delay": "Day 12", "notes": "Pivot to a solution-oriented discussion on LLMs." },
+        { "id": "m9", "sequence": 5, "delay": "Day 15", "notes": "Provide evidence of talent and expertise in this area." },
+        { "id": "m1", "sequence": 6, "delay": "Day 20", "notes": "Share a concrete success story about documentation automation." },
+        { "id": "m14", "sequence": 7, "delay": "Day 25", "notes": "Share a success story on a related, but different topic like RegTech." }
+      ]
+    },
+    "healthcare-cloud": {
+      "title": "Healthcare - Cloud Infrastructure Modernization",
+      "description": "Recommended modules for healthcare organizations moving to cloud",
+      "status": "coming-soon",
+      "prospect": {
+        "company": "Metro Health System",
+        "role": "VP of Information Technology",
+        "industry": "Healthcare"
+      },
+      "modules": [
+        "m4",
+        "m5",
+        "m6"
+      ]
+    },
+    "manufacturing-app-dev": {
+        "title": "Manufacturing - Application Development",
+        "description": "Recommended modules for manufacturing companies seeking to modernize their application landscape.",
+        "status": "coming-soon",
+        "prospect": {
+            "company": "Global Manufacturing Inc.",
+            "role": "Director of IT",
+            "industry": "Manufacturing"
+        },
+        "modules": [
+            "m7",
+            "m8",
+            "m1"
+        ]
+    }
+  }
+} 

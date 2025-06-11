@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "module_id": "m3",
+    "title": "Data Governance for Financial Services",
+    "module_type": "Success Story",
+    "practice_area": "AI & Data",
+    "relevant_roles": ["Chief Data Officer", "Head of Compliance"],
+    "overview": "A case study on implementing a robust data governance framework at a major bank, ensuring compliance and data quality."
+  },
+  "content": {
+    "email": {
+      "subject": "Case Study: Mastering Data Governance",
+      "body": "Placeholder email body for Data Governance."
+    },
+    "phone": {
+      "opening": "Placeholder phone opening.",
+      "key_message": "Placeholder key message.",
+      "evidence_point": "Placeholder evidence point.",
+      "engagement_question": "Placeholder engagement question.",
+      "voicemail": "Placeholder voicemail."
+    },
+    "linkedin": {
+      "connection_request": "Placeholder LinkedIn connection request.",
+      "inmessage_subject": "Data Governance Success",
+      "inmessage_body": "Placeholder InMessage body."
+    },
+    "objections": [
+      {
+        "objection": "Our data is too complex.",
+        "response": "Our framework is designed to handle complex data landscapes by starting with a clear, phased approach."
+      }
+    ],
+    "collateral": {
+      "title": "Data Governance Case Study",
+      "link": "#"
+    }
+  }
+} 

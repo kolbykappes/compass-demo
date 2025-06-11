@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "module_id": "m4",
+    "title": "HIPAA-Compliant Cloud Migration",
+    "module_type": "Core Capability",
+    "practice_area": "Infrastructure",
+    "relevant_roles": ["VP of Information Technology", "Director of Infrastructure"],
+    "overview": "Strategies for migrating sensitive healthcare workloads to the cloud while maintaining strict HIPAA compliance."
+  },
+  "content": {
+    "email": {
+      "subject": "Secure Cloud Migration for Healthcare",
+      "body": "Placeholder email body for HIPAA-Compliant Cloud Migration."
+    },
+    "phone": {
+      "opening": "Placeholder phone opening.",
+      "key_message": "Placeholder key message.",
+      "evidence_point": "Placeholder evidence point.",
+      "engagement_question": "Placeholder engagement question.",
+      "voicemail": "Placeholder voicemail."
+    },
+    "linkedin": {
+      "connection_request": "Placeholder LinkedIn connection request.",
+      "inmessage_subject": "Healthcare Cloud",
+      "inmessage_body": "Placeholder InMessage body."
+    },
+    "objections": [
+      {
+        "objection": "Is the cloud secure enough for our data?",
+        "response": "We implement multiple layers of security and compliance controls that often exceed on-premise capabilities."
+      }
+    ],
+    "collateral": {
+      "title": "HIPAA Compliance in the Cloud",
+      "link": "#"
+    }
+  }
+} 
