@@ -132,17 +132,22 @@ async function renderModuleDetail(pursuitId, moduleId) {
         const module = await response.json();
 
         let html = `
-            <h2>${module.metadata.title}</h2>
-            <p class="module-overview-text">${module.metadata.overview}</p>
-
-            <details class="module-intel-details">
-                <summary>View Module Details</summary>
-                <div class="module-intel-box">
-                    <p><strong>Module ID:</strong> ${module.metadata.module_id}</p>
-                    <p><strong>Module Type:</strong> ${module.metadata.module_type}</p>
-                    <p><strong>Relevant Roles:</strong> ${module.metadata.relevant_roles.join(', ')}</p>
+            <div class="module-detail-header">
+                <div class="module-header-left">
+                    <h2>${module.metadata.title}</h2>
+                    <p class="module-overview-text">${module.metadata.overview}</p>
                 </div>
-            </details>
+                <div class="module-header-right">
+                    <details class="module-intel-details">
+                        <summary>View Module Details</summary>
+                        <div class="module-intel-box">
+                            <p><strong>Module ID:</strong> ${module.metadata.module_id}</p>
+                            <p><strong>Module Type:</strong> ${module.metadata.module_type}</p>
+                            <p><strong>Relevant Roles:</strong> ${module.metadata.relevant_roles.join(', ')}</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
 
             <div class="tabs">
                 <button class="tab-link active" onclick="openTab(event, 'email')">Email</button>
@@ -236,32 +241,32 @@ function renderPhoneScript(phone) {
     // Opening
     html += `<div class="content-box">
         <h4>Opening<button class="copy-btn">Copy Opening</button></h4>
-        <div class="copy-content">${phone.opening.replace(/\n/g, '<br>')}</div>
+        <div class="copy-content">${phone.opening.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
     </div>`;
     
     // Key Message
     html += `<div class="content-box">
         <h4>Key Message<button class="copy-btn">Copy Message</button></h4>
-        <div class="copy-content">${phone.key_message.replace(/\n/g, '<br>')}</div>
+        <div class="copy-content">${phone.key_message.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
     </div>`;
     
     // Evidence Point
     html += `<div class="content-box">
         <h4>Evidence Point<button class="copy-btn">Copy Evidence</button></h4>
-        <div class="copy-content">${phone.evidence_point.replace(/\n/g, '<br>')}</div>
+        <div class="copy-content">${phone.evidence_point.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
     </div>`;
     
     // Engagement Question
     html += `<div class="content-box">
         <h4>Engagement Question<button class="copy-btn">Copy Question</button></h4>
-        <div class="copy-content">${phone.engagement_question.replace(/\n/g, '<br>')}</div>
+        <div class="copy-content">${phone.engagement_question.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
     </div>`;
     
     // Voicemail Script
     if (phone.voicemail) {
         html += `<div class="content-box">
             <h4>Voicemail Script<button class="copy-btn">Copy Voicemail</button></h4>
-            <div class="copy-content">${phone.voicemail.replace(/\n/g, '<br>')}</div>
+            <div class="copy-content">${phone.voicemail.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
         </div>`;
     }
     
@@ -277,7 +282,7 @@ function renderLinkedInContent(linkedin) {
     if (linkedin.connection_request) {
         html += `<div class="content-box">
             <h4>Connection Request<button class="copy-btn">Copy Connection Request</button></h4>
-            <div class="copy-content">${linkedin.connection_request.replace(/\n/g, '<br>')}</div>
+            <div class="copy-content">${linkedin.connection_request.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
         </div>`;
     }
     
@@ -285,7 +290,7 @@ function renderLinkedInContent(linkedin) {
     if (linkedin.inmessage_subject) {
         html += `<div class="content-box">
             <h4>InMessage Subject<button class="copy-btn">Copy Subject</button></h4>
-            <div class="copy-content">${linkedin.inmessage_subject.replace(/\n/g, '<br>')}</div>
+            <div class="copy-content">${linkedin.inmessage_subject.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
         </div>`;
     }
     
@@ -293,7 +298,7 @@ function renderLinkedInContent(linkedin) {
     if (linkedin.inmessage_body) {
         html += `<div class="content-box">
             <h4>InMessage Body<button class="copy-btn">Copy InMessage</button></h4>
-            <div class="copy-content">${linkedin.inmessage_body.replace(/\n/g, '<br>')}</div>
+            <div class="copy-content">${linkedin.inmessage_body.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
         </div>`;
     }
     
@@ -315,9 +320,15 @@ function renderEmailContent(email) {
     
     // Email Body
     if (email.body) {
+        // Convert \n and \\n to <br> tags, then convert ** to <strong>
+        let formattedBody = email.body
+            .replace(/\\n/g, '<br>')
+            .replace(/\n/g, '<br>')
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            
         html += `<div class="content-box">
             <h4>Email Body<button class="copy-btn">Copy Email</button></h4>
-            <div class="copy-content">${email.body.replace(/\n/g, '<br>')}</div>
+            <div class="copy-content">${formattedBody}</div>
         </div>`;
     }
     

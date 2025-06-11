@@ -445,55 +445,61 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 2rem;
     gap: 2rem;
+}
+
+.module-header-left {
+    flex: 1;
+    text-align: left;
+}
+
+.module-header-left h2 {
+    margin-top: 0;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 1rem;
-}
-.module-title-container {
-    flex-grow: 1;
-}
-.module-detail-header h2 {
-    margin: 0;
-    line-height: 1.2;
+    text-align: left;
     border-bottom: none;
-    padding-bottom: 0;
+    display: block;
+    width: auto;
 }
 
 .module-overview-text {
     font-size: 1.1em;
-    color: #333;
-    margin: 1rem 0;
-    max-width: 80ch;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
 }
 
-/* Remove column layout styles */
-.content-columns, .content-column-main, .content-column-side {
-    display: block;
-    flex: none;
-    background-color: transparent;
-    padding: 0;
-    border-radius: 0;
+.module-header-right {
+    flex-shrink: 0;
+    width: 300px;
 }
 
-/* Module Intel Box */
-details.module-intel-details {
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
-    margin: 1rem 0;
+.module-intel-details {
     background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1rem;
 }
-details.module-intel-details summary {
-    padding: 0.75rem 1.5rem;
-    font-weight: 600;
+
+.module-intel-details summary {
     cursor: pointer;
-    outline: none;
+    font-weight: 600;
+    color: #003366;
+    margin-bottom: 0.5rem;
 }
-details.module-intel-details[open] > summary {
-    border-bottom: 1px solid #dee2e6;
+
+.module-intel-details[open] > summary {
+    margin-bottom: 1rem;
 }
+
 .module-intel-box {
-    padding: 1.5rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
 }
 
 /* Tab Navigation */
