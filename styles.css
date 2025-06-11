@@ -263,10 +263,10 @@ a:hover {
 }
 
 .module-overview-text {
-    margin: -0.5rem 0 1.5rem 0;
-    max-width: 80ch;
     font-size: 1.1em;
     color: #333;
+    margin: 1rem 0;
+    max-width: 80ch;
 }
 
 /* Remove column layout styles */

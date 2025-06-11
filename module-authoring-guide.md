@@ -93,4 +93,11 @@ To ensure modules are easy to create and maintain, each module should contain on
 
 *   **`content.collateral`**:
     *   Provide a descriptive title for a piece of supporting content (e.g., Case Study, Whitepaper, Solution Brief).
-    *   Use a placeholder `"#"` for the link if the actual URL is unknown. 
+    *   Use a placeholder `"#"` for the link if the actual URL is unknown.
+
+The module's filename should follow a specific convention: `type_title.json`.
+
+-   **type:** This is derived from the `module_type` field in the metadata. Specifically, it's the text found inside the parentheses, converted to lowercase, with spaces replaced by underscores. For example, "Practice-Specific Type D (Success Story)" becomes `success_story`.
+-   **title:** This is the `title` field from the metadata, converted to lowercase, with spaces replaced by underscores and any special characters removed.
+
+For example, a module with the title "AI-Powered Documentation Automation" and type "(Success Story)" would have the filename: `success_story_ai_powered_documentation_automation.json`. 

@@ -62,7 +62,7 @@ async function renderModuleList(pursuitId) {
     // Populate table rows
     for (const moduleInfo of pursuit.modules) {
         try {
-            const response = await fetch(`modules/${moduleInfo.id}.json?v=${new Date().getTime()}`);
+            const response = await fetch(`modules/${moduleInfo.id}?v=${new Date().getTime()}`);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -106,16 +106,18 @@ async function renderModuleList(pursuitId) {
 
 async function renderModuleDetail(pursuitId, moduleId) {
     try {
-        const response = await fetch(`modules/${moduleId}.json?v=${new Date().getTime()}`);
+        const response = await fetch(`modules/${moduleId}?v=${new Date().getTime()}`);
         const module = await response.json();
 
         let html = `
             <h2>${module.metadata.title}</h2>
+            <p class="module-overview-text">${module.metadata.overview}</p>
 
             <details class="module-intel-details">
                 <summary>View Module Details</summary>
                 <div class="module-intel-box">
-                    <p><strong>Overview:</strong> ${module.metadata.overview}</p>
+                    <p><strong>Module ID:</strong> ${module.metadata.module_id}</p>
+                    <p><strong>Module Type:</strong> ${module.metadata.module_type}</p>
                     <p><strong>Relevant Roles:</strong> ${module.metadata.relevant_roles.join(', ')}</p>
                 </div>
             </details>
