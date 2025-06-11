@@ -1,0 +1,46 @@
+{
+    "metadata": {
+        "module_id": "intro_eliassen_group_overview",
+        "title": "Introduction to Eliassen Group",
+        "module_type": "Company Introduction",
+        "practice_area": "General",
+        "overview": "Initial introduction to Eliassen Group's capabilities, track record, and approach to client partnerships.",
+        "relevant_roles": ["CTO", "VP Technology", "Director of IT", "Chief Data Officer", "VP Engineering"]
+    },
+    "content": {
+        "email": {
+            "subject": "Quick Introduction - Eliassen Group",
+            "body": "Dear [Prospect Name],\\n\\nI wanted to take a moment to introduce you to Eliassen Group and explain why we might be a valuable partner for [Company Name].\\n\\n**Who We Are:**\\nEliassen Group is a $500M consulting firm with 2,500+ technology consultants specializing in enterprise solutions. We've been helping organizations like yours accelerate their technology initiatives for over 30 years.\\n\\n**What Makes Us Different:**\\n• **Proven Scale** - Successfully delivered 1,000+ projects across financial services, healthcare, and enterprise markets\\n• **Deep Microsoft Partnership** - Gold-level partner with specialized expertise in Azure, .NET, and Power Platform\\n• **Flexible Engagement Models** - From individual talent placement to full managed services and delivery teams\\n• **Industry Focus** - Dedicated practices in Financial Services, Healthcare, and emerging technologies\\n\\n**Recent Success Highlights:**\\n• Helped a major regional bank modernize their entire data architecture (18-month engagement, $2.3M value)\\n• Implemented AI-powered document processing for insurance company (65% efficiency improvement)\\n• Built cloud-native applications serving 100K+ daily users\\n\\nI'd love to learn more about your current technology priorities and explore how we might be able to help. Would you be open to a brief 15-minute conversation this week?\\n\\nBest regards,\\n[Your Name]\\n[Your Title]\\nEliassen Group\\n[Phone] | [Email]"
+        },
+        "phone": {
+            "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. I hope I'm not catching you at a bad time - do you have about 30 seconds for me to explain why I'm calling?",
+            "key_message": "I'm reaching out because we work with a lot of technology leaders like yourself in financial services, and I wanted to introduce you to what Eliassen Group does. We're a $500M consulting firm that specializes in helping organizations accelerate their technology initiatives - everything from cloud migrations to AI implementations.",
+            "evidence_point": "What's interesting is we're not just consultants - we're builders. Just recently, we helped a regional bank completely modernize their data architecture in 18 months, and now they're seeing 70% faster reporting times. We also placed a team that built AI-powered document processing for an insurance company that cut their processing time by 65%.",
+            "engagement_question": "I'm curious - what are the biggest technology priorities you're focused on right now? Are you looking at cloud modernization, data initiatives, AI, or something else entirely?",
+            "voicemail": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. We're a technology consulting firm that helps companies like [Company Name] accelerate their technology initiatives. I'd love to learn about your current priorities and see if there might be a fit. My number is [Phone]. Thanks!"
+        },
+        "linkedin": {
+            "connection_request": "Hi [Prospect Name], I work with technology leaders in financial services and would love to connect. Always interested in learning about the challenges and opportunities CTOs are seeing in the market.",
+            "inmessage_subject": "Quick question about your tech priorities",
+            "inmessage_body": "Hi [Prospect Name],\\n\\nThanks for connecting! I wanted to reach out because Eliassen Group works with a lot of technology leaders in financial services, and I'm always curious about what's keeping CTOs busy these days.\\n\\nWe're a $500M consulting firm that specializes in helping organizations accelerate their technology initiatives - from cloud modernization to AI implementations. We've done some interesting work recently, including helping a regional bank modernize their entire data architecture and implementing AI-powered solutions that delivered 65%+ efficiency improvements.\\n\\nI'm curious - what are the biggest technology priorities on your radar for the next 12 months? Always interested in learning what challenges and opportunities leaders like yourself are focused on.\\n\\nBest,\\n[Your Name]"
+        },
+        "objections": [
+            {
+                "objection": "We already have technology partners we work with.",
+                "response": "That's great to hear - having good partnerships is crucial. We actually work alongside many of our clients' existing partners rather than replacing them. Our strength is often in specific areas like Microsoft technologies, AI implementations, or when you need specialized talent quickly. What types of projects are you typically working with your current partners on?"
+            },
+            {
+                "objection": "We don't have budget for new consulting engagements.",
+                "response": "I completely understand budget constraints are real. The interesting thing about our engagements is they often end up being budget-neutral or even cost-positive because of the efficiency improvements we deliver. For example, that bank I mentioned actually saw ROI within 8 months because of the process improvements. But even if budget is tight, it's often helpful to have a relationship established for when priorities shift. Would it make sense to have a brief conversation about your longer-term technology roadmap?"
+            },
+            {
+                "objection": "We prefer to handle technology initiatives internally.",
+                "response": "That's a great approach when you have the internal capacity and expertise. We actually help a lot of organizations do exactly that - sometimes by augmenting internal teams with specialized skills, other times by providing training or knowledge transfer. Our most successful engagements often end with the client's internal team being fully capable of managing everything going forward. What areas would be most valuable for your team to build additional capabilities in?"
+            }
+        ],
+        "collateral": {
+            "title": "Eliassen Group Company Overview",
+            "link": "https://www.eliassen.com/about"
+        }
+    }
+} 

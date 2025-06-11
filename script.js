@@ -28,6 +28,14 @@ function createBackButton() {
     backButton.onclick = () => location.hash = '';
 }
 
+function convertToClassname(text) {
+    return text.toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/[^a-z0-9-]/g, '')
+        .replace(/--+/g, '-')
+        .replace(/^-|-$/g, '');
+}
+
 async function renderModuleList(pursuitId) {
     const pursuit = config.pursuits[pursuitId];
     if (!pursuit) {
@@ -71,10 +79,12 @@ async function renderModuleList(pursuitId) {
                 <tr data-module-id="${moduleInfo.id}">
                     <td class="sequence-step">${moduleInfo.sequence}</td>
                     <td>
-                        <div class="module-title">${module.metadata.title}</div>
-                        <div class="module-tags">
-                            <span class="tag">${module.metadata.module_type}</span>
-                            <span class="tag">${module.metadata.practice_area}</span>
+                        <div class="module-info">
+                            <div class="module-title-text">${module.metadata.title}</div>
+                            <div class="module-tags">
+                                <span class="tag module-type ${convertToClassname(module.metadata.module_type)}">${module.metadata.module_type}</span>
+                                <span class="tag practice-area ${convertToClassname(module.metadata.practice_area)}">${module.metadata.practice_area}</span>
+                            </div>
                         </div>
                     </td>
                     <td>${moduleInfo.delay}</td>
@@ -100,7 +110,7 @@ async function renderModuleList(pursuitId) {
 
     backButton.style.display = 'inline-block';
     backButton.textContent = '← Back to Pursuits';
-    backButton.onclick = () => location.hash = '';
+    backButton.onclick = () => location.hash = '#pursuits';
 }
 
 
@@ -322,7 +332,9 @@ function renderPursuitList() {
         });
     });
 
-    backButton.style.display = 'none';
+    backButton.style.display = 'inline-block';
+    backButton.textContent = '← Back to Home';
+    backButton.onclick = () => location.hash = '';
 }
 
 
@@ -332,23 +344,65 @@ function getHashParam(param) {
 }
 
 function router() {
-    const pursuitId = getHashParam('pursuit');
-    const moduleId = getHashParam('module');
+    const hash = window.location.hash.substring(1);
+    
+    if (!hash) {
+        renderLandingPage();
+        backButton.style.display = 'none';
+        return;
+    }
+    
+    const pursuit = getHashParam('pursuit');
+    const module = getHashParam('module');
 
-    if (moduleId && pursuitId) {
-        renderModuleDetail(pursuitId, moduleId);
-    } else if (pursuitId) {
-        const pursuit = config.pursuits[pursuitId];
-        if (pursuit.status === 'coming-soon') {
-            renderComingSoon(pursuit);
-        } else {
-            renderModuleList(pursuitId);
-        }
-    } else if (location.hash === '#all-modules') {
-        renderAllModules();
+    if (pursuit && module) {
+        renderModuleDetail(pursuit, module);
+    } else if (pursuit) {
+        renderModuleList(pursuit);
     } else {
         renderPursuitList();
     }
+}
+
+function renderLandingPage() {
+    content.innerHTML = `
+        <div class="landing-page">
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h2>Strategic Sales Module Sequences</h2>
+                    <p class="hero-description">
+                        COMPASS provides curated sequences of sales outreach modules designed to accelerate 
+                        prospect engagement and drive successful outcomes for specific sales pursuits.
+                    </p>
+                    <div class="cta-buttons">
+                        <button id="start-compass" class="primary-btn">View Sales Pursuits</button>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="features-section">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>📊 Strategic Sequencing</h3>
+                        <p>Modules ordered by sales psychology and optimal timing for maximum impact</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🎯 Industry-Specific</h3>
+                        <p>Tailored content for specific verticals and prospect types</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>📝 Multi-Channel</h3>
+                        <p>Email, phone scripts, LinkedIn outreach, and objection handling</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    `;
+    
+    // Add event listener for the start button
+    document.getElementById('start-compass').addEventListener('click', () => {
+        location.hash = '#pursuits';
+    });
 }
 
 function renderAllModules() {
@@ -372,4 +426,52 @@ function renderComingSoon(pursuit) {
 
 
 document.addEventListener('DOMContentLoaded', init);
+
+// Copy button functionality
+document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('copy-btn')) {
+        const contentBox = e.target.closest('.content-box');
+        const copyContent = contentBox.querySelector('.copy-content');
+        
+        if (copyContent) {
+            // Get text content, removing HTML tags and converting <br> to newlines
+            let textToCopy = copyContent.innerHTML
+                .replace(/<br\s*\/?>/gi, '\n')
+                .replace(/<[^>]*>/g, '')
+                .trim();
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                // Visual feedback
+                const originalText = e.target.textContent;
+                e.target.textContent = 'Copied!';
+                e.target.classList.add('copied');
+                
+                setTimeout(() => {
+                    e.target.textContent = originalText;
+                    e.target.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = textToCopy;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                
+                // Visual feedback
+                const originalText = e.target.textContent;
+                e.target.textContent = 'Copied!';
+                e.target.classList.add('copied');
+                
+                setTimeout(() => {
+                    e.target.textContent = originalText;
+                    e.target.classList.remove('copied');
+                }, 2000);
+            });
+        }
+    }
+});
 

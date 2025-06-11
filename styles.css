@@ -1,3 +1,153 @@
+/* Landing Page Styles */
+.main-header {
+    background-color: #002346; /* Eliassen Group Dark Blue */
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header-logo .logo {
+    height: 60px;
+    width: auto;
+}
+
+.header-text h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+#header-nav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.back-button {
+    background-color: #005ea2;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 0.9em;
+}
+
+.back-button:hover {
+    background-color: #003d73;
+}
+
+.landing-page {
+    min-height: 80vh;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #f4f7f9 0%, #e8f2f7 100%);
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    color: #002346;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+}
+
+.cta-buttons {
+    margin-top: 2rem;
+}
+
+.primary-btn {
+    background-color: #005ea2;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.primary-btn:hover {
+    background-color: #003d73;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.features-section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h3 {
+    color: #002346;
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+}
+
+.feature-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
 /* General Body Styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -29,17 +179,20 @@ main {
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     margin-bottom: 1.5rem;
     padding: 1.25rem;
+    text-align: center;
 }
 
 /* App Container */
 #app-container {
     transition: opacity 0.3s ease-in-out;
+    text-align: center;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
     color: #003366; /* Darker Blue */
     font-weight: 600;
+    text-align: center;
 }
 
 h1 {
@@ -52,10 +205,14 @@ h2 {
     border-bottom: 2px solid #e0e0e0;
     padding-bottom: 0.5rem;
     margin-top: 0;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
 }
 
 h3 {
     font-size: 1.4em;
+    text-align: center;
 }
 
 /* Links and Buttons */
@@ -68,23 +225,6 @@ a {
 a:hover {
     color: #003d73;
     text-decoration: underline;
-}
-
-.back-button {
-    background-color: #005ea2;
-    color: white;
-    padding: 0.6rem 1.2rem;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-.back-button:hover {
-    background-color: #003d73;
 }
 
 .button {
@@ -113,16 +253,27 @@ a:hover {
     border-left: 4px solid #005a9e;
     padding: 1rem 1.5rem;
     margin-bottom: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
 }
 
 .pursuit-info h2 {
     margin-top: 0;
+    text-align: center;
+    border-bottom: none;
+    display: block;
+    width: auto;
 }
 
 .pursuit-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .pursuit-card {
@@ -132,6 +283,7 @@ a:hover {
     padding: 1.5rem;
     transition: transform 0.2s, box-shadow 0.2s;
     cursor: pointer;
+    text-align: center;
 }
 
 .pursuit-card:hover {
@@ -141,12 +293,16 @@ a:hover {
 
 .pursuit-card h3 {
     margin-top: 0;
+    text-align: center;
 }
 
 .module-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .module-table th, .module-table td {
@@ -181,19 +337,60 @@ a:hover {
     font-weight: 600;
 }
 
+.module-table .module-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.module-table .module-title-text {
+    flex: 1;
+}
+
 .module-table .module-tags {
-    margin-top: 0.5rem;
+    margin-left: 1rem;
+    white-space: nowrap;
 }
 
 .tag {
     display: inline-block;
-    background-color: #e0e0e0;
-    color: #333;
+    color: white;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
     font-size: 0.75rem;
-    margin-right: 0.5rem;
+    margin-left: 0.5rem;
     font-weight: 500;
+}
+
+/* Module Type Colors */
+.tag.module-type.company-introduction {
+    background-color: #6f42c1; /* Purple */
+}
+
+.tag.module-type.practice-specific-type-a-core-capability {
+    background-color: #0d6efd; /* Blue */
+}
+
+.tag.module-type.practice-specific-type-b-solution {
+    background-color: #198754; /* Green */
+}
+
+.tag.module-type.practice-specific-type-d-success-story {
+    background-color: #fd7e14; /* Orange */
+}
+
+.tag.module-type.practice-specific-type-e-talent {
+    background-color: #dc3545; /* Red */
+}
+
+/* Practice Area Colors */
+.tag.practice-area.general {
+    background-color: #6c757d; /* Gray */
+}
+
+.tag.practice-area.ai-data {
+    background-color: #20c997; /* Teal */
 }
 
 .card-grid {
@@ -301,8 +498,9 @@ details.module-intel-details[open] > summary {
 /* Tab Navigation */
 .tabs {
     display: flex;
-    border-bottom: 2px solid #dee2e6;
-    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 1rem;
+    justify-content: center;
 }
 
 .tab-link {
@@ -325,20 +523,21 @@ details.module-intel-details[open] > summary {
 
 .tab-content {
     display: none;
-    animation: fadeIn 0.5s;
+    text-align: left;
 }
 
 .tab-content.active {
     display: block;
+    text-align: left;
 }
 
 .content-box {
-    background-color: #fff;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     padding: 1.5rem;
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     margin-bottom: 1rem;
+    text-align: left;
 }
 
 .content-box h4 {
@@ -347,10 +546,12 @@ details.module-intel-details[open] > summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
 }
 
 .copy-content {
     margin-top: 1rem;
+    text-align: left;
 }
 
 pre {
@@ -396,17 +597,20 @@ pre {
 
 /* Objections List */
 .objection {
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
     margin-bottom: 1rem;
+    text-align: left;
 }
 .objection:last-child {
-    border-bottom: none;
     margin-bottom: 0;
 }
 
 .objection p {
     margin: 0.5rem 0;
+    text-align: left;
 }
 
 /* Pursuit List Header */
