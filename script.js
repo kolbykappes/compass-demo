@@ -404,10 +404,11 @@ function renderLandingPage() {
         <div class="landing-page">
             <section class="hero-section">
                 <div class="hero-content">
-                    <h2>Strategic Sales Module Sequences</h2>
+                    <h2>Data & AI Practice Sales Sequences</h2>
                     <p class="hero-description">
-                        COMPASS provides curated sequences of sales outreach modules designed to accelerate 
-                        prospect engagement and drive successful outcomes for specific sales pursuits.
+                        COMPASS provides curated sequences of sales outreach modules designed to engage 
+                        VP of Data prospects and showcase our Data & AI practice capabilities through strategic, 
+                        persona-focused messaging.
                     </p>
                     <div class="cta-buttons">
                         <button id="start-compass" class="primary-btn">View Sales Pursuits</button>
@@ -422,8 +423,8 @@ function renderLandingPage() {
                         <p>Modules ordered by sales psychology and optimal timing for maximum impact</p>
                     </div>
                     <div class="feature-card">
-                        <h3>🎯 Industry-Specific</h3>
-                        <p>Tailored content for specific verticals and prospect types</p>
+                        <h3>🎯 Persona-Focused</h3>
+                        <p>Tailored content for VP of Data prospects and data leadership challenges</p>
                     </div>
                     <div class="feature-card">
                         <h3>📝 Multi-Channel</h3>

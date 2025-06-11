@@ -1,32 +1,32 @@
 {
   "pursuits": {
     "financial-services-ai": {
-      "title": "Financial Services - AI & Data Transformation",
-      "description": "Recommended modules for financial services prospects exploring AI and data modernization",
+      "title": "VP of Data - AI & Data Practice Engagement",
+      "description": "Recommended modules for VP of Data prospects exploring AI and data modernization capabilities",
       "prospect": {
-        "company": "Regional Bank Corp",
-        "role": "Chief Technology Officer",
-        "industry": "Financial Services"
+        "company": "Enterprise Corp",
+        "role": "VP of Data",
+        "industry": "Enterprise"
       },
       "modules": [
         { "id": "intro_eliassen_group_overview.json", "sequence": 1, "delay": "Day 0", "notes": "Start with company introduction to establish credibility and set context for all follow-up communications." },
         { "id": "core_capability_data_ai_practice_overview.json", "sequence": 2, "delay": "Day 3", "notes": "Follow with specific Data & AI practice introduction - establish comprehensive capabilities in target area." },
         { "id": "core_capability_data_architecture_modernization.json", "sequence": 3, "delay": "Day 7", "notes": "Build foundation understanding - most AI/data initiatives require modern architecture as prerequisite." },
-        { "id": "solution_data_governance__compliance_framework.json", "sequence": 4, "delay": "Day 11", "notes": "Address the compliance elephant in the room early - critical for financial services trust." },
-        { "id": "solution_enterprise_llm_implementation.json", "sequence": 5, "delay": "Day 15", "notes": "Introduce specific AI solutions after foundation and compliance are established." },
+        { "id": "solution_data_governance__compliance_framework.json", "sequence": 4, "delay": "Day 11", "notes": "Address data governance and compliance early - critical for enterprise data leadership trust." },
+        { "id": "solution_enterprise_llm_implementation.json", "sequence": 5, "delay": "Day 15", "notes": "Introduce specific AI solutions after foundation and governance are established." },
         { "id": "success_story_ai-powered_documentation_automation.json", "sequence": 6, "delay": "Day 19", "notes": "Provide concrete proof point with specific ROI - builds confidence in execution capability." },
-        { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 7, "delay": "Day 23", "notes": "Second success story shows breadth of AI applications in financial services context." },
+        { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 7, "delay": "Day 23", "notes": "Second success story shows breadth of AI applications in enterprise data context." },
         { "id": "talent_ai__data_expertise.json", "sequence": 8, "delay": "Day 27", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." }
       ]
     },
     "healthcare-cloud": {
-      "title": "Healthcare - Cloud Infrastructure Modernization",
-      "description": "Recommended modules for healthcare organizations moving to cloud",
+      "title": "VP of Data - Cloud Data Modernization",
+      "description": "Recommended modules for data leaders focused on cloud infrastructure and data platform modernization",
       "status": "coming-soon",
       "prospect": {
-        "company": "Metro Health System",
-        "role": "VP of Information Technology",
-        "industry": "Healthcare"
+        "company": "Large Enterprise",
+        "role": "VP of Data",
+        "industry": "Enterprise"
       },
       "modules": [
         "m4",
@@ -35,13 +35,13 @@
       ]
     },
     "manufacturing-app-dev": {
-        "title": "Manufacturing - Application Development",
-        "description": "Recommended modules for manufacturing companies seeking to modernize their application landscape.",
+        "title": "VP of Data - Advanced Analytics & Data Science",
+        "description": "Recommended modules for data executives seeking to scale analytics capabilities and data science operations.",
         "status": "coming-soon",
         "prospect": {
-            "company": "Global Manufacturing Inc.",
-            "role": "Director of IT",
-            "industry": "Manufacturing"
+            "company": "Global Enterprise",
+            "role": "VP of Data",
+            "industry": "Enterprise"
         },
         "modules": [
             "m7",
