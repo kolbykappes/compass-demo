@@ -9,13 +9,13 @@
         "industry": "Financial Services"
       },
       "modules": [
-        { "id": "core_capability_data_ai_practice_overview.json", "sequence": 1, "delay": "Day 0", "notes": "Initial outreach introducing the practice's capabilities." },
-        { "id": "core_capability_data_architecture_modernization.json", "sequence": 2, "delay": "Day 3", "notes": "Follow-up focusing on modernizing their data architecture." },
-        { "id": "solution_data_governance__compliance_framework.json", "sequence": 3, "delay": "Day 7", "notes": "Introduce the importance of a robust governance framework." },
-        { "id": "solution_enterprise_llm_implementation.json", "sequence": 4, "delay": "Day 12", "notes": "Pivot to a solution-oriented discussion on LLMs." },
-        { "id": "talent_ai__data_expertise.json", "sequence": 5, "delay": "Day 15", "notes": "Provide evidence of talent and expertise in this area." },
-        { "id": "success_story_ai-powered_documentation_automation.json", "sequence": 6, "delay": "Day 20", "notes": "Share a concrete success story about documentation automation." },
-        { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 7, "delay": "Day 25", "notes": "Share a success story on a related, but different topic like RegTech." }
+        { "id": "core_capability_data_ai_practice_overview.json", "sequence": 1, "delay": "Day 0", "notes": "Start with broad introduction to our Data & AI practice - establish credibility and comprehensive capabilities." },
+        { "id": "core_capability_data_architecture_modernization.json", "sequence": 2, "delay": "Day 4", "notes": "Build foundation understanding - most AI/data initiatives require modern architecture as prerequisite." },
+        { "id": "solution_data_governance__compliance_framework.json", "sequence": 3, "delay": "Day 8", "notes": "Address the compliance elephant in the room - critical for financial services before any AI discussion." },
+        { "id": "success_story_ai-powered_documentation_automation.json", "sequence": 4, "delay": "Day 14", "notes": "First success story - practical AI application with clear ROI that feels achievable and non-threatening." },
+        { "id": "solution_enterprise_llm_implementation.json", "sequence": 5, "delay": "Day 19", "notes": "Now that we've proven AI works, introduce more advanced LLM capabilities and enterprise implementation." },
+        { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 6, "delay": "Day 25", "notes": "Second success story - shows broader AI applications in their core business (compliance/regulatory)." },
+        { "id": "talent_ai__data_expertise.json", "sequence": 7, "delay": "Day 30", "notes": "Final conversation - how do we execute this? Address the talent/resource question once interest is established." }
       ]
     },
     "healthcare-cloud": {
