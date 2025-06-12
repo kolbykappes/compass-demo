@@ -19,20 +19,55 @@
     },
     "content": {
         "email": {
-            "subject": "Transform Regulatory Data into Strategic Intelligence",
-            "body": "Dear [Prospect Name],\n\nIn highly regulated industries, gaining timely insights from complex regulatory filings can be nearly impossible with manual review processes. The challenges of legal language, volume of documentation, and identifying subtle patterns create significant barriers.\n\nEliassen Group's AI & Data practice recently helped a major telecommunications provider transform their regulatory intelligence capabilities through:\n\n• AI-powered natural language processing tailored for legal and regulatory content\n• Custom sentiment analysis calibrated for complex legal language\n• Advanced commenter identification for recognizing stakeholder patterns\n• Interactive dashboards visualizing trends, patterns, and emerging themes\n\nOur solution reduced regulatory analysis time by 85% while increasing accuracy and successfully processed over 1,700 formal filing documents with minimal human intervention.\n\nI'd welcome a brief conversation about how similar approaches might benefit [Company Name]'s regulatory monitoring efforts.\n\nBest regards,\n\n[Your Name]\n[Your Title]\nEliassen Group"
+            "subject": "AI-Powered Regulatory Intelligence: 85% Faster Compliance",
+            "body": "Dear [Prospect Name],\n\nRegulatory compliance represents one of the most resource-intensive challenges facing financial institutions today, with many organizations dedicating entire teams to manually monitoring, interpreting, and implementing constantly evolving regulatory requirements.\n\nEliassen Group's AI & Data practice recently delivered a transformative regulatory intelligence platform for a major financial institution:\n\n• **Automated Regulatory Monitoring** - AI-powered scanning of regulatory feeds, updates, and guidance documents\n• **Intelligent Impact Analysis** - Machine learning models that assess regulatory changes against current policies and procedures\n• **Automated Compliance Mapping** - Dynamic correlation between regulatory requirements and internal controls\n• **Predictive Compliance Risk Assessment** - Early warning systems for potential compliance gaps\n\nThe results exceeded expectations: 85% reduction in time-to-compliance for new regulations, 60% decrease in compliance monitoring effort, and enhanced regulatory accuracy that eliminated costly interpretation errors.\n\nI'd welcome the opportunity to discuss how similar AI-driven approaches might strengthen [Company Name]'s regulatory compliance efforts.\n\nBest regards,\n\n[Your Name]\n[Your Title]\nEliassen Group",
+            "follow_up": {
+                "subject": "Following up: AI Regulatory Intelligence for [Company Name]",
+                "intro_options": [
+                    "Following up on my previous message about AI-powered regulatory intelligence,",
+                    "I wanted to circle back regarding our potential discussion about automating compliance processes,",
+                    "Building on my earlier outreach about the 85% faster compliance success story,",
+                    "As a follow-up to my recent message about regulatory automation solutions,"
+                ]
+            }
         },
         "phone": {
-            "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. I hope I'm not interrupting anything important - do you have a quick minute?",
-            "key_message": "I'm reaching out because we just helped another bank turn their regulatory compliance from a cost center into a competitive advantage using AI. Instead of just checking boxes, they're now using regulatory intelligence to make better business decisions.",
-            "evidence_point": "What was really cool is they went from manually monitoring hundreds of regulatory updates to having AI automatically identify which ones actually impact their business. Cut their compliance team's workload in half and made them way more strategic.",
-            "engagement_question": "At Regional Bank Corp, how much time does your team spend just keeping up with regulatory changes versus actually using that intelligence to improve the business?",
-            "voicemail": "Hi [Prospect Name], [Your Name] from Eliassen Group. We just helped a bank turn regulatory compliance from a cost center into a competitive advantage using AI. Cut their compliance workload in half. Thought you might find it interesting. Call me at [phone number]. Thanks!"
+            "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. I know compliance conversations can be sensitive, but I have something that might be really relevant - got a minute?",
+            "key_message": "I'm calling because we just helped another financial institution cut their regulatory compliance response time by 85% using AI. Instead of teams spending weeks interpreting new regulations, they now get automated impact assessments in hours.",
+            "evidence_point": "What really impressed their Chief Compliance Officer was that the AI didn't just speed things up - it actually caught potential compliance gaps that their manual process had missed. She said it was like having a regulatory expert working 24/7.",
+            "engagement_question": "At Regional Bank Corp, when new regulations come out, how long does it typically take your team to fully understand the implications and update your policies?",
+            "voicemail": "Hi [Prospect Name], [Your Name] from Eliassen Group. Quick question about regulatory compliance - we just helped a bank reduce their compliance response time by 85% with AI. Thought you might want to hear how they did it. Call me at [phone number]. Thanks!",
+            "follow_up": {
+                "opening_options": [
+                    "Hi [Prospect Name], [Your Name] from Eliassen Group following up on our previous conversation about AI regulatory intelligence.",
+                    "Hi [Prospect Name], this is [Your Name] again from Eliassen Group. I wanted to follow up on the regulatory automation discussion.",
+                    "[Prospect Name], [Your Name] from Eliassen Group. Following up on my earlier message about 85% faster compliance.",
+                    "Hi [Prospect Name], [Your Name] calling back from Eliassen Group regarding the regulatory intelligence solution we discussed."
+                ],
+                "voicemail_options": [
+                    "Hi [Prospect Name], [Your Name] from Eliassen Group following up on my previous message about AI regulatory intelligence. Still interested in that conversation? [phone number].",
+                    "[Prospect Name], this is [Your Name] from Eliassen Group. Circling back on the 85% faster compliance discussion. Would love to connect. [phone number].",
+                    "Hi [Prospect Name], [Your Name] again from Eliassen Group. Following up on the regulatory automation conversation. Call me back at [phone number]."
+                ]
+            }
         },
         "linkedin": {
-            "connection_request": "I specialize in AI for regulatory intelligence. Given your work at [Company], I'd like to share how we're helping firms turn regulatory filings into actionable insights.",
-            "inmessage_subject": "AI for Regulatory Intelligence",
-            "inmessage_body": "Hi [Prospect Name],\n\nRegulatory filings contain critical business intelligence, but manual analysis can't keep pace. We recently helped a client use AI to analyze thousands of filings, reducing processing time by 85% while uncovering hidden stakeholder patterns.\n\nHow is your organization leveraging AI to transform regulatory monitoring? I'd be happy to share what we learned.\n\nBest regards,\n[Your Name]"
+            "connection_request": "I specialize in AI-powered regulatory solutions for financial services. Given your role at [Company], I thought you might be interested in our recent regulatory intelligence work.",
+            "inmessage_subject": "AI Regulatory Intelligence: 85% Faster Compliance Response",
+            "inmessage_body": "Hi [Prospect Name],\n\nRegulatory compliance continues to be one of the most resource-intensive challenges for financial institutions. Our AI & Data practice recently implemented a regulatory intelligence platform that reduced compliance response time by 85% while improving accuracy.\n\nThe solution automates regulatory monitoring, impact analysis, and compliance mapping - transforming a manual, time-intensive process into an intelligent, proactive system.\n\nWould you be open to a brief discussion about how similar approaches might benefit your compliance operations?\n\nBest regards,\n[Your Name]",
+            "follow_up": {
+                "subject_options": [
+                    "Re: AI Regulatory Intelligence: 85% Faster Compliance Response",
+                    "Following up: Regulatory Automation Discussion",
+                    "Circling back on AI compliance solutions"
+                ],
+                "intro_options": [
+                    "Following up on my previous message about AI regulatory intelligence,",
+                    "I wanted to circle back on our potential discussion about automating compliance processes,",
+                    "Building on my earlier outreach regarding the 85% faster compliance results,",
+                    "As a follow-up to my recent message about regulatory automation,"
+                ]
+            }
         },
         "objections": [
             {

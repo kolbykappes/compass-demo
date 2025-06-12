@@ -20,19 +20,54 @@
   "content": {
     "email": {
       "subject": "65% Faster Documentation with AI Automation",
-      "body": "Dear [Prospect Name],\n\nTechnical documentation processes often consume excessive time and resources, with technical writers spending up to 70% of their time manually gathering information while quality remains inconsistent.\n\nEliassen Group's AI & Data practice recently partnered with a leading financial institution to transform their approach to technical documentation through:\n\n• AI agent framework with specialized components for quality control\n• Custom Microsoft Copilot implementation with specialized prompts\n• Intelligent content extraction from code repositories\n• AI-assisted content generation tailored to different audience personas\n\nUnlike generic automation approaches, our solution delivered targeted improvements specific to documentation workflows. The results were compelling: 65% reduction in documentation creation time, 80% decrease in quality control effort, and annual cost savings exceeding $1.2M.\n\nI'd welcome the opportunity to discuss how similar approaches might benefit [Company Name]'s documentation processes.\n\nBest regards,\n\n[Your Name]\n[Your Title]\nEliassen Group"
+      "body": "Dear [Prospect Name],\n\nTechnical documentation processes often consume excessive time and resources, with technical writers spending up to 70% of their time manually gathering information while quality remains inconsistent.\n\nEliassen Group's AI & Data practice recently partnered with a leading financial institution to transform their approach to technical documentation through:\n\n• AI agent framework with specialized components for quality control\n• Custom Microsoft Copilot implementation with specialized prompts\n• Intelligent content extraction from code repositories\n• AI-assisted content generation tailored to different audience personas\n\nUnlike generic automation approaches, our solution delivered targeted improvements specific to documentation workflows. The results were compelling: 65% reduction in documentation creation time, 80% decrease in quality control effort, and annual cost savings exceeding $1.2M.\n\nI'd welcome the opportunity to discuss how similar approaches might benefit [Company Name]'s documentation processes.\n\nBest regards,\n\n[Your Name]\n[Your Title]\nEliassen Group",
+      "follow_up": {
+        "subject": "Following up: AI Documentation Automation for [Company Name]",
+        "intro_options": [
+          "Following up on my previous message about AI-powered documentation automation,",
+          "I wanted to circle back regarding our potential discussion about streamlining documentation processes,",
+          "Building on my earlier outreach about the 65% faster documentation success story,",
+          "As a follow-up to my recent message about AI automation for technical documentation,"
+        ]
+      }
     },
     "phone": {
       "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. I know you're busy, so I'll keep this brief - do you have just a minute?",
       "key_message": "I'm calling because we just helped another regional bank save over a million dollars by automating their technical documentation with AI. Cut their documentation time by 65% and freed up their technical writers to focus on higher-value work.",
       "evidence_point": "What was interesting is they were skeptical at first - thought AI couldn't handle their complex compliance requirements. But our solution actually improved their documentation quality while slashing the time investment. Their CTO told me it was one of the best ROI projects they'd done.",
       "engagement_question": "I'm curious - at Regional Bank Corp, how much time do your technical teams spend creating and updating documentation? Is it becoming a bottleneck for other initiatives?",
-      "voicemail": "Hi [Prospect Name], [Your Name] from Eliassen Group. Quick question - we just helped a bank save $1.2 million by automating their technical documentation with AI. Cut their documentation time by 65%. Thought you might be curious how they did it. Give me a call back at [phone number]. Thanks!"
+      "voicemail": "Hi [Prospect Name], [Your Name] from Eliassen Group. Quick question - we just helped a bank save $1.2 million by automating their technical documentation with AI. Cut their documentation time by 65%. Thought you might be curious how they did it. Give me a call back at [phone number]. Thanks!",
+      "follow_up": {
+        "opening_options": [
+          "Hi [Prospect Name], [Your Name] from Eliassen Group following up on our previous conversation about AI documentation automation.",
+          "Hi [Prospect Name], this is [Your Name] again from Eliassen Group. I wanted to follow up on the documentation automation success story we discussed.",
+          "[Prospect Name], [Your Name] from Eliassen Group. Following up on my earlier message about the 65% documentation improvement.",
+          "Hi [Prospect Name], [Your Name] calling back from Eliassen Group regarding the AI automation solution we talked about."
+        ],
+        "voicemail_options": [
+          "Hi [Prospect Name], [Your Name] from Eliassen Group following up on my previous message about AI documentation automation. Still interested in that conversation? [phone number].",
+          "[Prospect Name], this is [Your Name] from Eliassen Group. Circling back on the $1.2M documentation savings discussion. Would love to connect. [phone number].",
+          "Hi [Prospect Name], [Your Name] again from Eliassen Group. Following up on the documentation automation conversation. Call me back at [phone number]."
+        ]
+      }
     },
     "linkedin": {
       "connection_request": "I lead AI & Data solutions at Eliassen Group and help organizations automate documentation processes. Given your role at [Company], I thought you might be interested in our recent work in this area.",
       "inmessage_subject": "AI Documentation Automation: 65% Faster + $1.2M Savings",
-      "inmessage_body": "Hi [Prospect Name],\n\nI noticed your role at [Company] likely involves overseeing documentation processes that support your development teams.\n\nOur AI & Data practice recently implemented an AI-powered documentation platform for a financial services client that reduced creation time by 65% and delivered $1.2M in annual savings.\n\nWould you be open to a brief discussion about how similar approaches might benefit your organization?\n\nBest regards,\n[Your Name]"
+      "inmessage_body": "Hi [Prospect Name],\n\nI noticed your role at [Company] likely involves overseeing documentation processes that support your development teams.\n\nOur AI & Data practice recently implemented an AI-powered documentation platform for a financial services client that reduced creation time by 65% and delivered $1.2M in annual savings.\n\nWould you be open to a brief discussion about how similar approaches might benefit your organization?\n\nBest regards,\n[Your Name]",
+      "follow_up": {
+        "subject_options": [
+          "Re: AI Documentation Automation: 65% Faster + $1.2M Savings",
+          "Following up: Documentation Automation Discussion",
+          "Circling back on AI documentation solutions"
+        ],
+        "intro_options": [
+          "Following up on my previous message about AI documentation automation,",
+          "I wanted to circle back on our potential discussion about streamlining documentation processes,",
+          "Building on my earlier outreach regarding the 65% faster documentation results,",
+          "As a follow-up to my recent message about AI-powered automation,"
+        ]
+      }
     },
     "objections": [
       {

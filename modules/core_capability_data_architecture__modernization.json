@@ -20,19 +20,54 @@
     "content": {
         "email": {
             "subject": "Modernize Your Financial Data Architecture for Competitive Advantage",
-            "body": "Dear [Prospect Name],\n\nFinancial institutions today face significant challenges with legacy data architectures that limit agility, impede analytics, and increase regulatory risk. Many organizations struggle with data silos, inconsistent quality, and infrastructure that can't efficiently support modern AI and analytics demands.\n\nEliassen Group's Data Architecture & Modernization practice specializes in transforming financial services data environments through:\n\n• **Data Lakehouse Implementation** - Modern unified architectures combining the best of data lakes and warehouses\n• **Cloud Data Migration** - Secure, compliant transition to cloud-native data platforms like Azure Synapse and Snowflake\n• **Data Mesh Enablement** - Domain-oriented architecture aligning data ownership with business capabilities\n• **Architectural Governance** - Frameworks ensuring consistent data modeling, security, and compliance\n\nOur approach has helped leading financial organizations reduce data platform costs by 40-60% while increasing performance by 5-10x and dramatically accelerating time-to-insight for critical business decisions.\n\nI'd welcome a conversation about your current data architecture challenges and modernization objectives.\n\nBest regards,\n\n[Your Name]\nVice President, Data & AI Practice\nEliassen Group"
+            "body": "Dear [Prospect Name],\n\nFinancial institutions today face significant challenges with legacy data architectures that limit agility, impede analytics, and increase regulatory risk. Many organizations struggle with data silos, inconsistent quality, and infrastructure that can't efficiently support modern AI and analytics demands.\n\nEliassen Group's Data Architecture & Modernization practice specializes in transforming financial services data environments through:\n\n• **Data Lakehouse Implementation** - Modern unified architectures combining the best of data lakes and warehouses\n• **Cloud Data Migration** - Secure, compliant transition to cloud-native data platforms like Azure Synapse and Snowflake\n• **Data Mesh Enablement** - Domain-oriented architecture aligning data ownership with business capabilities\n• **Architectural Governance** - Frameworks ensuring consistent data modeling, security, and compliance\n\nOur approach has helped leading financial organizations reduce data platform costs by 40-60% while increasing performance by 5-10x and dramatically accelerating time-to-insight for critical business decisions.\n\nI'd welcome a conversation about your current data architecture challenges and modernization objectives.\n\nBest regards,\n\n[Your Name]\nAccount Executive\nEliassen Group",
+            "follow_up": {
+              "subject": "Following up: Data Architecture Modernization for [Company Name]",
+              "intro_options": [
+                "Following up on my previous message about data architecture modernization,",
+                "I wanted to circle back regarding our potential discussion about transforming legacy data environments,",
+                "Building on my earlier outreach about cloud-native data platforms,",
+                "As a follow-up to my recent message about data infrastructure transformation,"
+              ]
+            }
         },
         "phone": {
             "opening": "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice.",
             "key_message": "We specialize in helping financial institutions modernize their data architectures to meet evolving business needs while addressing the unique regulatory and operational requirements of the financial services industry.",
             "evidence_point": "Our team has helped leading financial organizations transform their data environments, reducing platform costs by 40-60%, increasing performance by 5-10x, and implementing robust governance frameworks that ensure compliance while enabling innovation.",
             "engagement_question": "I'm curious about your current data architecture challenges and whether you're exploring modernization initiatives to support advanced analytics or AI capabilities?",
-            "voicemail": "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice. We specialize in data architecture modernization for financial institutions, helping them reduce costs while enabling advanced analytics capabilities. I'd appreciate a brief conversation about your current data environment and modernization objectives. You can reach me at [phone number]."
+            "voicemail": "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice. We specialize in data architecture modernization for financial institutions, helping them reduce costs while enabling advanced analytics capabilities. I'd appreciate a brief conversation about your current data environment and modernization objectives. You can reach me at [phone number].",
+            "follow_up": {
+              "opening_options": [
+                "Hi [Prospect Name], [Your Name] from Eliassen Group following up on our previous conversation about data architecture modernization.",
+                "Hi [Prospect Name], this is [Your Name] again from Eliassen Group. I wanted to follow up on our data infrastructure discussion.",
+                "[Prospect Name], [Your Name] from Eliassen Group. Following up on my earlier message about legacy data transformation.",
+                "Hi [Prospect Name], [Your Name] calling back from Eliassen Group regarding the data modernization opportunities we discussed."
+              ],
+              "voicemail_options": [
+                "Hi [Prospect Name], [Your Name] from Eliassen Group following up on my previous message about data architecture modernization. Still interested in that conversation? [phone number].",
+                "[Prospect Name], this is [Your Name] from Eliassen Group. Circling back on the data infrastructure discussion. Would love to connect. [phone number].",
+                "Hi [Prospect Name], [Your Name] again from Eliassen Group. Following up on the modernization conversation. Call me back at [phone number]."
+              ]
+            }
         },
         "linkedin": {
             "connection_request": "I focus on data architecture modernization for financial services. Given your role at [Company], I'd like to connect on strategies for addressing legacy data challenges.",
             "inmessage_subject": "Modernizing Financial Data Architecture",
-            "inmessage_body": "Hi [Prospect Name],\n\nLegacy data architectures are holding many financial institutions back. We're helping leading firms modernize with cloud-native platforms and data mesh architectures that reduce costs by 40-60% while accelerating analytics.\n\nI'd be interested to learn how your organization is addressing the limitations of your current data architecture.\n\nBest regards,\n[Your Name]"
+            "inmessage_body": "Hi [Prospect Name],\n\nLegacy data architectures are holding many financial institutions back. We're helping leading firms modernize with cloud-native platforms and data mesh architectures that reduce costs by 40-60% while accelerating analytics.\n\nI'd be interested to learn how your organization is addressing the limitations of your current data architecture.\n\nBest regards,\n[Your Name]",
+            "follow_up": {
+              "subject_options": [
+                "Re: Modernizing Financial Data Architecture",
+                "Following up: Data Infrastructure Transformation",
+                "Circling back on data modernization strategies"
+              ],
+              "intro_options": [
+                "Following up on my previous message about data architecture modernization,",
+                "I wanted to circle back on our potential discussion about legacy data transformation,",
+                "Building on my earlier outreach regarding data infrastructure modernization,",
+                "As a follow-up to my recent message about cloud-native platforms,"
+              ]
+            }
         },
         "objections": [
             {

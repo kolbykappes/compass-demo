@@ -9,20 +9,55 @@
     },
     "content": {
         "email": {
-            "subject": "Quick Introduction - Eliassen Group",
-            "body": "Dear [Prospect Name],\\n\\nI wanted to take a moment to introduce you to Eliassen Group and explain why we might be a valuable partner for [Company Name].\\n\\n**Who We Are:**\\nEliassen Group is a $500M consulting firm with 2,500+ technology consultants specializing in enterprise solutions. We've been helping organizations like yours accelerate their technology initiatives for over 30 years.\\n\\n**What Makes Us Different:**\\n• **Proven Scale** - Successfully delivered 1,000+ projects across financial services, healthcare, and enterprise markets\\n• **Deep Microsoft Partnership** - Gold-level partner with specialized expertise in Azure, .NET, and Power Platform\\n• **Flexible Engagement Models** - From individual talent placement to full managed services and delivery teams\\n• **Industry Focus** - Dedicated practices in Financial Services, Healthcare, and emerging technologies\\n\\n**Recent Success Highlights:**\\n• Helped a major regional bank modernize their entire data architecture (18-month engagement, $2.3M value)\\n• Implemented AI-powered document processing for insurance company (65% efficiency improvement)\\n• Built cloud-native applications serving 100K+ daily users\\n\\nI'd love to learn more about your current technology priorities and explore how we might be able to help. Would you be open to a brief 15-minute conversation this week?\\n\\nBest regards,\\n[Your Name]\\n[Your Title]\\nEliassen Group\\n[Phone] | [Email]"
+            "subject": "Eliassen Group: Strategic Technology Solutions for Financial Services",
+            "body": "Dear [Prospect Name],\\n\\nRegional financial institutions face unique challenges balancing innovation demands with stringent regulatory requirements, complex legacy systems, and talent constraints that can limit growth opportunities.\\n\\nEliassen Group is a $500M technology consulting firm with 35 years of proven financial services expertise, delivering strategic solutions across:\\n\\n• **Data & AI Solutions** - Transform data assets into competitive advantages through modern architectures and intelligent automation\\n• **Application Development & Integration** - Modernize core systems while maintaining operational continuity\\n• **Cybersecurity & Risk Management** - Implement robust security frameworks aligned with regulatory requirements\\n• **Cloud Infrastructure & Migration** - Enable scalable, secure cloud adoption with comprehensive governance\\n\\nOur deep financial services domain knowledge, combined with technical expertise across Microsoft, AWS, and emerging technologies, enables us to deliver solutions that understand both your business objectives and regulatory constraints.\\n\\nI'd welcome a brief conversation about [Company Name]'s current technology priorities and how our specialized capabilities might support your strategic initiatives.\\n\\nWould next week work for a brief discussion?\\n\\nBest regards,\\n[Your Name]\\n[Your Title]\\nEliassen Group\\n[Phone] | [Email]",
+            "follow_up": {
+                "subject": "Following up: Technology Solutions Discussion for [Company Name]",
+                "intro_options": [
+                    "Following up on my previous message about Eliassen Group's financial services expertise,",
+                    "I wanted to circle back regarding our potential discussion about strategic technology solutions,",
+                    "Building on my earlier outreach about our comprehensive consulting capabilities,",
+                    "As a follow-up to my recent message about technology modernization,"
+                ]
+            }
         },
         "phone": {
-            "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. I hope I'm not catching you at a bad time - do you have about 30 seconds for me to explain why I'm calling?",
-            "key_message": "I'm reaching out because we work with a lot of technology leaders like yourself in financial services, and I wanted to introduce you to what Eliassen Group does. We're a $500M consulting firm that specializes in helping organizations accelerate their technology initiatives - everything from cloud migrations to AI implementations.",
-            "evidence_point": "What's interesting is we're not just consultants - we're builders. Just recently, we helped a regional bank completely modernize their data architecture in 18 months, and now they're seeing 70% faster reporting times. We also placed a team that built AI-powered document processing for an insurance company that cut their processing time by 65%.",
-            "engagement_question": "I'm curious - what are the biggest technology priorities you're focused on right now? Are you looking at cloud modernization, data initiatives, AI, or something else entirely?",
-            "voicemail": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. We're a technology consulting firm that helps companies like [Company Name] accelerate their technology initiatives. I'd love to learn about your current priorities and see if there might be a fit. My number is [Phone]. Thanks!"
+            "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. I hope I'm not catching you at a busy time - do you have just a moment?",
+            "key_message": "I'm reaching out because Eliassen Group specializes in helping regional financial institutions like yours navigate complex technology challenges while meeting regulatory requirements. We're a $500M consulting firm with 35 years of financial services expertise.",
+            "evidence_point": "We've helped similar organizations transform their data capabilities, modernize applications, and implement AI solutions that deliver real business value while maintaining compliance. Our approach combines deep technical expertise with understanding of your unique industry constraints.",
+            "engagement_question": "I'm curious about your current technology priorities at Regional Bank Corp - are you working on any major modernization initiatives or facing particular challenges with your current systems?",
+            "voicemail": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. We're a technology consulting firm specializing in financial services. I'd appreciate a brief conversation about your technology priorities and how our expertise might support your initiatives. Please reach me at [phone number]. Thanks!",
+            "follow_up": {
+                "opening_options": [
+                    "Hi [Prospect Name], [Your Name] from Eliassen Group following up on our previous conversation about technology solutions.",
+                    "Hi [Prospect Name], this is [Your Name] again from Eliassen Group. I wanted to follow up on our strategic technology discussion.",
+                    "[Prospect Name], [Your Name] from Eliassen Group. Following up on my earlier message about financial services expertise.",
+                    "Hi [Prospect Name], [Your Name] calling back from Eliassen Group regarding the technology modernization conversation we discussed."
+                ],
+                "voicemail_options": [
+                    "Hi [Prospect Name], [Your Name] from Eliassen Group following up on my previous message about strategic technology solutions. Still interested in that conversation? [phone number].",
+                    "[Prospect Name], this is [Your Name] from Eliassen Group. Circling back on the financial services consulting discussion. Would love to connect. [phone number].",
+                    "Hi [Prospect Name], [Your Name] again from Eliassen Group. Following up on the technology priorities conversation. Call me back at [phone number]."
+                ]
+            }
         },
         "linkedin": {
-            "connection_request": "Hi [Prospect Name], I work with technology leaders in financial services and would love to connect. Always interested in learning about the challenges and opportunities CTOs are seeing in the market.",
-            "inmessage_subject": "Quick question about your tech priorities",
-            "inmessage_body": "Hi [Prospect Name],\\n\\nThanks for connecting! I wanted to reach out because Eliassen Group works with a lot of technology leaders in financial services, and I'm always curious about what's keeping CTOs busy these days.\\n\\nWe're a $500M consulting firm that specializes in helping organizations accelerate their technology initiatives - from cloud modernization to AI implementations. We've done some interesting work recently, including helping a regional bank modernize their entire data architecture and implementing AI-powered solutions that delivered 65%+ efficiency improvements.\\n\\nI'm curious - what are the biggest technology priorities on your radar for the next 12 months? Always interested in learning what challenges and opportunities leaders like yourself are focused on.\\n\\nBest,\\n[Your Name]"
+            "connection_request": "I work with regional financial institutions on strategic technology initiatives. Given your role at [Company], I thought we might have some valuable perspectives to share.",
+            "inmessage_subject": "Strategic Technology Solutions for Regional Financial Institutions",
+            "inmessage_body": "Hi [Prospect Name],\\n\\nI noticed your leadership role at [Company] and wanted to connect regarding technology challenges facing regional financial institutions.\\n\\nEliassen Group specializes in helping organizations like yours balance innovation demands with regulatory requirements through strategic technology solutions across data modernization, application development, cybersecurity, and cloud infrastructure.\\n\\nI'd be interested to learn about your current technology priorities and share perspectives on how similar institutions are addressing their modernization challenges.\\n\\nBest regards,\\n[Your Name]",
+            "follow_up": {
+                "subject_options": [
+                    "Re: Strategic Technology Solutions for Regional Financial Institutions",
+                    "Following up: Technology Modernization Discussion",
+                    "Circling back on financial services technology strategies"
+                ],
+                "intro_options": [
+                    "Following up on my previous message about strategic technology solutions,",
+                    "I wanted to circle back on our potential discussion about technology modernization,",
+                    "Building on my earlier outreach regarding financial services expertise,",
+                    "As a follow-up to my recent message about regional banking technology challenges,"
+                ]
+            }
         },
         "objections": [
             {
