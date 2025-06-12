@@ -133,6 +133,9 @@ async function renderModuleDetail(pursuitId, moduleId) {
         const response = await fetch(`modules/${moduleId}?v=${new Date().getTime()}`);
         const module = await response.json();
 
+        // Check if this is a success story module
+        const isSuccessStory = module.metadata.module_type === "Practice-Specific Type D (Success Story)";
+
         let html = `
             <div class="module-detail-header">
                 <div class="module-header-left">
@@ -156,7 +159,7 @@ async function renderModuleDetail(pursuitId, moduleId) {
                 <button class="tab-link" onclick="openTab(event, 'phone')">Phone Script</button>
                 <button class="tab-link" onclick="openTab(event, 'linkedin')">LinkedIn</button>
                 <button class="tab-link" onclick="openTab(event, 'objections')">Objections</button>
-                <button class="tab-link" onclick="openTab(event, 'collateral')">Collateral</button>
+                ${isSuccessStory ? '<button class="tab-link" onclick="openTab(event, \'collateral\')">Collateral</button>' : ''}
             </div>
 
             <div id="email" class="tab-content active">
@@ -171,9 +174,9 @@ async function renderModuleDetail(pursuitId, moduleId) {
             <div id="objections" class="tab-content">
                 ${renderObjections(module.content.objections)}
             </div>
-            <div id="collateral" class="tab-content">
+            ${isSuccessStory ? `<div id="collateral" class="tab-content">
                 ${renderCollateral(module.content.collateral)}
-            </div>
+            </div>` : ''}
         `;
 
         content.innerHTML = html;
@@ -230,8 +233,10 @@ function renderObjections(objections) {
 function renderCollateral(collateral) {
     if (!collateral) return '';
     return `
-        <h3>Collateral</h3>
-        <p><a href="${collateral.link}" target="_blank">${collateral.title}</a></p>
+        <div class="content-box">
+            <h4>Case Study Collateral</h4>
+            <p><a href="${collateral.link}" target="_blank" rel="noopener noreferrer">${collateral.title}</a></p>
+        </div>
     `;
 }
 
@@ -272,6 +277,39 @@ function renderPhoneScript(phone) {
         </div>`;
     }
     
+    // Follow-up Options
+    if (phone.follow_up) {
+        html += `<div class="content-box follow-up-section">
+            <h4>📞 Follow-Up Call Options</h4>
+            <div class="follow-up-content">`;
+        
+        if (phone.follow_up.opening_options && phone.follow_up.opening_options.length > 0) {
+            html += `<div class="follow-up-item">
+                <strong>Follow-Up Call Openings:</strong><br>
+                <ul class="follow-up-list">`;
+            
+            phone.follow_up.opening_options.forEach((option, index) => {
+                html += `<li><span class="option-number">${index + 1}.</span> <span class="copy-content">${option}</span> <button class="copy-btn-inline">Copy</button></li>`;
+            });
+            
+            html += `</ul></div>`;
+        }
+        
+        if (phone.follow_up.voicemail_options && phone.follow_up.voicemail_options.length > 0) {
+            html += `<div class="follow-up-item">
+                <strong>Follow-Up Voicemail Options:</strong><br>
+                <ul class="follow-up-list">`;
+            
+            phone.follow_up.voicemail_options.forEach((option, index) => {
+                html += `<li><span class="option-number">${index + 1}.</span> <span class="copy-content">${option}</span> <button class="copy-btn-inline">Copy</button></li>`;
+            });
+            
+            html += `</ul></div>`;
+        }
+        
+        html += `</div></div>`;
+    }
+    
     return html;
 }
 
@@ -304,6 +342,39 @@ function renderLinkedInContent(linkedin) {
         </div>`;
     }
     
+    // Follow-up Options
+    if (linkedin.follow_up) {
+        html += `<div class="content-box follow-up-section">
+            <h4>💼 LinkedIn Follow-Up Options</h4>
+            <div class="follow-up-content">`;
+        
+        if (linkedin.follow_up.subject_options && linkedin.follow_up.subject_options.length > 0) {
+            html += `<div class="follow-up-item">
+                <strong>Follow-Up Subject Options:</strong><br>
+                <ul class="follow-up-list">`;
+            
+            linkedin.follow_up.subject_options.forEach((option, index) => {
+                html += `<li><span class="option-number">${index + 1}.</span> <span class="copy-content">${option}</span> <button class="copy-btn-inline">Copy</button></li>`;
+            });
+            
+            html += `</ul></div>`;
+        }
+        
+        if (linkedin.follow_up.intro_options && linkedin.follow_up.intro_options.length > 0) {
+            html += `<div class="follow-up-item">
+                <strong>Follow-Up Message Openings:</strong><br>
+                <ul class="follow-up-list">`;
+            
+            linkedin.follow_up.intro_options.forEach((option, index) => {
+                html += `<li><span class="option-number">${index + 1}.</span> <span class="copy-content">${option}</span> <button class="copy-btn-inline">Copy</button></li>`;
+            });
+            
+            html += `</ul></div>`;
+        }
+        
+        html += `</div></div>`;
+    }
+    
     return html;
 }
 
@@ -332,6 +403,34 @@ function renderEmailContent(email) {
             <h4>Email Body<button class="copy-btn">Copy Email</button></h4>
             <div class="copy-content">${formattedBody}</div>
         </div>`;
+    }
+    
+    // Follow-up Options
+    if (email.follow_up) {
+        html += `<div class="content-box follow-up-section">
+            <h4>📧 Follow-Up Options<button class="copy-btn">Copy Follow-Up Subject</button></h4>
+            <div class="follow-up-content">`;
+        
+        if (email.follow_up.subject) {
+            html += `<div class="follow-up-item">
+                <strong>Follow-Up Subject:</strong><br>
+                <div class="copy-content">${email.follow_up.subject}</div>
+            </div>`;
+        }
+        
+        if (email.follow_up.intro_options && email.follow_up.intro_options.length > 0) {
+            html += `<div class="follow-up-item">
+                <strong>Follow-Up Opening Options:</strong><br>
+                <ul class="follow-up-list">`;
+            
+            email.follow_up.intro_options.forEach((option, index) => {
+                html += `<li><span class="option-number">${index + 1}.</span> ${option}</li>`;
+            });
+            
+            html += `</ul></div>`;
+        }
+        
+        html += `</div></div>`;
     }
     
     return html;
@@ -474,9 +573,18 @@ document.addEventListener('DOMContentLoaded', init);
 
 // Copy button functionality
 document.addEventListener('click', function(e) {
-    if (e.target.classList.contains('copy-btn')) {
-        const contentBox = e.target.closest('.content-box');
-        const copyContent = contentBox.querySelector('.copy-content');
+    if (e.target.classList.contains('copy-btn') || e.target.classList.contains('copy-btn-inline')) {
+        let copyContent;
+        
+        if (e.target.classList.contains('copy-btn-inline')) {
+            // For inline copy buttons, find the copy-content in the same list item
+            const listItem = e.target.closest('li');
+            copyContent = listItem.querySelector('.copy-content');
+        } else {
+            // For regular copy buttons, find the copy-content in the same content box
+            const contentBox = e.target.closest('.content-box');
+            copyContent = contentBox.querySelector('.copy-content');
+        }
         
         if (copyContent) {
             // Get text content, removing HTML tags and converting <br> to newlines

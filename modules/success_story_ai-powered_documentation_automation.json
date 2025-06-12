@@ -91,9 +91,9 @@
         "response": "Our financial services client achieved ROI within the first year with $1.2M in annual savings. We typically structure implementations to deliver incremental value, with initial modules often paying for themselves within months."
       }
     ],
-    "collateral": {
-      "title": "AI-Powered Documentation Automation Platform - Financial Services Success Story",
-      "link": "[Eliassen Group Case Study URL]"
-    }
+            "collateral": {
+            "title": "AI-Powered Documentation Automation Platform - Financial Services Success Story",
+            "link": "collateral/AI-Powered Documentation Automation Platform.pdf"
+        }
   }
 } 
