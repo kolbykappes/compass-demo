@@ -413,19 +413,19 @@ a:hover {
     background-color: #6f42c1; /* Purple */
 }
 
-.tag.module-type.practice-specific-type-a-core-capability {
+.tag.module-type.core-capability {
     background-color: #0d6efd; /* Blue */
 }
 
-.tag.module-type.practice-specific-type-b-solution {
+.tag.module-type.solution {
     background-color: #198754; /* Green */
 }
 
-.tag.module-type.practice-specific-type-d-success-story {
+.tag.module-type.success-story {
     background-color: #fd7e14; /* Orange */
 }
 
-.tag.module-type.practice-specific-type-e-talent {
+.tag.module-type.talent {
     background-color: #dc3545; /* Red */
 }
 

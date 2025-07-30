@@ -7,7 +7,7 @@ let backButton;
 
 async function init() {
     try {
-        const response = await fetch('config.json');
+        const response = await fetch(`config.json?v=${new Date().getTime()}`);
         config = await response.json();
         
         createBackButton();
@@ -41,10 +41,10 @@ function convertToClassname(text) {
 function shortenModuleType(moduleType) {
     const typeMap = {
         'Company Introduction': 'Company Intro',
-        'Practice-Specific Type A (Core Capability)': 'Core Capability',
-        'Practice-Specific Type B (Solution)': 'Solution',
-        'Practice-Specific Type D (Success Story)': 'Success Story',
-        'Practice-Specific Type E (Talent)': 'Talent'
+        'Core Capability': 'Core Capability',
+        'Solution': 'Solution',
+        'Success Story': 'Success Story',
+        'Talent': 'Talent'
     };
     return typeMap[moduleType] || moduleType;
 }
