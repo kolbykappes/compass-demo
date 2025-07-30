@@ -1,99 +1,56 @@
 {
-    "metadata": {
-      "module_id": "AI-E1",
-      "title": "AI & Data Expertise",
-      "module_type": "Practice-Specific Type E (Talent)",
-      "practice_area": "AI & Data",
-      "relevant_roles": [
-        "Chief Information Officer",
-        "Chief Data Officer",
-        "VP of Information Technology",
-        "VP of Data & Analytics",
-        "Director of Data Engineering"
-      ],
-      "customization_parameters": {
-        "Engagement Stage": "Early to Mid",
-        "Industry Focus": "Financial Services"
-      },
-      "overview": "This module highlights the specialized talent available through Eliassen Group's Data & AI practice, showcasing the depth and breadth of expertise across data engineering, architecture, and AI/ML specialists with specific financial services domain knowledge."
+  "metadata": {
+    "module_id": "AI-E1",
+    "title": "AI & Data Expertise",
+    "module_type": "Talent",
+    "practice_area": "AI & Data",
+    "relevant_roles": [
+      "Chief Information Officer",
+      "Chief Data Officer",
+      "VP of Information Technology",
+      "VP of Data & Analytics",
+      "Director of Data Engineering"
+    ],
+    "overview": "Finding elite data and AI talent who also understand the nuances of financial services is a major challenge. This module explains how we provide rigorously vetted experts who can deliver value from day one, avoiding the long ramp-up times of generalist technical staff."
+  },
+  "content": {
+    "email": {
+      "subject": "The challenge of finding true data & AI experts",
+      "body": "Hi [Prospect Name],\\n\\nHow much time does your team lose onboarding technical staff who don't understand the complexities of the financial services industry? It's a common and costly problem.\\n\\nOur Data & AI practice is built to solve this. We provide consultants who combine deep technical skill with proven financial services experience. They understand your world, from regulatory pressures to specific data security needs.\\n\\nWe recently placed a data architect with a wealth management firm who was contributing to high-level design decisions in her second week. Her domain knowledge allowed her to bypass the typical six-month learning curve.\\n\\nCould your most critical projects benefit from that kind of immediate impact? If so, I'd welcome a brief 15-minute call to discuss your talent needs.\\n\\nBest,\\n[Your Name]"
     },
-    "content": {
-      "email": {
-        "subject": "Specialized Data & AI Talent for Financial Services Initiatives",
-        "body": "Dear [Prospect Name],\n\nFinancial services organizations face significant challenges acquiring and retaining specialized data and AI talent—particularly professionals who understand both the technical requirements and the unique domain considerations of the industry.\n\nEliassen Group provides access to elite data and AI professionals with deep financial services experience across critical disciplines:\n\n• **Financial Services Data Architects** - Experts in designing compliant, scalable data architectures for regulated environments\n• **AI/ML Engineers** - Specialized in implementing machine learning models for financial applications including fraud detection, risk assessment, and customer analytics\n• **LLM Implementation Specialists** - Experts in building secure, compliant large language model solutions for financial use cases\n• **Data Governance Experts** - Professionals with experience implementing governance in complex regulatory environments\n\nOur rigorous screening process ensures technical excellence combined with financial services domain knowledge, enabling our consultants to deliver immediate value without extensive ramp-up.\n\nI'd welcome a conversation about your current data and AI talent needs and how our specialized financial services expertise might accelerate your initiatives. Could we schedule a 20-25 minute conversation to discuss your current talent needs and explore potential solutions?\n\nBest regards,\n\n[Your Name]\nAccount Executive\nEliassen Group",
-        "follow_up": {
-          "subject": "Following up: Data & AI Talent Solutions for [Company Name]",
-          "intro_options": [
-            "Following up on my previous message about specialized Data & AI talent,",
-            "I wanted to circle back regarding our conversation about financial services-experienced data professionals,",
-            "Building on our earlier discussion about Data & AI expertise,",
-            "As a follow-up to my recent outreach about specialized talent solutions,"
-          ]
-        }
+    "phone": {
+      "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group.",
+      "key_message": "I'm calling because we solve a very specific talent problem: finding data and AI experts who you don't have to spend six months teaching about financial services.",
+      "evidence_point": "The last data architect we placed with a bank was so effective that the client told us she did more in her first month than the previous consultant did in six, simply because she already understood their business.",
+      "engagement_question": "What's the biggest challenge you face when bringing on new technical talent for your data and AI projects?",
+      "voicemail": "Hi [Prospect Name], it's [Your Name] from Eliassen Group. If you've ever been frustrated by tech consultants who don't understand your business, give me a call. We have the experts who do. My number is [phone number]."
+    },
+    "linkedin": {
+      "connection_request": "Hi [Prospect Name], I see we're both focused on building high-performing data & AI teams in the financial services space. I specialize in finding the talent with the right blend of tech and domain expertise, and would welcome a connection.",
+      "inmessage_subject": "Data & AI talent that gets it",
+      "inmessage_body": "Hi [Prospect Name],\\n\\nFinding people who are brilliant at data and AI is hard. Finding ones who also deeply understand financial services is even harder.\\n\\nWe specialize in finding that rare combination. The last data architect we placed with a bank made a major impact in her first month, saving them from a costly design flaw because she understood their specific regulatory constraints.\\n\\nThat's the value of true expertise. If you're looking for talent that can deliver value from day one, I'd be happy to have a brief chat.\\n\\nBest,\\n[Your Name]"
+    },
+    "objections": [
+      {
+        "objection": "We use large staffing firms that we have preferred vendor agreements with.",
+        "response": "We understand, and we often work with clients who have those relationships. They come to us when they have a critical, high-stakes role where our specialized vetting process for financial services expertise makes all the difference in finding the right fit, faster."
       },
-      "phone": {
-        "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. I know talent conversations aren't always top priority, but I have a quick question - got 30 seconds?",
-        "key_message": "I'm calling because we keep hearing from bank CTOs that finding data and AI talent who actually understand financial services is nearly impossible. Everyone knows the tech, but they don't get the business. We've built a practice specifically around solving that problem.",
-        "evidence_point": "Just placed a data architect who started making an impact from day one because she understood both the technical requirements and why banks need certain compliance controls. No six-month learning curve - she was contributing to architectural decisions in week two.",
-        "engagement_question": "At Regional Bank Corp, when you bring in data or AI talent, are you finding yourself spending months getting them up to speed on the financial services side of things?",
-        "voicemail": "Hi [Prospect Name], [Your Name] from Eliassen Group. Question for you - tired of data and AI consultants who know the tech but don't understand banking? We specialize in financial services-experienced talent. Worth a conversation? [phone number]. Thanks!",
-        "follow_up": {
-          "opening_options": [
-            "Hi [Prospect Name], [Your Name] from Eliassen Group following up on our previous conversation about Data & AI talent.",
-            "Hi [Prospect Name], this is [Your Name] again from Eliassen Group. I wanted to follow up on the talent solutions we discussed.",
-            "[Prospect Name], [Your Name] from Eliassen Group. Following up on my earlier message about specialized financial services talent.",
-            "Hi [Prospect Name], [Your Name] calling back from Eliassen Group regarding the Data & AI expertise we talked about."
-          ],
-          "voicemail_options": [
-            "Hi [Prospect Name], [Your Name] from Eliassen Group following up on my previous message about financial services Data & AI talent. Still interested in that conversation? [phone number].",
-            "[Prospect Name], this is [Your Name] from Eliassen Group. Circling back on the specialized talent discussion. Would love to connect. [phone number].",
-            "Hi [Prospect Name], [Your Name] again from Eliassen Group. Following up on the Data & AI expertise conversation. Call me back at [phone number]."
-          ]
-        }
+      {
+        "objection": "Consultants with that level of specific experience are too expensive.",
+        "response": "It's a fair concern, but what's the cost of a six-month learning curve? Our clients find that the immediate productivity of our consultants provides a much faster return on investment. The total cost is often lower than a generalist who takes months to become effective."
       },
-      "linkedin": {
-        "connection_request": "I lead Data & AI talent solutions at Eliassen Group, specializing in financial services expertise. Given your role at [Company], I thought you might be interested in our specialized talent approach.",
-        "inmessage_subject": "Specialized Data & AI Talent for Financial Services",
-        "inmessage_body": "Hi [Prospect Name],\n\nI noticed your leadership role at [Company] and wanted to connect regarding Eliassen Group's specialized approach to Data & AI talent for financial services organizations.\n\nThe intersection of technical excellence and financial domain knowledge is increasingly rare, yet critical for successful initiatives. Our talent solutions focus specifically on this specialized combination, with consultants who understand both the technical requirements and the unique considerations of financial services.\n\nWould you be open to a brief 15-20 minute conversation about your current data and AI talent needs? I'd be happy to discuss how our specialized talent can support your initiatives.\n\nBest regards,\n[Your Name]",
-        "follow_up": {
-          "subject_options": [
-            "Re: Specialized Data & AI Talent for Financial Services",
-            "Following up: Data & AI Expertise Discussion",
-            "Circling back on financial services talent solutions"
-          ],
-          "intro_options": [
-            "Following up on my previous message about Data & AI talent solutions,",
-            "I wanted to circle back on our potential discussion about specialized financial services expertise,",
-            "Building on my earlier outreach regarding Data & AI professionals,",
-            "As a follow-up to my recent message about talent solutions,"
-          ]
-        }
+      {
+        "objection": "We're looking to hire full-time employees, not bring on consultants.",
+        "response": "We support that goal, and many of our consulting engagements are designed as a 'try-before-you-buy' model. It allows you to see a consultant's impact firsthand. Over 70% of our clients who intend to hire full-time end up converting our consultant to a permanent role."
       },
-      "objections": [
-        {
-          "objection": "We typically work with larger staffing firms for our resource needs.",
-          "response": "While larger firms provide volume, our advantage lies in specialization and quality. Our consultants undergo rigorous technical and domain screening, resulting in higher success rates and faster time-to-productivity specifically in financial services data and AI roles."
-        },
-        {
-          "objection": "We've had mixed results with consultants who lack financial domain knowledge.",
-          "response": "That's precisely our differentiation. We focus exclusively on consultants with demonstrated financial services experience who understand regulatory considerations, data security requirements, and industry-specific use cases—dramatically reducing ramp-up time and implementation risk."
-        },
-        {
-          "objection": "We're looking for long-term employees, not consultants.",
-          "response": "Many clients leverage our talent for successful project completion while evaluating for permanent conversion. Our approach includes knowledge transfer components that build your internal capabilities, whether consultants transition to permanent roles or enable your existing team."
-        },
-        {
-          "objection": "AI and data talent is too expensive for our budget.",
-          "response": "The true cost includes both rate and productivity. Our specialized consultants deliver faster outcomes with fewer resources due to their combined technical and domain expertise. Many clients find the total cost is actually lower with experts who can avoid common pitfalls."
-        },
-        {
-          "objection": "We need teams, not individual contributors.",
-          "response": "We construct complete solution teams with complementary skills across architecture, engineering, and analytics—all with financial services background. These pre-vetted teams can be deployed as cohesive units, accelerating delivery through established working relationships."
-        }
-      ],
-      "collateral": {
-        "title": "Financial Services Data & AI Talent: Bridging the Technical-Domain Expertise Gap",
-        "link": "#"
+      {
+        "objection": "We have a strong internal recruiting team.",
+        "response": "That's a great asset. We partner with internal teams to help them fill their most challenging roles. They use us because our network is highly specialized in the intersection of data, AI, and financial services, which can be hard to penetrate with general recruiting methods."
       }
+    ],
+    "collateral": {
+      "title": "Expertise Brief: Specialized Data & AI Talent for Financial Services",
+      "link": "#"
     }
-  } 
+  }
+} 
