@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMPASS - Module Authoring Guidelines</title>
+    <title>COMPASS - Authoring Guidelines</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="guidelines.css">
 </head>
 <body>
     <header class="main-header">
@@ -17,205 +16,74 @@
                 </div>
             </div>
             <nav id="header-nav">
-                <a href="index.html">Home</a>
+                <a href="index.html" class="back-button">← Back to Home</a>
             </nav>
         </div>
     </header>
-    
-    <main id="app-container" class="guidelines-container">
-        <h1>AI-Powered Module Authoring Guide</h1>
-        <p>This document provides the technical schema and creative guidance for an AI to generate new sales outreach modules for the COMPASS Module Viewer.</p>
-        
-        <hr>
 
-        <h2>1. Module JSON Schema</h2>
-        <p>All modules MUST conform to the following JSON structure. All fields are required.</p>
-        <pre><code class="language-json">
-{
-  "metadata": {
-    "module_id": "string",
-    "title": "string",
-    "module_type": "string (e.g., 'Practice-Specific Type D (Success Story)', 'Core Capability', 'Solution-focused')",
-    "practice_area": "string (e.g., 'AI & Data', 'Infrastructure', 'App Dev', 'Cybersecurity')",
-    "relevant_roles": ["string"],
-    "overview": "string (2-3 sentence summary)"
-  },
-  "content": {
-    "email": {
-      "subject": "string",
-      "body": "string (Use '\\n' for line breaks)"
-    },
-    "phone": {
-      "opening": "string",
-      "key_message": "string",
-      "evidence_point": "string",
-      "engagement_question": "string",
-      "voicemail": "string"
-    },
-    "linkedin": {
-      "connection_request": "string (Max 300 characters)",
-      "inmessage_subject": "string",
-      "inmessage_body": "string (Use '\\n' for line breaks)"
-    },
-    "objections": [
-      {
-        "objection": "string",
-        "response": "string"
-      }
-    ],
-    "collateral": {
-      "title": "string",
-      "link": "string (URL or placeholder '#')"
-    }
-  }
-}
-        </code></pre>
+    <main id="app-container">
+        <div class="pursuit-info" style="text-align: left;">
+            <h2>Authoring Guidelines</h2>
+            <p>This page explains the structure of the sales modules and the creative guidelines the AI follows when generating new content. Our goal is to create content that is clear, consistent, and effective.</p>
+        </div>
 
-        <hr>
+        <h3>Module Structure</h3>
+        <p style="text-align: left;">Each module is a JSON file with two main sections: <code>metadata</code> and <code>content</code>. The metadata contains information about the module, while the content section holds the outreach materials.</p>
 
-        <h2>2. AI Authoring Instructions</h2>
-        
-        <h3><strong>Guiding Principle: Maintainability</strong></h3>
-        <p>To ensure modules are easy to create and maintain, each module should contain only <strong>one version of the content</strong> for email, phone, and LinkedIn. Do not create different content versions for different roles within the same module. The goal is a single, strong piece of outreach that can be lightly personalized by the sales team.</p>
+        <div class="content-box" style="text-align: left;">
+            <h4>Metadata</h4>
+            <p>The <code>metadata</code> section includes:</p>
+            <ul>
+                <li><strong>module_id:</strong> A unique identifier for the module (e.g., "AI-A1").</li>
+                <li><strong>title:</strong> The title of the module (e.g., "Data & AI Practice Overview").</li>
+                <li><strong>module_type:</strong> The type of module, such as "Core Capability" or "Success Story".</li>
+                <li><strong>practice_area:</strong> The relevant practice area, like "AI & Data".</li>
+                <li><strong>relevant_roles:</strong> A list of job titles the module is intended for.</li>
+                <li><strong>overview:</strong> A brief summary of the module's purpose.</li>
+            </ul>
+        </div>
 
-        <h3><strong>Core Principles (Updated Based on Feedback):</strong></h3>
-        <ol>
-            <li><strong>Persona-Centric:</strong> The content must speak directly to the likely priorities and pain points of the <code>relevant_roles</code>. A CTO cares about technology strategy, scalability, and ROI. A CISO cares about risk, compliance, and threat mitigation.</li>
-            <li><strong>Value-Oriented with Evidence:</strong> Do not just describe features. Describe the <em>value</em> and <em>outcomes</em> of our services. Use strong, quantifiable metrics (e.g., cost savings, efficiency gains, risk reduction) with <strong>direct client references or data points</strong> whenever possible. Include specific evidence from actual engagements.</li>
-            <li><strong>Clear and Concise Language:</strong> Write in clear, professional language. Use "more than X" instead of "X+" for better readability. Choose precise words ("analysis" over "analyses" when appropriate). Avoid unnecessary jargon and be direct.</li>
-            <li><strong>Authentic and Conservative Voice:</strong> Write as a helpful expert, not an aggressive salesperson. <strong>Avoid over-promising quick wins</strong> and be cautious with specific promises. Address realistic concerns rather than creating unrealistic expectations.</li>
-            <li><strong>Technology-Agnostic Flexibility:</strong> <strong>Avoid being overly specific about technology partnerships</strong> (e.g., don't emphasize Microsoft partnership exclusively since prospects may use AWS, GCP, or other platforms). Focus on our expertise across multiple platforms.</li>
-            <li><strong>Actionable with Realistic Expectations:</strong> Every piece of content should guide toward a next step. <strong>Set realistic time expectations</strong> for discussions and suggest specific timeframes when possible.</li>
-        </ol>
+        <div class="content-box" style="text-align: left;">
+            <h4>Content</h4>
+            <p>The <code>content</code> section is divided by outreach channel:</p>
+            <ul>
+                <li><strong>email:</strong> Includes a subject line and body text for an email.</li>
+                <li><strong>phone:</strong> Provides a phone script with an opening, key message, evidence point, and voicemail.</li>
+                <li><strong>linkedin:</strong> Contains a connection request and an InMessage draft.</li>
+                <li><strong>objections:</strong> A list of common prospect objections and effective responses.</li>
+                <li><strong>collateral:</strong> A link to any relevant case studies or whitepapers.</li>
+            </ul>
+        </div>
 
-        <hr>
+        <h3>AI Authoring Guidelines</h3>
+        <p style="text-align: left;">The AI is given a set of core principles to follow when generating module content:</p>
 
-        <h2>3. Content Generation Guidelines (by section)</h2>
-
-        <h3><strong><code>metadata.overview</code></strong></h3>
-        <ul>
-            <li>In 2-3 sentences, state the problem, the solution, and the positive business outcome</li>
-            <li>Focus on <strong>team expertise and proven capability</strong> rather than broad industry claims</li>
-            <li>Keep context-focused and specific to what we actually deliver</li>
-        </ul>
-
-        <h3><strong><code>content.email</code></strong></h3>
-        <ul>
-            <li><strong>Subject:</strong> Compelling and concise. Create curiosity or state a powerful benefit</li>
-            <li><strong>Body Structure:</strong>
-                <ul>
-                    <li><strong>Hook:</strong> Start with a problem or insight relevant to the prospect's role/industry</li>
-                    <li><strong>Solution:</strong> Briefly introduce how Eliassen Group addresses this problem <strong>with specific team expertise</strong></li>
-                    <li><strong>Proof:</strong> Provide <strong>specific, metric-driven examples with client data points</strong> (anonymized as needed)</li>
-                    <li><strong>Call to Action:</strong> End with low-friction questions that <strong>indicate potential value/savings</strong> and suggest realistic timeframes</li>
-                </ul>
-            </li>
-        </ul>
-
-        <h3><strong><code>content.phone</code></strong></h3>
-        <ul>
-            <li><strong><code>opening</code></strong>: Direct and professional: who you are and your area of expertise</li>
-            <li><strong><code>key_message</code></strong>: Single most important idea conveyed in 15 seconds, focused on <strong>proven capability</strong></li>
-            <li><strong><code>evidence_point</code></strong>: <strong>Most compelling data point or client success with specific metrics</strong></li>
-            <li><strong><code>engagement_question</code></strong>: Open-ended question that <strong>hints at potential value</strong> (e.g., "What challenges are you seeing with...")</li>
-            <li><strong><code>voicemail</code></strong>: Compressed version with <strong>specific value proposition</strong> and callback information</li>
-        </ul>
-
-        <h3><strong><code>content.linkedin</code></strong></h3>
-        <ul>
-            <li><strong><code>connection_request</code></strong>: Brief, professional, mention expertise area and their role</li>
-            <li><strong><code>inmessage_body</code></strong>: 
-                <ul>
-                    <li>More casual but professional tone</li>
-                    <li>Use whitespace for readability</li>
-                    <li>Get to value proposition quickly</li>
-                    <li><strong>Include specific data points or client outcomes</strong></li>
-                </ul>
-            </li>
-        </ul>
-
-        <h3><strong><code>content.objections</code></strong></h3>
-        <ul>
-            <li>Think of 3-5 most likely objections including:
-                <ul>
-                    <li><strong>Budget/timing concerns</strong></li>
-                    <li><strong>Technology platform preferences</strong></li>
-                    <li><strong>Internal capability questions</strong></li>
-                    <li><strong>Risk aversion to change</strong></li>
-                </ul>
-            </li>
-            <li>For each objection, provide <strong>empathetic responses that address underlying concerns</strong> rather than being defensive</li>
-            <li><strong>Address fear/trepidation of change</strong> rather than just skepticism</li>
-            <li>Provide <strong>proof points that can be substantiated</strong> if challenged</li>
-        </ul>
-
-        <h3><strong><code>content.collateral</code></strong></h3>
-        <ul>
-            <li>Descriptive title for supporting content (Case Study, Solution Brief, etc.)</li>
-            <li><strong>Consider visual formats</strong> like infographics for data-heavy content</li>
-            <li>Use placeholder <code>"#"</code> for unknown URLs</li>
-        </ul>
-
-        <hr>
-
-        <h2>4. Enhanced Quality Standards</h2>
-
-        <h3><strong>Evidence and Data Requirements:</strong></h3>
-        <ul>
-            <li>Include <strong>specific percentages, timeframes, and measurable outcomes</strong></li>
-            <li>Reference <strong>actual client experiences</strong> (anonymized appropriately)</li>
-            <li>Use <strong>"more than X"</strong> instead of "X+" formatting</li>
-            <li>Provide <strong>substantiable claims</strong> that can withstand scrutiny</li>
-        </ul>
-
-        <h3><strong>Language and Tone Standards:</strong></h3>
-        <ul>
-            <li>Use <strong>active voice</strong> and present tense</li>
-            <li>Choose <strong>precise terminology</strong> (avoid ambiguous words)</li>
-            <li>Write <strong>conversationally</strong> but maintain professionalism</li>
-            <li><strong>Avoid overly technical jargon</strong> unless necessary for the audience</li>
-        </ul>
-
-        <h3><strong>Flexibility Requirements:</strong></h3>
-        <ul>
-            <li><strong>Don't lock into specific technology partnerships</strong> unless relevant to the prospect</li>
-            <li>Focus on <strong>methodology and expertise</strong> rather than tool-specific capabilities</li>
-            <li>Allow for <strong>customization based on prospect's tech stack</strong></li>
-        </ul>
-
-        <h3><strong>Engagement Standards:</strong></h3>
-        <ul>
-            <li><strong>Set realistic expectations</strong> for discussion length and outcomes</li>
-            <li><strong>Suggest specific timeframes</strong> when possible ("15-minute discussion," "brief 20-minute call")</li>
-            <li>Include <strong>future scheduling suggestions</strong> to make next steps easier</li>
-            <li>Focus on <strong>collaborative discovery</strong> rather than sales pressure</li>
-        </ul>
-
-        <hr>
-
-        <h2>5. Filename Convention</h2>
-        <p>The module's filename should follow the convention: <code>type_title.json</code></p>
-        <ul>
-            <li><strong>type:</strong> Text inside parentheses from <code>module_type</code>, lowercase, spaces as underscores</li>
-            <li><strong>title:</strong> <code>title</code> field, lowercase, spaces as underscores, special characters removed</li>
-        </ul>
-        <p>Example: "AI-Powered Documentation Automation" with type "(Success Story)" = <code>success_story_ai_powered_documentation_automation.json</code></p>
-
-        <hr>
-
-        <h2>6. Review Checklist</h2>
-        <p>Before finalizing any module, verify:</p>
-        <ul>
-            <li><input type="checkbox" disabled> <strong>Clarity</strong>: Is the language clear and concise?</li>
-            <li><input type="checkbox" disabled> <strong>Evidence</strong>: Are claims backed by specific data/client examples?</li>
-            <li><input type="checkbox" disabled> <strong>Flexibility</strong>: Does it avoid overly specific technology assumptions?</li>
-            <li><input type="checkbox" disabled> <strong>Realism</strong>: Are promises and timelines realistic?</li>
-            <li><input type="checkbox" disabled> <strong>Value Focus</strong>: Does it clearly articulate business outcomes?</li>
-            <li><input type="checkbox" disabled> <strong>Engagement</strong>: Does it provide clear, low-friction next steps?</li>
-            <li><input type="checkbox" disabled> <strong>Proof</strong>: Can all claims be substantiated if challenged?</li>
-        </ul>
+        <div class="features-grid" style="text-align: left;">
+            <div class="feature-card">
+                <h3>Persona-Centric</h3>
+                <p>Content is tailored to the specific pain points and priorities of the target audience.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Value-Oriented</h3>
+                <p>The focus is on the value and outcomes of our services, not just the features.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Evidence-Based</h3>
+                <p>Claims are supported by quantifiable metrics and real-world client examples.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Clear and Concise</h3>
+                <p>The language is professional, direct, and easy to understand.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Technology-Agnostic</h3>
+                <p>We emphasize our expertise across multiple platforms, not just one specific technology.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Action-Oriented</h3>
+                <p>Every piece of content guides the prospect toward a clear and logical next step.</p>
+            </div>
+        </div>
     </main>
-    
-    <script src="script.js"></script>
 </body>
 </html>

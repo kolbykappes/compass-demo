@@ -477,40 +477,8 @@ function getHashParam(param) {
     return params.get(param);
 }
 
-
-function renderGuidelinesPage() {
-    // Since the guidelines content is in a separate HTML file,
-    // we can either fetch and inject it, or simply redirect.
-    // For simplicity and to keep the URL clean, we'll assume a redirect
-    // is acceptable and the user is already on guidelines.html.
-    // The router's role here is to manage the back button visibility.
-    fetch('guidelines.html')
-        .then(response => response.text())
-        .then(html => {
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-            const newContent = doc.querySelector('.guidelines-container').innerHTML;
-            content.innerHTML = `<div class="guidelines-container">${newContent}</div>`;
-            
-            backButton.style.display = 'inline-block';
-            backButton.textContent = '← Back to Home';
-            backButton.onclick = () => location.hash = '';
-            
-            // Update header nav to show this is a different page
-            const homeLink = headerNav.querySelector('a[href="index.html"]');
-            if (homeLink) {
-                 homeLink.style.display = 'inline-block';
-            }
-        });
-}
-
 function router() {
     const hash = window.location.hash.substring(1);
-    
-    if (hash === 'guidelines') {
-        renderGuidelinesPage();
-        return;
-    }
     
     if (!hash) {
         renderLandingPage();
@@ -603,18 +571,7 @@ function renderComingSoon(pursuit) {
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    init();
-
-    // Add this event listener to handle the guidelines link
-    const guidelinesLink = document.querySelector('a[href="guidelines.html"]');
-    if (guidelinesLink) {
-        guidelinesLink.addEventListener('click', function(e) {
-            e.preventDefault();
-            location.hash = '#guidelines';
-        });
-    }
-});
+document.addEventListener('DOMContentLoaded', init);
 
 // Copy button functionality
 document.addEventListener('click', function(e) {
