@@ -2,7 +2,7 @@
     "metadata": {
         "module_id": "AI-A1",
         "title": "Data & AI Practice Overview",
-        "module_type": "Practice-Specific Type A (Core Capability)",
+        "module_type": "Core Capability",
         "practice_area": "AI & Data",
         "relevant_roles": [
             "Chief Information Officer",
@@ -20,7 +20,7 @@
     "content": {
         "email": {
             "subject": "How Regional Banks Achieve 70% Faster Data Insights",
-            "body": "Dear [Prospect Name],\n\n**95% of financial institutions struggle to extract actionable insights from their data within acceptable timeframes** - often taking weeks for analyses that should take hours.\n\nEliassen Group's Data & AI practice has delivered transformative results for 50+ financial institutions through our Microsoft-powered NucleusAI platform:\n\n• **Data Architecture & Modernization** - Reduce insight delivery from weeks to hours (avg. 70% improvement)\n• **Azure-Native Data Engineering** - Cut infrastructure costs 40-60% while improving performance  \n• **Enterprise AI & LLM Solutions** - Deploy secure, compliant AI delivering 30-40% productivity gains\n• **Financial Services Governance** - Navigate GDPR, SOX, FINRA with built-in compliance frameworks\n\n**Recent Results:**\n✓ Major bank: $1.2M annual savings through AI-powered documentation automation\n✓ Credit union: 17% reduction in credit losses via automated risk assessment\n✓ Investment firm: Real-time portfolio analytics replacing 12-hour batch processes\n\nUnlike generalist consultancies, our $500M firm brings **2,500+ consultants** with specialized financial services expertise and proprietary accelerators that ensure rapid, compliant implementations.\n\nWould you be open to a 15-minute discussion about Regional Bank Corp's current data challenges and how similar institutions have accelerated their transformation?\n\nBest regards,\n\n[Your Name]\nAccount Executive\nEliassen Group\n\nP.S. Our assessment typically identifies 3-5 quick wins within the first conversation.",
+            "body": "Dear [Prospect Name],\n\n**Many financial institutions report challenges in extracting actionable insights from their data within acceptable timeframes** - often taking weeks for analyses that should take hours.\n\nEliassen Group's Data & AI practice has delivered transformative results for 50+ financial institutions through our expertise in:\n\n• **Data Mesh & Lakehouse Transformation** - Modernize your data architecture for agility and scale.\n• **Cloud-Native Data Engineering** - Cut infrastructure costs 40-60% while improving performance.\n• **Enterprise AI & RAG Solutions** - Deploy secure, compliant AI, including Retrieval Augmented Generation, for 30-40% productivity gains.\n• **Financial Services Governance** - Navigate GDPR, SOX, FINRA with built-in compliance frameworks.\n\n**Recent Results:**\n✓ Major bank: $1.2M annual savings through AI-powered documentation automation\n✓ Credit union: 17% reduction in credit losses via automated risk assessment\n✓ Investment firm: Real-time portfolio analytics replacing 12-hour batch processes\n\nUnlike generalist consultancies, our $500M firm brings **2,500+ consultants** with specialized financial services expertise and proprietary accelerators that ensure rapid, compliant implementations.\n\nWould you be open to a 15-minute discussion about your company's current data challenges and how similar institutions have accelerated their transformation?\n\nBest regards,\n\n[Your Name]\nAccount Executive\nEliassen Group\n\nP.S. Our assessment typically identifies 3-5 quick wins within the first conversation.",
             "follow_up": {
               "subject": "Following up: 70% Faster Data Insights for [Company Name]",
               "intro_options": [
@@ -33,20 +33,20 @@
         },
         "phone": {
             "opening": "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice. Do you have about 30 seconds for me to explain why I'm calling?",
-            "key_message": "We're a $500M Microsoft partner specializing in helping financial institutions like Regional Bank Corp transform their data capabilities into competitive advantages. Our NucleusAI platform has delivered documented results - including 70% faster insights and $1.2M+ annual savings for similar organizations.",
-            "evidence_point": "Just recently, we helped a regional bank similar to yours reduce their regulatory reporting time from 3 weeks to 4 days, while cutting infrastructure costs by 50% through our Azure-native approach. They achieved full ROI within 8 months.",
+            "key_message": "We're a $500M technology consulting firm specializing in helping financial institutions like yours transform their data capabilities into competitive advantages. Our proprietary NucleusAI platform, which can be deployed across multiple cloud environments, has delivered documented results - including 70% faster insights and $1.2M+ annual savings for similar organizations.",
+            "evidence_point": "Just recently, we helped a regional bank similar to yours reduce their regulatory reporting time from 3 weeks to 4 days, while cutting infrastructure costs by 50% through our cloud-native approach. They achieved full ROI within 8 months.",
             "engagement_question": "I'm curious - when you think about your current data initiatives at Regional Bank Corp, what's your biggest frustration? Is it the time it takes to get insights, the cost of your current infrastructure, or something else entirely?",
-            "voicemail": "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice. We're a Microsoft partner that's helped 50+ financial institutions achieve 70% faster data insights while cutting costs. I'd appreciate just 15 minutes to discuss how similar banks have accelerated their transformation. Please reach me at [phone number]. Again, that's [Your Name] at [phone number]. Thanks.",
+            "voicemail": "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice. We've helped 50+ financial institutions achieve 70% faster data insights while cutting costs. I'd appreciate just 15 minutes to discuss how similar banks have accelerated their transformation. Please reach me at [phone number]. Again, that's [Your Name] at [phone number]. Thanks.",
             "follow_up": {
               "opening_options": [
                 "Hi [Prospect Name], [Your Name] from Eliassen Group following up on our previous conversation about Data & AI transformation.",
-                "Hi [Prospect Name], this is [Your Name] again from Eliassen Group. I wanted to follow up on our Microsoft-powered solutions discussion.",
+                "Hi [Prospect Name], this is [Your Name] again from Eliassen Group. I wanted to follow up on our data solutions discussion.",
                 "[Prospect Name], [Your Name] from Eliassen Group. Following up on my earlier message about achieving 70% faster insights.",
                 "Hi [Prospect Name], [Your Name] calling back from Eliassen Group regarding the NucleusAI platform we discussed."
               ],
               "voicemail_options": [
                 "Hi [Prospect Name], [Your Name] from Eliassen Group following up on my previous message about accelerating data insights. Still interested in that conversation? [phone number].",
-                "[Prospect Name], this is [Your Name] from Eliassen Group. Circling back on the Microsoft-powered transformation discussion. Would love to connect. [phone number].",
+                "[Prospect Name], this is [Your Name] from Eliassen Group. Circling back on the data transformation discussion. Would love to connect. [phone number].",
                 "Hi [Prospect Name], [Your Name] again from Eliassen Group. Following up on the 70% faster insights conversation. Call me back at [phone number]."
               ]
             }
