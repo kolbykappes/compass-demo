@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "module_id": "AI-PO1",
+        "title": "AI Portfolio Optimization - Making Data-Driven Decisions at Market Speed",
+        "module_type": "Core Capability",
+        "practice_area": "Portfolio Optimization & AI Governance",
+        "relevant_roles": [
+            "Chief Digital Officer",
+            "Chief Information Officer",
+            "Chief Technology Officer",
+            "VP of Digital Transformation",
+            "Head of Innovation"
+        ],
+        "customization_parameters": {
+            "Engagement Stage": "Strategic",
+            "Industry Focus": "Cross-Industry"
+        },
+        "overview": "This module addresses the CDO's need to build AI portfolio feedback loops - measuring results, learning what works, and continuously adapting investments based on data rather than calendars."
+    },
+    "content": {
+        "email": {
+            "subject": "Building AI Portfolio Feedback Loops for Faster Decisions",
+            "body": "Dear [Prospect Name],\n\n**Leading organizations are building AI portfolio feedback loops to adapt at market speed.**\n\nMcKinsey reports that organizations with adaptive governance achieve 3x better ROI on AI investments by continuously learning and adjusting.\n\nMany CDOs are exploring how to:\n• Establish leading indicators to predict initiative success early\n• Move from annual planning to rolling adaptation based on results\n• Charter teams against business outcomes rather than feature lists\n• Quickly reallocate resources to high-performing initiatives\n• Create regular forums for data-driven portfolio decisions\n\nEliassen Group's AI Portfolio Optimization helps organizations build:\n\n✓ **Measurement Infrastructure** - Leading/lagging indicators across all initiatives\n✓ **Rolling Planning Cycles** - Investment decisions based on results, not calendars\n✓ **Outcome-Based Governance** - Teams chartered against metrics that matter\n✓ **6-Week Decision Rhythm** - Regular data reviews to accelerate or pivot\n\n**Recent Results:**\n[Need validated Eliassen evidence points here]\n\nWould you be open to a 25-minute conversation to discuss how your organization currently measures AI success and makes portfolio decisions?\n\nBest regards,\n[Your Name]\n\nP.S. Our 2-hour assessment explores your current portfolio approach and identifies optimization opportunities."
+        },
+        "phone": {
+            "key_message": [
+                "Eliassen helps organizations build AI portfolio feedback loops - measuring results, learning what works, and adapting investments continuously rather than waiting for annual planning cycles."
+            ],
+            "evidence_point": [
+                "[Need validated Eliassen evidence point here - e.g., specific client who built feedback loops and achieved measurable results]"
+            ],
+            "engagement_question": [
+                "How do results from completed AI initiatives influence your next investment decisions?",
+                "What leading indicators tell you an AI initiative will succeed before it's fully built?"
+            ],
+            "voicemail": [
+                "Hi [Prospect Name],",
+                "Eliassen Group helps organizations build AI portfolio feedback loops for continuous optimization.",
+                "Let's discuss how to move from annual planning to adaptive portfolio management.",
+                "Please call me back at [phone number] to schedule a 25-minute conversation."
+            ]
+        },
+        "linkedin": {
+            "connection_request": "Eliassen Group helps organizations build AI portfolio feedback loops for continuous optimization. Would enjoy connecting.",
+            "inmessage_subject": "Annual planning or continuous adaptation?",
+            "inmessage_body": "Hi [Prospect Name],\n\nCurious about your approach: Do results from current AI initiatives directly inform your next investments, or are decisions tied to planning cycles?\n\nEliassen recently helped [need validated evidence point here] build feedback loops that enable portfolio reallocation every 6 weeks based on performance data.\n\nWould you be open to a 25-minute conversation about continuous portfolio optimization?\n\nBest,\n[Your Name]"
+        },
+        "objections": [
+            {
+                "objection": "We already have dashboards and metrics for our AI initiatives.",
+                "response": "That's excellent foundation. Eliassen helps organizations connect those metrics to portfolio decisions - creating the governance rhythm where data triggers resource reallocation. It's about making metrics actionable for strategic pivots."
+            },
+            {
+                "objection": "Our teams are already using OKRs and agile methods.",
+                "response": "Great to hear. The opportunity is often in connecting team OKRs to portfolio decisions. Eliassen helps ensure results feed directly into investment decisions - so Q1 successes shape Q2 funding in real-time."
+            },
+            {
+                "objection": "We can't change our annual planning process.",
+                "response": "Understood - many organizations face this constraint. Eliassen overlays rolling optimization within existing processes. Think of it as continuous fine-tuning between annual decisions - enhancing rather than replacing current governance."
+            },
+            {
+                "objection": "We don't have mature enough data to make these decisions.",
+                "response": "That's a common starting point. Eliassen helps identify the leading indicators you need and builds measurement discipline incrementally. Organizations often have more useful data than they realize once it's properly structured."
+            },
+            {
+                "objection": "This sounds like a lot of governance overhead.",
+                "response": "Actually, it streamlines governance. Six focused 2-hour reviews are more efficient than extended planning cycles. When results clearly drive decisions, portfolio conversations become more productive and actionable."
+            }
+        ],
+        "collateral": {
+            "title": "Building AI Portfolio Feedback Loops: The CDO's Guide to Continuous Optimization",
+            "link": "#"
+        }
+    }
+}
