@@ -1,73 +1,72 @@
 {
   "metadata": {
-    "module_id": "tech_services_intro",
-    "title": "Introduction to Eliassen Technology Services",
-    "module_type": "Company Introduction",
+    "module_id": "talent_solutions_approach", 
+    "title": "Talent Solutions Approach",
+    "module_type": "Company Intro",
     "practice_area": "General",
     "relevant_roles": [
       "Chief Information Officer",
-      "Chief Technology Officer", 
-      "VP of Information Technology",
-      "VP of Engineering",
+      "Chief Technology Officer",
+      "VP of Information Technology", 
       "Director of IT",
-      "Director of Software Development"
+      "IT Program Manager",
+      "Director of Digital Transformation"
     ],
-    "overview": "Eliassen Group's Technology Solutions pillar delivers end-to-end technology capabilities across five specialized practices. We help organizations modernize applications, strengthen cybersecurity, harness AI and data, optimize infrastructure, and enhance enterprise agility through proven methodologies and measurable outcomes."
+    "overview": "Eliassen Group's talent solutions combine deep technical vetting with practice-led oversight to deliver specialized consultants who integrate seamlessly with your team. Our approach emphasizes rapid deployment, quality assurance, and flexible engagement options to meet your specific capacity and expertise needs."
   },
   "content": {
     "email": {
-      "subject": "Technology transformation that delivers measurable ROI",
-      "body": "Hi [Prospect Name],\n\nMany technology leaders struggle to deliver transformational projects that provide clear business value while managing complex integrations and tight timelines.\n\nEliassen Group's Technology Solutions practice has helped more than 400 clients achieve measurable outcomes across five core areas:\n\n• **Application Development & Integration** - Modernized 150+ legacy applications with 40% faster delivery\n• **Cybersecurity** - Implemented zero-trust architectures reducing security incidents by 60%\n• **AI & Data Services** - Delivered data platforms cutting insight time from weeks to hours\n• **Infrastructure & Cloud** - Achieved 45% cost reduction through cloud optimization\n• **Enterprise Agility** - Accelerated delivery cycles from 18 months to 6 weeks\n\nUnlike generalist consulting firms, our 2,500+ technology specialists bring deep expertise in your specific challenges. We offer flexible engagement models from talent augmentation to fully managed services, ensuring the right approach for your situation.\n\nRecent client example: A financial services company reduced infrastructure costs by more than 40% while increasing data processing speed 10x through our integrated approach.\n\nWould you be open to a 25-minute discussion to explore your current technology priorities and how similar organizations have accelerated their transformation?\n\nBest regards,\n[Your Name]"
+      "subject": "Specialized technical talent with practice-led vetting",
+      "body": "Hi [Prospect Name],\n\nFinding the right technical talent for critical projects shouldn't take months of recruiting and interviewing. That's why we've built a different approach.\n\nOur talent solutions combine:\n\n• **Practice-led technical vetting** - Our AI & Data, Cybersecurity, App Dev, Infrastructure, and Agile practice leaders personally screen candidates\n• **Rapid deployment** - Typically 6-8 weeks from decision to team in place\n• **Flexible engagement options** - From individual specialists to complete functional teams\n• **Ongoing oversight** - Practice leaders stay engaged to ensure quality and performance\n\nThis approach has helped us maintain industry-leading consultant and client satisfaction scores across 400+ active relationships.\n\nRecent example: A financial services client needed cybersecurity expertise for a compliance deadline just 10 weeks away. We deployed a vetted team of 4 specialists in 3 weeks who successfully passed their audit on first review.\n\nWould you be open to a 20-minute conversation about your current staffing challenges or upcoming project needs?\n\nBest,\n[Your Name]\nEliassen Group Technology Solutions"
     },
     "phone": {
-      "key_message": [
-        "We're a specialized technology consulting firm with 35+ years of experience helping organizations like yours deliver complex technology initiatives with measurable business outcomes.",
-        "Our 2,500 consultants work across five core practice areas to address your most critical technology challenges."
+      "key_talking_points": [
+        "We provide specialized technical talent vetted by our practice leaders, not just recruiters",
+        "Typical deployment is 6-8 weeks from decision to consultant in place",
+        "Our practice leaders stay engaged throughout the engagement for quality assurance"
       ],
       "evidence_point": [
-        "We recently helped a major retailer modernize their entire omnichannel platform, reducing order fulfillment time by 30% and cutting shipping costs by 25% through optimized inventory management.",
-        "The project delivered positive ROI within eight months."
+        "Recently helped a client meet a 10-week compliance deadline by deploying 4 cybersecurity specialists in 3 weeks",
+        "Our consultants integrate with your team while our practice leaders provide ongoing oversight and support",
+        "We maintain industry-leading satisfaction scores because of our focus on the right fit, not just any fit"
       ],
       "engagement_question": [
-        "When you think about your technology roadmap for the next year, what's the one initiative that would have the biggest impact on your business if executed successfully?"
+        "What's your biggest challenge when it comes to finding specialized technical talent?",
+        "Are there any upcoming projects where additional expertise could accelerate delivery?"
       ],
       "voicemail": [
-        "Hi [Prospect Name], this is [Your Name] from Eliassen Group's Technology Solutions practice.",
-        "We just helped a retailer reduce fulfillment time by 30% through technology modernization.",
-        "I'd like to share how we deliver those results across five specialized practice areas.",
-        "Please call me back at [phone number] to schedule a 25-minute conversation."
+        "Hi [Prospect Name], this is [Your Name] from Eliassen Group.",
+        "We just helped a client deploy 4 cybersecurity specialists in 3 weeks for a critical compliance deadline.",
+        "I'd love to discuss how our practice-led talent approach could help your team.",
+        "Please call me back at [phone number] for a 20-minute conversation."
       ]
     },
     "linkedin": {
-      "connection_request": "I help organizations modernize technology to deliver measurable business outcomes. Would enjoy connecting to share insights on technology transformation.",
-      "inmessage_subject": "Reducing infrastructure costs by 40%",
-      "inmessage_body": "Hi [Prospect Name],\n\nI noticed your leadership role in technology at [Company] and wanted to share how we help organizations achieve measurable technology outcomes.\n\nWe recently helped a financial services client achieve a 40% reduction in infrastructure costs while simultaneously increasing their data processing capabilities 10x.\n\nWould you be interested in a 25-minute conversation to discuss your current technology initiatives and how our approach might accelerate your outcomes?\n\nBest regards,\n[Your Name]"
+      "connection_request": "I help technology leaders access specialized talent through practice-led vetting. Would enjoy connecting.",
+      "inmessage_subject": "Following up on talent solutions email",
+      "inmessage_body": "Hi [Prospect Name],\n\nShot you over an email about our practice-led talent approach. We recently helped a client deploy 4 cybersecurity specialists in just 3 weeks for a critical deadline.\n\nWould love 20 minutes to discuss how we could help with your staffing challenges.\n\nBest,\n[Your Name]"
     },
     "objections": [
       {
-        "objection": "We already work with several technology vendors and don't need another relationship.",
-        "response": "We actually complement existing vendor relationships rather than replace them. Our strength is integrating multiple technologies and vendors into cohesive solutions. We helped one client coordinate three different vendors to deliver a project 40% faster than their original timeline."
+        "objection": "We have our own recruiting team and prefer to hire full-time employees.",
+        "response": "That's a great long-term strategy. Many clients use our consultants to bridge gaps while they recruit, or to bring in specialized expertise for specific projects. Our consultants often help train your permanent hires."
       },
       {
-        "objection": "We're focused on cost reduction right now, not new technology investments.",
-        "response": "Technology modernization is often our clients' most effective cost reduction strategy. We've helped organizations reduce infrastructure costs by 40-60% through cloud optimization and automation. Our approach prioritizes quick wins that fund longer-term transformation."
+        "objection": "Contract rates are typically higher than employee costs.",
+        "response": "True on hourly rates, but when you factor in benefits, recruiting costs, and ramp-up time, the total cost is often comparable. Plus, you get immediate expertise and flexibility to scale based on project needs."
       },
       {
-        "objection": "We prefer to work with larger consulting firms that can handle enterprise-scale projects.",
-        "response": "At $500M in revenue with 2,500+ consultants, we deliver enterprise-scale projects while maintaining the specialized focus that larger generalist firms can't match. Our clients often tell us we combine the expertise of a boutique with the scale of a major firm."
+        "objection": "We've had issues with consultant quality from other firms.",
+        "response": "That's exactly why we have practice leaders personally vet every consultant. We're not just a recruiting firm - our technical experts ensure the right fit for your specific needs and stay engaged throughout the engagement."
       },
       {
-        "objection": "We're concerned about managing multiple practice areas and ensuring consistency.",
-        "response": "That's exactly why our integrated approach works so well. We have practice leaders who coordinate across all five technology domains, ensuring consistent methodology and seamless handoffs. One engagement manager oversees your entire relationship with us."
-      },
-      {
-        "objection": "We need technology solutions that work with our existing platforms and tools.",
-        "response": "Our technology-agnostic approach is designed for exactly that situation. Whether you're using AWS, Azure, GCP, or on-premises systems, we adapt our methodologies to your environment. We have partnerships with major platforms but aren't locked into any single technology stack."
+        "objection": "We need people who can integrate with our team culture.",
+        "response": "Cultural fit is part of our vetting process. Our consultants are selected not just for technical skills but for their ability to collaborate effectively. Many become extended team members who clients want to convert to full-time."
       }
     ],
     "collateral": {
-      "title": "Technology Solutions Practice Overview: Five Integrated Capabilities for Digital Transformation",
-      "link": "#"
+      "title": "Eliassen Group Talent Solutions Overview",
+      "link": "https://www.eliassen.com/talent-solutions"
     }
   }
 }

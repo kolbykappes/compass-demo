@@ -1,0 +1,76 @@
+{
+    "metadata": {
+      "module_id": "professional_services_delivery_models",
+      "title": "Professional Services & Delivery Models",
+      "module_type": "Company Intro",
+      "practice_area": "General",
+      "relevant_roles": [
+        "Chief Information Officer",
+        "Chief Technology Officer", 
+        "VP of Information Technology",
+        "Director of IT",
+        "IT Program Manager",
+        "Director of Digital Transformation"
+      ],
+      "overview": "Eliassen Group offers three core delivery models designed to match your organization's needs, constraints, and desired level of ownership. From talent augmentation to complete project ownership, we provide the right engagement approach to ensure successful outcomes while building your internal capabilities."
+    },
+    "content": {
+      "email": {
+        "subject": "The right delivery model for your technology initiatives",
+        "body": "Hi [Prospect Name],\n\nMany technology projects struggle not because of technical challenges, but because the delivery model doesn't match the organization's capacity and constraints.\n\nEliassen Group offers three proven delivery models that we match to your specific situation:\n\n• **Talent Services** - Skilled consultants you manage directly for immediate capacity and expertise gaps\n• **Managed Teams/PODs** - Cross-functional teams we build and oversee with you directing overall outcomes\n• **Managed Projects** - Complete project ownership where we deliver defined results with your approval\n\nThe key is honest assessment of your internal capacity, timeline constraints, and desired level of control.\n\nFor example, a manufacturing client needed rapid ERP modernization but lacked project management bandwidth. We used our Managed Project approach to deliver a working system in 18 weeks with full knowledge transfer, compared to their previous vendor's stalled 24-month timeline.\n\nWould you be open to a 20-minute conversation to discuss which delivery model would work best for your current technology priorities?\n\nBest,\n[Your Name]\nEliassen Group Technology Solutions"
+      },
+      "phone": {
+        "key_talking_points": [
+          "We offer three delivery models: Talent Services, Managed Teams, and Managed Projects",
+          "The key is matching the right model to your capacity, timeline, and control preferences",
+          "We can transition between models as your needs change throughout an engagement"
+        ],
+        "evidence_point": [
+          "Recent client got ERP system delivered in 18 weeks using Managed Project vs. 24-month stalled timeline with previous vendor",
+          "Another client started with Talent Services, then moved to Managed Team as project grew in complexity",
+          "We maintain 400+ client relationships because we match delivery model to actual needs, not force one approach"
+        ],
+        "engagement_question": [
+          "When you think about upcoming technology projects, what's your biggest concern - finding expertise, managing complexity, or ensuring delivery?",
+          "Do you prefer maintaining control over day-to-day decisions, or would you rather focus on outcomes?"
+        ],
+        "voicemail": [
+          "Hi [Prospect Name], this is [Your Name] from Eliassen Group.",
+          "We just helped a client deliver an ERP system in 18 weeks using our Managed Project approach.",
+          "I'd love to discuss which of our three delivery models would work best for your initiatives.",
+          "Please call me back at [phone number] for a 20-minute conversation."
+        ]
+      },
+      "linkedin": {
+        "connection_request": "I help technology leaders select the optimal delivery model for their projects. Would enjoy connecting.",
+        "inmessage_subject": "Following up on delivery models email",
+        "inmessage_body": "Hi [Prospect Name],\n\nShot you over an email about our three delivery models. We just helped a client deliver an ERP system in 18 weeks using our Managed Project approach vs. their previous vendor's 24-month stalled timeline.\n\nWould love 20 minutes to discuss which model would work best for your current initiatives.\n\nBest,\n[Your Name]"
+      },
+      "objections": [
+        {
+          "objection": "We prefer to maintain control over our projects and don't want to outsource ownership.",
+          "response": "That's exactly why we offer Talent Services and Managed Teams. You maintain control and decision-making while gaining specialized expertise. Many clients start there and evolve to other models as trust builds and needs change."
+        },
+        {
+          "objection": "We've had bad experiences with consulting firms over-promising and under-delivering.",
+          "response": "That's why we start with honest assessment of your situation and constraints. We'd rather recommend a smaller, successful engagement than over-promise. Our goal is matching the right delivery model to ensure success."
+        },
+        {
+          "objection": "We're not sure we have the budget for comprehensive managed services.",
+          "response": "Our delivery models are designed for different budget levels. Talent Services can be very cost-effective for specific gaps, while Managed Projects often deliver better ROI through faster execution. We can discuss options that fit your constraints."
+        },
+        {
+          "objection": "We need flexibility to scale up and down based on project phases.",
+          "response": "That's a core strength of our approach. We can transition between delivery models as your needs change. Many clients start with Managed Projects for rapid delivery, then shift to Talent Services for ongoing support."
+        },
+        {
+          "objection": "We're concerned about knowledge transfer and avoiding vendor dependency.",
+          "response": "Knowledge transfer is built into every delivery model. Our goal is building your internal capabilities, not creating dependency. We measure success by how well your team can sustain solutions after our engagement."
+        }
+      ],
+      "collateral": {
+        "title": "Professional Services Delivery Models: Choosing the Right Approach",
+        "link": "https://www.eliassen.com/delivery-models"
+      }
+    }
+  }

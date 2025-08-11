@@ -1,58 +1,60 @@
 {
   "metadata": {
     "module_id": "intro_eliassen_group_overview",
-    "title": "Introduction to Eliassen Group",
+    "title": "Introduction to Eliassen Group & Technology Solutions",
     "module_type": "Company Introduction",
     "practice_area": "General",
-    "overview": "With over 35 years of experience, Eliassen Group has a proven track record of helping more than 400 clients solve their most complex technology challenges. Our team of 2,500 consultants delivers measurable business outcomes by de-risking major initiatives in data, application development, and cybersecurity.",
+    "overview": "Eliassen Group is organized into 3 pillars: Technology Solutions, FRCA (Financial Risk & Compliance Advisory), and Clinical Solutions. Within Technology Solutions, we help clients achieve measurable outcomes across 5 practice areas: Application Development, Cybersecurity, AI & Data Services, Infrastructure & Cloud, and Enterprise Agility.",
     "relevant_roles": ["CTO", "VP Technology", "Director of IT", "Chief Data Officer", "VP Engineering"]
   },
   "content": {
     "email": {
-      "subject": "How 400+ clients achieve technology ROI with proven methods",
-              "body": "Hi [Prospect Name],\\n\\nNavigating major technology initiatives like data modernization or application overhauls can be challenging, especially when trying to ensure a clear return on investment.\\n\\nEliassen Group has a 35-year track record of helping leaders like you deliver these projects successfully. We focus on tangible outcomes, not just billable hours.\\n\\nFor example, we recently helped a financial services client reduce their infrastructure costs by more than 40% while simultaneously increasing their data processing speed by 10x. This is the kind of measurable impact we strive for.\\n\\nWould you be open to a 20-minute call to discuss your highest-priority technology initiatives for the year? I'm confident we could share some valuable insights.\\n\\nBest,\\n[Your Name]"
+      "subject": "Technology Solutions: 35+ years delivering measurable outcomes",
+      "body": "Hi [Prospect Name],\n\nEliassen Group is organized into 3 pillars: Technology Solutions, FRCA, and Clinical Solutions. I work within the Technology Solutions pillar, where we focus on delivering measurable business outcomes across 5 practice areas:\n\n• Application Development & Integration\n• Cybersecurity\n• AI & Data Services  \n• Infrastructure & Cloud\n• Enterprise Agility\n\nWith 35+ years of experience and 2,500 consultants supporting 400+ clients, we've built our reputation on tangible results. For example, we recently helped a financial services client reduce infrastructure costs by 40% while increasing data processing speed by 10x.\n\nWould you be open to a 20-minute conversation about your technology priorities for this year?\n\nBest,\n[Your Name]\nEliassen Group Technology Solutions"
     },
     "phone": {
-      "key_message": [
-        "We're a technology consulting firm that specializes in helping leaders like you deliver major technology projects with a clear and measurable return on investment."
+      "key_talking_points": [
+        "Eliassen Group has 3 pillars - Technology Solutions, FRCA, and Clinical Solutions",
+        "I work in Technology Solutions covering 5 practice areas: App Dev, Cybersecurity, AI & Data, Infrastructure & Cloud, Enterprise Agility",
+        "35+ years experience, 2,500 consultants, 400+ clients - focus on measurable business outcomes"
       ],
       "evidence_point": [
-        "We recently helped a client in a highly regulated industry launch a new analytics platform that cut their reporting time by 80% and passed all compliance audits on the first review.",
-        "We offer four engagement models, from talent augmentation to fully managed services, to meet our clients' specific needs across financial services, healthcare, government, and manufacturing.",
-        "Whether you're on AWS, Azure, GCP, or hybrid environments, our team has the expertise to deliver."
+        "Recent client reduced infrastructure costs 40% while increasing processing speed 10x",
+        "We offer flexible engagement models from talent augmentation to fully managed services",
+        "Work across financial services, healthcare, government, manufacturing"
       ],
       "engagement_question": [
-        "When you think about your technology roadmap for the next 12 months, what's the one initiative that absolutely has to succeed?"
+        "When you think about your technology roadmap for the next 12 months, what's the initiative that absolutely has to succeed?"
       ],
       "voicemail": [
-        "Hi [Prospect Name], this is [Your Name] from Eliassen Group.",
-        "We just helped a client cut their reporting time by 80% on a major project.",
-                "I'd be happy to share how we deliver those kinds of results.",
-        "Please call me back at [phone number] to schedule a 20-minute conversation."
+        "Hi [Prospect Name], this is [Your Name] from Eliassen Group Technology Solutions.",
+        "We just helped a client reduce costs by 40% while improving performance 10x.",
+        "I'd love to share how we deliver measurable technology outcomes.",
+        "Please call me back at [phone number] for a 20-minute conversation."
       ]
     },
     "linkedin": {
-      "connection_request": "I help technology leaders deliver major projects with measurable ROI. Would enjoy connecting to share insights on technology success.",
-      "inmessage_subject": "Cutting reporting time by 80%",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nLeading major technology projects comes with pressure to deliver real business value.\\n\\nWe recently helped a client launch a new platform that cut their reporting time by 80% and passed all compliance audits on the first go.\\n\\nWould you be open to a 25-minute conversation to discuss how we deliver these kinds of measurable outcomes?\\n\\nBest,\\n[Your Name]"
+      "connection_request": "I help technology leaders deliver measurable outcomes across app dev, cybersecurity, AI/data, and cloud. Would enjoy connecting.",
+      "inmessage_subject": "Following up on Technology Solutions email",
+      "inmessage_body": "Hi [Prospect Name],\n\nShot you over an email about Eliassen Group's Technology Solutions practice. We've helped clients achieve results like 40% cost reduction while improving performance 10x.\n\nWould love 20 minutes to discuss your technology priorities.\n\nBest,\n[Your Name]"
     },
     "objections": [
       {
         "objection": "We already have technology partners we work with.",
-        "response": "That's great, we believe in strong partnerships. We often work with our clients' existing partners, bringing specialized expertise to accelerate specific components. For one client, we helped their primary vendor complete a project 30% ahead of schedule."
+        "response": "That's great - we often work alongside existing partners, bringing specialized expertise to accelerate specific components. We helped one client's primary vendor complete a project 30% ahead of schedule."
       },
       {
-        "objection": "We don't have the budget for new consulting engagements right now.",
-        "response": "I understand that completely. Many of our most successful projects are self-funding, where the cost savings we identify in the first few months more than cover our fees. For example, we found over $1M in operational savings for a client last quarter."
+        "objection": "We don't have budget for new consulting engagements.",
+        "response": "Many of our projects are self-funding - the cost savings we identify in first few months cover our fees. We found over $1M in operational savings for a client last quarter."
       },
       {
-        "objection": "We prefer to handle our technology initiatives internally.",
-        "response": "That's a great goal, and we support it. Our most successful engagements end with your team being fully self-sufficient. We often help by providing targeted training or augmenting your team with a specific skill set to get a critical project over the line."
+        "objection": "We prefer to handle technology initiatives internally.",
+        "response": "That's the goal - our most successful engagements end with your team fully self-sufficient. We often provide targeted training or specific skill sets to get critical projects over the line."
       }
     ],
     "collateral": {
-      "title": "Eliassen Group Company Overview",
-      "link": "https://www.eliassen.com/about"
+      "title": "Eliassen Group Technology Solutions Overview",
+      "link": "https://www.eliassen.com/technology-solutions"
     }
   }
-} 
+}
