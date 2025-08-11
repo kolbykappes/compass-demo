@@ -16,7 +16,7 @@
   "content": {
     "email": {
       "subject": "The challenge of finding true data & AI experts",
-      "body": "Hi [Prospect Name],\\n\\nHow much time does your team lose onboarding technical staff who don't understand the complexities of the financial services industry? It's a common and costly problem.\\n\\nOur Data & AI practice is built to solve this. We provide consultants who combine deep technical skill with proven financial services experience. They understand your world, from regulatory pressures to specific data security needs.\\n\\nWe recently placed a data architect with a wealth management firm who was contributing to high-level design decisions in her second week. Her domain knowledge allowed her to bypass the typical six-month learning curve.\\n\\nCould your most critical projects benefit from that kind of immediate impact? If so, I'd welcome a brief 15-minute call to discuss your talent needs.\\n\\nBest,\\n[Your Name]"
+              "body": "Hi [Prospect Name],\\n\\nHow much time does your team lose onboarding technical staff who don't understand the complexities of the financial services industry? It's a common and costly problem.\\n\\nOur Data & AI practice is built to solve this. We provide consultants who combine deep technical skill with proven financial services experience. They understand your world, from regulatory pressures to specific data security needs.\\n\\nWe recently placed a data architect with a wealth management firm who was contributing to high-level design decisions in her second week. Her domain knowledge allowed her to bypass the typical six-month learning curve.\\n\\nCould your most critical projects benefit from that kind of immediate impact? If so, I'd welcome a brief 15-minute call to discuss your talent needs.\\n\\nBest,\\n[Your Name]"
     },
     "phone": {
       "key_message": [
@@ -31,13 +31,13 @@
       "voicemail": [
         "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
         "If you've ever been frustrated by tech consultants who don't understand your business, give me a call.",
-        "We have the experts who do. My number is [phone number]."
+                "We have the experts who do. My number is [phone number]."
       ]
     },
     "linkedin": {
       "connection_request": "Hi [Prospect Name], I see we're both focused on building high-performing data & AI teams in the financial services space. I specialize in finding the talent with the right blend of tech and domain expertise, and would welcome a connection.",
       "inmessage_subject": "Data & AI talent that gets it",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nFinding people who are brilliant at data and AI is hard. Finding ones who also deeply understand financial services is even harder.\\n\\nWe specialize in finding that rare combination. The last data architect we placed with a bank made a major impact in her first month, saving them from a costly design flaw because she understood their specific regulatory constraints.\\n\\nThat's the value of true expertise. If you're looking for talent that can deliver value from day one, I'd be happy to have a brief chat.\\n\\nBest,\\n[Your Name]"
+              "inmessage_body": "Hi [Prospect Name],\\n\\nFinding people who are brilliant at data and AI is hard. Finding ones who also deeply understand financial services is even harder.\\n\\nWe specialize in finding that rare combination. The last data architect we placed with a bank made a major impact in her first month, saving them from a costly design flaw because she understood their specific regulatory constraints.\\n\\nThat's the value of true expertise. If you're looking for talent that can deliver value from day one, I'd be happy to have a brief chat.\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

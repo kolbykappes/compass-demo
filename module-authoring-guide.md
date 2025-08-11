@@ -86,6 +86,7 @@ To ensure modules are easy to create and maintain, each module should contain on
   - **Proof:** Provide **specific, metric-driven examples with client data points** (anonymized as needed)
   - **Call to Action:** End with low-friction questions that **indicate potential value/savings** and suggest realistic timeframes
 
+
 ### **`content.phone`**
 - **IMPORTANT**: Phone scripts are now structured as bulleted talking points, not verbatim scripts. They provide a framework for a natural conversation.
 - **Disclaimer**: Always preface delivery with, "Use as a talking points guide, not a verbatim script."
@@ -96,6 +97,7 @@ To ensure modules are easy to create and maintain, each module should contain on
 - **`engagement_question`**: Bullet points for open-ended questions that **hint at potential value** (e.g., "What challenges are you seeing with...").
 - **`voicemail`**: Bullet points for a compressed version of the key message with a **specific value proposition** and callback information.
 
+
 ### **`content.linkedin`**
 - **`connection_request`**: Brief, professional, mention expertise area and their role
 - **`inmessage_body`**: 
@@ -103,6 +105,7 @@ To ensure modules are easy to create and maintain, each module should contain on
   - Use whitespace for readability
   - Get to value proposition quickly
   - **Include specific data points or client outcomes**
+
 
 ### **`content.objections`**
 - Think of 3-5 most likely objections including:
@@ -118,6 +121,13 @@ To ensure modules are easy to create and maintain, each module should contain on
 - Descriptive title for supporting content (Case Study, Solution Brief, etc.)
 - **Consider visual formats** like infographics for data-heavy content
 - Use placeholder `"#"` for unknown URLs
+
+### **Follow-Up Strategy Guidelines**
+- **Follow-ups are SITUATIONAL, not mandatory**: Only follow up if initial contact doesn't generate response
+- **If prospect shows interest**: Proceed directly to the next module in the sequence
+- **If no response received**: Consider a brief follow-up after 3-5 business days
+- **Keep modules self-contained**: Each module provides complete content for that specific outreach
+- **Let sales reps handle follow-ups organically**: Based on actual prospect responses and conversation context
 
 ---
 

@@ -270,38 +270,7 @@ function renderPhoneScript(phone) {
     html += createSection('Engagement Question', phone.engagement_question);
     html += createSection('Voicemail Script', phone.voicemail);
 
-    // Follow-up Options
-    if (phone.follow_up) {
-        html += `<div class="content-box follow-up-section">
-            <h4>📞 Follow-Up Call Options</h4>
-            <div class="follow-up-content">`;
-        
-        if (phone.follow_up.opening_options && phone.follow_up.opening_options.length > 0) {
-            html += `<div class="follow-up-item">
-                <strong>Follow-Up Call Openings:</strong><br>
-                <ul class="follow-up-list">`;
-            
-            phone.follow_up.opening_options.forEach((option, index) => {
-                html += `<li><span class="option-number">${index + 1}.</span> <span class="copy-content">${option}</span> <button class="copy-btn-inline">Copy</button></li>`;
-            });
-            
-            html += `</ul></div>`;
-        }
-        
-        if (phone.follow_up.voicemail_options && phone.follow_up.voicemail_options.length > 0) {
-            html += `<div class="follow-up-item">
-                <strong>Follow-Up Voicemail Options:</strong><br>
-                <ul class="follow-up-list">`;
-            
-            phone.follow_up.voicemail_options.forEach((option, index) => {
-                html += `<li><span class="option-number">${index + 1}.</span> <span class="copy-content">${option}</span> <button class="copy-btn-inline">Copy</button></li>`;
-            });
-            
-            html += `</ul></div>`;
-        }
-        
-        html += `</div></div>`;
-    }
+
     
     return html;
 }
@@ -335,38 +304,7 @@ function renderLinkedInContent(linkedin) {
         </div>`;
     }
     
-    // Follow-up Options
-    if (linkedin.follow_up) {
-        html += `<div class="content-box follow-up-section">
-            <h4>💼 LinkedIn Follow-Up Options</h4>
-            <div class="follow-up-content">`;
-        
-        if (linkedin.follow_up.subject_options && linkedin.follow_up.subject_options.length > 0) {
-            html += `<div class="follow-up-item">
-                <strong>Follow-Up Subject Options:</strong><br>
-                <ul class="follow-up-list">`;
-            
-            linkedin.follow_up.subject_options.forEach((option, index) => {
-                html += `<li><span class="option-number">${index + 1}.</span> <span class="copy-content">${option}</span> <button class="copy-btn-inline">Copy</button></li>`;
-            });
-            
-            html += `</ul></div>`;
-        }
-        
-        if (linkedin.follow_up.intro_options && linkedin.follow_up.intro_options.length > 0) {
-            html += `<div class="follow-up-item">
-                <strong>Follow-Up Message Openings:</strong><br>
-                <ul class="follow-up-list">`;
-            
-            linkedin.follow_up.intro_options.forEach((option, index) => {
-                html += `<li><span class="option-number">${index + 1}.</span> <span class="copy-content">${option}</span> <button class="copy-btn-inline">Copy</button></li>`;
-            });
-            
-            html += `</ul></div>`;
-        }
-        
-        html += `</div></div>`;
-    }
+
     
     return html;
 }
@@ -398,33 +336,7 @@ function renderEmailContent(email) {
         </div>`;
     }
     
-    // Follow-up Options
-    if (email.follow_up) {
-        html += `<div class="content-box follow-up-section">
-            <h4>📧 Follow-Up Options<button class="copy-btn">Copy Follow-Up Subject</button></h4>
-            <div class="follow-up-content">`;
-        
-        if (email.follow_up.subject) {
-            html += `<div class="follow-up-item">
-                <strong>Follow-Up Subject:</strong><br>
-                <div class="copy-content">${email.follow_up.subject}</div>
-            </div>`;
-        }
-        
-        if (email.follow_up.intro_options && email.follow_up.intro_options.length > 0) {
-            html += `<div class="follow-up-item">
-                <strong>Follow-Up Opening Options:</strong><br>
-                <ul class="follow-up-list">`;
-            
-            email.follow_up.intro_options.forEach((option, index) => {
-                html += `<li><span class="option-number">${index + 1}.</span> ${option}</li>`;
-            });
-            
-            html += `</ul></div>`;
-        }
-        
-        html += `</div></div>`;
-    }
+
     
     return html;
 }
