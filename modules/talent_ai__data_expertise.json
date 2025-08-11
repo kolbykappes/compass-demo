@@ -29,8 +29,8 @@
         "What's the biggest challenge you face when bringing on new technical talent for your data and AI projects?"
       ],
       "voicemail": [
-        "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
-                "If you've ever been frustrated by tech consultants who don't understand your business, give me a call.",
+        "Hi [Prospect Name],",
+        "If you've ever been frustrated by tech consultants who don't understand your business, give me a call.",
         "We have the experts who do. Please call me back at [phone number] to schedule a 20-minute conversation."
       ]
     },

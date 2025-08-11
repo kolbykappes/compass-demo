@@ -30,7 +30,7 @@
         "As you consider using LLMs, what is your team's biggest concern: data security, proving the ROI, or something else?"
       ],
       "voicemail": [
-        "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
+        "Hi [Prospect Name],",
         "We just helped a client boost productivity by more than 30% using a secure, compliant LLM.",
         "I'd be happy to share how we managed the risk.",
         "Please call me back at [phone number] to schedule a 25-minute conversation."

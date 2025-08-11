@@ -32,7 +32,7 @@
         "How much of your team's time is currently dedicated to manually tracking and interpreting regulatory updates?"
       ],
       "voicemail": [
-        "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
+        "Hi [Prospect Name],",
         "We just helped a client cut their regulatory compliance time by 85% using a custom AI platform.",
         "I'd be happy to share how. Please call me back at [phone number] to schedule a 25-minute conversation."
       ]

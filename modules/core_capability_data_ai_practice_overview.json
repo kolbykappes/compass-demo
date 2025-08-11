@@ -45,7 +45,7 @@
                 "Is it the time it takes to get insights, the cost of your current infrastructure, or something else entirely?"
             ],
             "voicemail": [
-                "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice.",
+                "Hi [Prospect Name],",
                 "We've helped 50+ financial institutions achieve 70% faster data insights while cutting costs.",
                 "I'd appreciate just 20 minutes to discuss how similar banks have accelerated their transformation.",
                 "Please call me back at [phone number] to schedule a 20-minute conversation."

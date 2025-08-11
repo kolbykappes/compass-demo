@@ -45,7 +45,7 @@
                 "At Regional Bank Corp, are you finding that your data infrastructure is keeping up with what the business needs, or is it becoming more of a constraint?"
             ],
             "voicemail": [
-                "Hi [Prospect Name], [Your Name] from Eliassen Group.",
+                "Hi [Prospect Name],",
                 "Quick question - are your teams spending more time wrestling with data systems than actually using the data?",
                 "We help banks modernize their data architecture to fix that.",
                 "Please call me back at [phone number] to schedule a 25-minute conversation."

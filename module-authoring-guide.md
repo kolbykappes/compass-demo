@@ -81,6 +81,7 @@ To ensure modules are easy to create and maintain, each module should contain on
 ### **`content.email`**
 - **Subject:** Compelling and concise. Create curiosity or state a powerful benefit
 - **Body Structure:**
+  - **Introduction:** Only for Company Introduction modules - briefly introduce Eliassen Group
   - **Hook:** Start with a problem or insight relevant to the prospect's role/industry
   - **Solution:** Briefly introduce how Eliassen Group addresses this problem **with specific team expertise**
   - **Proof:** Provide **specific, metric-driven examples with client data points** (anonymized as needed)
@@ -95,14 +96,14 @@ To ensure modules are easy to create and maintain, each module should contain on
 - **`key_message`**: Bullet points summarizing the single most important idea. Should be conveyable in ~15 seconds and focus on **proven capability**.
 - **`evidence_point`**: Bullet points for your **most compelling data point or client success with specific metrics**.
 - **`engagement_question`**: Bullet points for open-ended questions that **hint at potential value** (e.g., "What challenges are you seeing with...").
-- **`voicemail`**: Bullet points for a compressed version of the key message with a **specific value proposition** and clear callback information.
+- **`voicemail`**: Bullet points for a compressed version of the key message with a **specific value proposition** and clear callback information. Include self-introduction only for Company Introduction modules.
 
 
 ### **`content.linkedin`**
 - **`connection_request`**: Concise invitation (Max 300 characters) that hints at mutual value without unnecessary explanatory text
 - **`inmessage_subject`**: Brief, benefit-focused subject line that indicates specific value
 - **`inmessage_body`**: Streamlined message that:
-  - Opens with specific, relevant observation about their role/company
+  - Opens with specific, relevant observation about their role/company (no self-intro needed for non-intro modules)
   - Delivers single key value proposition with concrete outcome
   - Includes one specific, relevant example (client data point)
   - Ends with specific, actionable CTA (25-minute conversation with clear next steps)
@@ -124,6 +125,12 @@ To ensure modules are easy to create and maintain, each module should contain on
 - Descriptive title for supporting content (Case Study, Solution Brief, etc.)
 - **Consider visual formats** like infographics for data-heavy content
 - Use placeholder `"#"` for unknown URLs
+
+### **Message Type Introduction Logic**
+- **Company Introduction modules**: Always include self-introduction language
+- **Capability/Solution/Success Story modules**: Assume prior introduction - no self-intro needed
+- **Later sequence general topics**: Assume recipient knows sender
+- **Clear categorization**: Introduction required vs. introduction assumed based on module type
 
 ### **Call-to-Action Standardization Requirements**
 - **Every outreach MUST end with a CTA**: Email, LinkedIn, and phone scripts must include clear next steps
