@@ -40,9 +40,9 @@
       ]
     },
     "linkedin": {
-      "connection_request": "I help technology leaders at Eliassen Group select the optimal engagement model for their initiatives - from talent services to managed projects. Given your role at [Company], I'd enjoy connecting to share insights on service delivery approaches.",
-      "inmessage_subject": "Choosing the right engagement model for technology success",
-              "inmessage_body": "Hi [Prospect Name],\n\nI've been following [Company]'s technology initiatives and wanted to share some insights about engagement models that drive successful outcomes.\n\nAt Eliassen Group, we've learned that project success often depends more on the engagement approach than the technology itself. We offer four distinct models:\n\n• Talent Services for immediate capacity\n• Managed Teams for complex initiatives requiring coordination\n• Managed Projects for complete delivery ownership\n• Managed Services for ongoing operational responsibility\n\nWe recently helped a financial services company reduce project delivery time by 60% simply by switching from a traditional staff augmentation model to our managed team approach.\n\nWould you be interested in a 20-minute conversation about how the right engagement model could accelerate your current technology initiatives?\n\nBest regards,\n[Your Name]"
+      "connection_request": "I help technology leaders select the optimal engagement model for their initiatives. Would enjoy connecting to share insights on service delivery approaches.",
+      "inmessage_subject": "Reducing project delivery time by 60%",
+      "inmessage_body": "Hi [Prospect Name],\n\nI've been following [Company]'s technology initiatives and wanted to share a key insight about engagement models.\n\nWe recently helped a financial services company reduce project delivery time by 60% simply by switching from traditional staff augmentation to our managed team approach.\n\nWould you be interested in a 25-minute conversation about how the right engagement model could accelerate your current technology initiatives?\n\nBest regards,\n[Your Name]"
     },
     "objections": [
       {

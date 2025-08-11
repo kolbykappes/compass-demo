@@ -35,9 +35,9 @@
       ]
     },
     "linkedin": {
-      "connection_request": "Hi [Prospect Name], I see we're both focused on building high-performing data & AI teams in the financial services space. I specialize in finding the talent with the right blend of tech and domain expertise, and would welcome a connection.",
-      "inmessage_subject": "Data & AI talent that gets it",
-              "inmessage_body": "Hi [Prospect Name],\\n\\nFinding people who are brilliant at data and AI is hard. Finding ones who also deeply understand financial services is even harder.\\n\\nWe specialize in finding that rare combination. The last data architect we placed with a bank made a major impact in her first month, saving them from a costly design flaw because she understood their specific regulatory constraints.\\n\\nThat's the value of true expertise. If you're looking for talent that can deliver value from day one, I'd be happy to have a brief chat.\\n\\nBest,\\n[Your Name]"
+      "connection_request": "I help find data & AI talent that understands your business. Would enjoy connecting to share insights on specialized expertise.",
+      "inmessage_subject": "Data & AI talent that delivers value from day one",
+      "inmessage_body": "Hi [Prospect Name],\\n\\nFinding people who are brilliant at data and AI is hard. Finding ones who also understand your business is even harder.\\n\\nThe last data architect we placed made a major impact in her first month, saving the client from a costly design flaw because she understood their specific constraints.\\n\\nWould you be interested in a 25-minute conversation about finding talent that delivers value from day one?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

@@ -37,9 +37,9 @@
       ]
     },
     "linkedin": {
-      "connection_request": "Hi [Prospect Name], I specialize in the secure and compliant deployment of LLMs for the enterprise. Given your role, I think we're focused on the same challenges and I'd welcome a connection.",
-      "inmessage_subject": "Secure LLM Implementation",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nI'm reaching out because I see you're a leader in a space where LLMs are a hot topic. The biggest hurdle isn't the technology, it's deploying it securely and with a clear ROI.\\n\\nWe just helped a client increase their support center productivity by over 30% using a custom LLM that we deployed within their security and compliance framework.\\n\\nOur focus is on making AI a safe and valuable tool for the enterprise. I'd be happy to share the key lessons from that deployment if you're interested in a brief call.\\n\\nBest,\\n[Your Name]"
+      "connection_request": "I help companies securely implement LLMs to drive productivity gains. Would enjoy connecting to share insights on AI deployment.",
+      "inmessage_subject": "Boosting productivity by 30% with secure LLMs",
+      "inmessage_body": "Hi [Prospect Name],\\n\\nThe biggest hurdle with LLMs isn't the technology, it's deploying it securely and with clear ROI.\\n\\nWe just helped a client increase their support center productivity by over 30% using a custom LLM deployed within their security framework.\\n\\nWould you be interested in a 25-minute conversation about secure LLM implementation?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

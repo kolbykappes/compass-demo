@@ -99,12 +99,15 @@ To ensure modules are easy to create and maintain, each module should contain on
 
 
 ### **`content.linkedin`**
-- **`connection_request`**: Brief, professional, mention expertise area and their role
-- **`inmessage_body`**: 
-  - More casual but professional tone
-  - Use whitespace for readability
-  - Get to value proposition quickly
-  - **Include specific data points or client outcomes**
+- **`connection_request`**: Concise invitation (Max 300 characters) that hints at mutual value without unnecessary explanatory text
+- **`inmessage_subject`**: Brief, benefit-focused subject line that indicates specific value
+- **`inmessage_body`**: Streamlined message that:
+  - Opens with specific, relevant observation about their role/company
+  - Delivers single key value proposition with concrete outcome
+  - Includes one specific, relevant example (client data point)
+  - Ends with concise, time-specific call-to-action (20-25 minute conversation)
+  - Focus on single key value proposition
+  - Remove domain experience references for initial rollout
 
 
 ### **`content.objections`**

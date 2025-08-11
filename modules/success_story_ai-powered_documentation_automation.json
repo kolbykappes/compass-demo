@@ -37,9 +37,9 @@
       ]
     },
     "linkedin": {
-      "connection_request": "Hi [Prospect Name], I specialize in AI-driven solutions that solve practical business problems. Your role at [Company] suggests you might be interested in a recent success we had in documentation automation.",
-      "inmessage_subject": "Success Story: AI in Documentation",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nI'm reaching out with a success story I thought you'd appreciate. We recently helped a financial services client overhaul their technical documentation process with AI.\\n\\nThe results were a 65% reduction in creation time and over $1.2M in annual savings.\\n\\nIt's a powerful example of how targeted AI can solve real-world business bottlenecks. If you're interested, I'd be happy to share more details on a brief call.\\n\\nBest,\\n[Your Name]"
+      "connection_request": "I help companies solve business problems with AI. Would enjoy connecting to share insights on practical AI solutions.",
+      "inmessage_subject": "Saving $1.2M with AI documentation automation",
+      "inmessage_body": "Hi [Prospect Name],\\n\\nWe recently helped a financial services client overhaul their technical documentation process with AI.\\n\\nThe results were a 65% reduction in creation time and over $1.2M in annual savings.\\n\\nWould you be interested in a 25-minute conversation about how targeted AI can solve business bottlenecks?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

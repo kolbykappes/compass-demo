@@ -36,9 +36,9 @@
       ]
     },
     "linkedin": {
-      "connection_request": "Hi [Prospect Name], as a leader in the data governance space for financial services, I'm always keen to connect with peers. Your work at [Company] is impressive.",
-      "inmessage_subject": "Data Governance that Accelerates",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nI'm reaching out because I specialize in a topic that's a major challenge for many financial firms: making data governance a business accelerator, not a bottleneck.\\n\\nWe recently helped a client cut their audit preparation time in half and reduce data-related compliance tickets by over 60%. Our approach is to automate controls and provide safe, self-service access to data.\\n\\nI'd be happy to share the key principles behind this success. Would you be open to a brief 15-minute call?\\n\\nBest,\\n[Your Name]"
+      "connection_request": "I help financial firms make data governance an accelerator, not a bottleneck. Would enjoy connecting to share insights.",
+      "inmessage_subject": "Cutting audit prep time in half",
+      "inmessage_body": "Hi [Prospect Name],\\n\\nI specialize in making data governance a business accelerator, not a bottleneck.\\n\\nWe recently helped a client cut their audit preparation time in half and reduce data-related compliance tickets by over 60%.\\n\\nWould you be open to a 25-minute conversation about how this approach could work for you?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

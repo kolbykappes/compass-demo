@@ -38,9 +38,9 @@
       ]
     },
     "linkedin": {
-      "connection_request": "Hi [Prospect Name], I specialize in AI solutions for complex regulatory environments. Given your leadership role at [Company], I thought our recent work in this area would be relevant to your challenges.",
-      "inmessage_subject": "AI for Regulatory Intelligence",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nI'm reaching out because I saw your role at [Company] and wanted to share a quick success story. We recently built an AI platform for a client that reduced their time-to-compliance with new regulations by 85%.\\n\\nIt automated the tedious work of monitoring and interpreting regulatory changes, freeing up their experts to focus on strategy. It's a powerful example of applying AI to a high-stakes business problem.\\n\\nIf you're interested in the details, I'd be happy to schedule a brief call.\\n\\nBest,\\n[Your Name]"
+      "connection_request": "I help companies solve complex regulatory challenges with AI. Would enjoy connecting to share insights on regulatory intelligence.",
+      "inmessage_subject": "Cutting regulatory compliance time by 85%",
+      "inmessage_body": "Hi [Prospect Name],\\n\\nWe recently built an AI platform for a client that reduced their time-to-compliance with new regulations by 85%.\\n\\nIt automated the tedious work of monitoring and interpreting regulatory changes, freeing up their experts to focus on strategy.\\n\\nWould you be interested in a 25-minute conversation about applying AI to high-stakes business problems?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

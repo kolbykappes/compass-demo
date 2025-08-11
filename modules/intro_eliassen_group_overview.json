@@ -32,9 +32,9 @@
       ]
     },
     "linkedin": {
-      "connection_request": "Hi [Prospect Name], I can see you're leading key technology initiatives at [Company]. I specialize in helping leaders deliver those projects with measurable success and would enjoy connecting.",
-      "inmessage_subject": "Achieving your technology goals",
-              "inmessage_body": "Hi [Prospect Name],\\n\\nLeading major technology projects comes with a lot of pressure to deliver real business value. My team at Eliassen Group specializes in exactly that.\\n\\nWe recently helped a client launch a new platform that cut their reporting time by 80% and passed all compliance audits on the first go. Our focus is on de-risking these initiatives and ensuring they produce measurable outcomes.\\n\\nI'd be happy to share some key insights from that project. Would you be open to a brief 15-minute call?\\n\\nBest,\\n[Your Name]"
+      "connection_request": "I help technology leaders deliver major projects with measurable ROI. Would enjoy connecting to share insights on technology success.",
+      "inmessage_subject": "Cutting reporting time by 80%",
+      "inmessage_body": "Hi [Prospect Name],\\n\\nLeading major technology projects comes with pressure to deliver real business value.\\n\\nWe recently helped a client launch a new platform that cut their reporting time by 80% and passed all compliance audits on the first go.\\n\\nWould you be open to a 25-minute conversation about how we deliver these kinds of measurable outcomes?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

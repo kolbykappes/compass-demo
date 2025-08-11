@@ -65,22 +65,9 @@
             }
         },
         "linkedin": {
-            "connection_request": "I focus on data architecture modernization for financial services. Given your role at [Company], I'd like to connect on strategies for addressing legacy data challenges.",
-            "inmessage_subject": "Modernizing Financial Data Architecture",
-            "inmessage_body": "Hi [Prospect Name],\n\nLegacy data architectures are holding many financial institutions back. We're helping leading firms modernize with cloud-native platforms and data mesh architectures that reduce costs by 40-60% while accelerating analytics.\n\nI'd be interested to learn how your organization is addressing the limitations of your current data architecture. Would you be open to a brief 20-25 minute call to discuss potential modernization approaches?\n\nBest regards,\n[Your Name]",
-            "follow_up": {
-              "subject_options": [
-                "Re: Modernizing Financial Data Architecture",
-                "Following up: Data Infrastructure Transformation",
-                "Circling back on data modernization strategies"
-              ],
-              "intro_options": [
-                "Following up on my previous message about data architecture modernization,",
-                "I wanted to circle back on our potential discussion about legacy data transformation,",
-                "Building on my earlier outreach regarding data infrastructure modernization,",
-                "As a follow-up to my recent message about cloud-native platforms,"
-              ]
-            }
+            "connection_request": "I help financial institutions modernize data architecture. Would enjoy connecting to share insights on data transformation.",
+            "inmessage_subject": "Reducing data platform costs by 40-60%",
+            "inmessage_body": "Hi [Prospect Name],\n\nLegacy data architectures are holding many financial institutions back. We're helping leading firms modernize with cloud-native platforms that reduce costs by 40-60% while accelerating analytics.\n\nWould you be open to a 25-minute conversation about how your organization could address data architecture limitations?\n\nBest regards,\n[Your Name]"
         },
         "objections": [
             {
