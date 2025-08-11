@@ -242,41 +242,34 @@ function renderCollateral(collateral) {
 
 function renderPhoneScript(phone) {
     if (!phone) return '<div class="content-box"><p>No phone script found.</p></div>';
-    
-    let html = '';
-    
-    // Opening
-    html += `<div class="content-box">
-        <h4>Opening<button class="copy-btn">Copy Opening</button></h4>
-        <div class="copy-content">${phone.opening.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
-    </div>`;
-    
-    // Key Message
-    html += `<div class="content-box">
-        <h4>Key Message<button class="copy-btn">Copy Message</button></h4>
-        <div class="copy-content">${phone.key_message.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
-    </div>`;
-    
-    // Evidence Point
-    html += `<div class="content-box">
-        <h4>Evidence Point<button class="copy-btn">Copy Evidence</button></h4>
-        <div class="copy-content">${phone.evidence_point.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
-    </div>`;
-    
-    // Engagement Question
-    html += `<div class="content-box">
-        <h4>Engagement Question<button class="copy-btn">Copy Question</button></h4>
-        <div class="copy-content">${phone.engagement_question.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
-    </div>`;
-    
-    // Voicemail Script
-    if (phone.voicemail) {
-        html += `<div class="content-box">
-            <h4>Voicemail Script<button class="copy-btn">Copy Voicemail</button></h4>
-            <div class="copy-content">${phone.voicemail.replace(/\\n/g, '<br>').replace(/\n/g, '<br>')}</div>
-        </div>`;
-    }
-    
+
+    let html = '<div class="content-box disclaimer"><strong>Note:</strong> Use as a talking points guide, not a verbatim script.</div>';
+
+    const createSection = (title, content) => {
+        if (!content || content.length === 0) return '';
+        
+        let listItems = '';
+        if (Array.isArray(content)) {
+            listItems = content.map(item => `<li>${item}</li>`).join('');
+        } else {
+            listItems = `<li>${content}</li>`;
+        }
+
+        return `
+            <div class="content-box">
+                <h4>${title}</h4>
+                <ul class="copy-content talking-points">
+                    ${listItems}
+                </ul>
+            </div>
+        `;
+    };
+
+    html += createSection('Key Message', phone.key_message);
+    html += createSection('Evidence Point', phone.evidence_point);
+    html += createSection('Engagement Question', phone.engagement_question);
+    html += createSection('Voicemail Script', phone.voicemail);
+
     // Follow-up Options
     if (phone.follow_up) {
         html += `<div class="content-box follow-up-section">

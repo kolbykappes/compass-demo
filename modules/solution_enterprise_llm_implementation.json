@@ -19,11 +19,22 @@
       "body": "Hi [Prospect Name],\\n\\nMany leaders are excited by the potential of LLMs but are rightfully concerned about the security and compliance risks of enterprise deployment. It's the key challenge to unlocking their value safely.\\n\\nOur approach is designed to solve this. We implement LLMs within a secure framework that includes robust data governance, access controls, and compliance monitoring from day one.\\n\\nWe recently enabled a financial services client to deploy a custom LLM for their support center. It increased their agents' productivity by more than 30% and reduced their average response time by half, all while meeting stringent data privacy regulations.\\n\\nWould you be open to a 20-minute discussion about how to approach LLM implementation with a focus on security and clear ROI?\\n\\nBest,\\n[Your Name]"
     },
     "phone": {
-      "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group's AI practice.",
-      "key_message": "We're helping companies securely implement Large Language Models to drive real productivity gains, solving the compliance and risk challenges that often stall these projects.",
-      "evidence_point": "We just helped a client's support center increase their productivity by over 30% with an LLM we deployed. Critically, our solution met all of their data security and regulatory requirements.",
-      "engagement_question": "As you consider using LLMs, what is your team's biggest concern: data security, proving the ROI, or something else?",
-      "voicemail": "Hi [Prospect Name], it's [Your Name] from Eliassen Group. We just helped a client boost productivity by more than 30% using a secure, compliant LLM. I'd be happy to share how we managed the risk. You can reach me at [phone number]."
+      "key_message": [
+        "We're helping companies securely implement Large Language Models to drive real productivity gains, solving the compliance and risk challenges that often stall these projects."
+      ],
+      "evidence_point": [
+        "We just helped a client's support center increase their productivity by over 30% with an LLM we deployed.",
+        "Critically, our solution met all of their data security and regulatory requirements."
+      ],
+      "engagement_question": [
+        "As you consider using LLMs, what is your team's biggest concern: data security, proving the ROI, or something else?"
+      ],
+      "voicemail": [
+        "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
+        "We just helped a client boost productivity by more than 30% using a secure, compliant LLM.",
+        "I'd be happy to share how we managed the risk.",
+        "You can reach me at [phone number]."
+      ]
     },
     "linkedin": {
       "connection_request": "Hi [Prospect Name], I specialize in the secure and compliant deployment of LLMs for the enterprise. Given your role, I think we're focused on the same challenges and I'd welcome a connection.",

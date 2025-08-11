@@ -32,11 +32,24 @@
             }
         },
         "phone": {
-            "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group. I know you're swamped, but I have a quick question that might be relevant - got 30 seconds?",
-            "key_message": "I'm calling because we keep hearing the same thing from bank CTOs - their teams are spending more time fighting with data infrastructure than actually using the data. We've been helping financial institutions modernize their data architecture to fix exactly that problem.",
-            "evidence_point": "Just finished a project where we took a bank from 12-hour batch processes to real-time analytics. Their business users went from waiting days for reports to getting insights instantly. The CTO said it transformed how they make decisions.",
-            "engagement_question": "At Regional Bank Corp, are you finding that your data infrastructure is keeping up with what the business needs, or is it becoming more of a constraint?",
-            "voicemail": "Hi [Prospect Name], [Your Name] from Eliassen Group. Quick question - are your teams spending more time wrestling with data systems than actually using the data? We help banks modernize their data architecture to fix that. Worth a conversation? [phone number]. Thanks!",
+            "key_message": [
+                "I'm calling because we keep hearing the same thing from bank CTOs - their teams are spending more time fighting with data infrastructure than actually using the data.",
+                "We've been helping financial institutions modernize their data architecture to fix exactly that problem."
+            ],
+            "evidence_point": [
+                "Just finished a project where we took a bank from 12-hour batch processes to real-time analytics.",
+                "Their business users went from waiting days for reports to getting insights instantly.",
+                "The CTO said it transformed how they make decisions."
+            ],
+            "engagement_question": [
+                "At Regional Bank Corp, are you finding that your data infrastructure is keeping up with what the business needs, or is it becoming more of a constraint?"
+            ],
+            "voicemail": [
+                "Hi [Prospect Name], [Your Name] from Eliassen Group.",
+                "Quick question - are your teams spending more time wrestling with data systems than actually using the data?",
+                "We help banks modernize their data architecture to fix that.",
+                "Worth a conversation? [phone number]. Thanks!"
+            ],
             "follow_up": {
               "opening_options": [
                 "Hi [Prospect Name], [Your Name] from Eliassen Group following up on our previous conversation about data architecture challenges.",

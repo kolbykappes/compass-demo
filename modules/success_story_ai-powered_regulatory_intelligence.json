@@ -19,11 +19,23 @@
       "body": "Hi [Prospect Name],\\n\\nAre your teams struggling to keep pace with the volume and complexity of regulatory changes? It's a significant drain on resources for many financial firms.\\n\\nWe recently built an AI-powered regulatory intelligence platform for a client that completely transformed their compliance process. The platform automates the monitoring and analysis of regulatory updates, delivering actionable insights in near real-time.\\n\\nThe result was an 85% reduction in the time it took them to become compliant with new regulations and a 60% decrease in the manual effort required from their compliance team.\\n\\nI'd be happy to share how we built this solution and the impact it had. Are you available for a brief 20-minute call next week?\\n\\nBest,\\n[Your Name]"
     },
     "phone": {
-      "opening": "Hi [Prospect Name], this is [Your Name] with the AI and Data practice at Eliassen Group.",
-      "key_message": "I'm calling about a challenge I hear from a lot of leaders in your space: the sheer cost and effort of keeping up with regulatory changes. We just had a big win in this area I thought you'd find interesting.",
-      "evidence_point": "We built an AI platform for a client that automates regulatory monitoring. It cut their time-to-compliance for new regulations by 85%. Their Chief Compliance Officer told us it was a 'game-changer' for her team.",
-      "engagement_question": "How much of your team's time is currently dedicated to manually tracking and interpreting regulatory updates?",
-      "voicemail": "Hi [Prospect Name], it's [Your Name] from Eliassen Group. We just helped a client cut their regulatory compliance time by 85% using a custom AI platform. I'd be happy to share how. My number is [phone number]."
+      "key_message": [
+        "I'm calling about a challenge I hear from a lot of leaders in your space: the sheer cost and effort of keeping up with regulatory changes.",
+        "We just had a big win in this area I thought you'd find interesting."
+      ],
+      "evidence_point": [
+        "We built an AI platform for a client that automates regulatory monitoring.",
+        "It cut their time-to-compliance for new regulations by 85%.",
+        "Their Chief Compliance Officer told us it was a 'game-changer' for her team."
+      ],
+      "engagement_question": [
+        "How much of your team's time is currently dedicated to manually tracking and interpreting regulatory updates?"
+      ],
+      "voicemail": [
+        "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
+        "We just helped a client cut their regulatory compliance time by 85% using a custom AI platform.",
+        "I'd be happy to share how. My number is [phone number]."
+      ]
     },
     "linkedin": {
       "connection_request": "Hi [Prospect Name], I specialize in AI solutions for complex regulatory environments. Given your leadership role at [Company], I thought our recent work in this area would be relevant to your challenges.",

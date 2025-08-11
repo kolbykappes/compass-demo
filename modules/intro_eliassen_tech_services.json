@@ -20,11 +20,23 @@
       "body": "Hi [Prospect Name],\n\nMany technology leaders struggle to deliver transformational projects that provide clear business value while managing complex integrations and tight timelines.\n\nEliassen Group's Technology Solutions practice has helped more than 400 clients achieve measurable outcomes across five core areas:\n\n• **Application Development & Integration** - Modernized 150+ legacy applications with 40% faster delivery\n• **Cybersecurity** - Implemented zero-trust architectures reducing security incidents by 60%\n• **AI & Data Services** - Delivered data platforms cutting insight time from weeks to hours\n• **Infrastructure & Cloud** - Achieved 45% cost reduction through cloud optimization\n• **Enterprise Agility** - Accelerated delivery cycles from 18 months to 6 weeks\n\nUnlike generalist consulting firms, our 2,500+ technology specialists bring deep expertise in your specific challenges. We offer flexible engagement models from talent augmentation to fully managed services, ensuring the right approach for your situation.\n\nRecent client example: A financial services company reduced infrastructure costs by more than 40% while increasing data processing speed 10x through our integrated approach.\n\nWould you be open to a 20-minute discussion about your current technology priorities and how similar organizations have accelerated their transformation?\n\nBest regards,\n[Your Name]"
     },
     "phone": {
-      "opening": "Hi [Prospect Name], this is [Your Name] from Eliassen Group's Technology Solutions practice.",
-      "key_message": "We're a specialized technology consulting firm with 35+ years of experience helping organizations like yours deliver complex technology initiatives with measurable business outcomes. Our 2,500 consultants work across five core practice areas to address your most critical technology challenges.",
-      "evidence_point": "We recently helped a major retailer modernize their entire omnichannel platform, reducing order fulfillment time by 30% and cutting shipping costs by 25% through optimized inventory management. The project delivered positive ROI within eight months.",
-      "engagement_question": "When you think about your technology roadmap for the next year, what's the one initiative that would have the biggest impact on your business if executed successfully?",
-      "voicemail": "Hi [Prospect Name], this is [Your Name] from Eliassen Group's Technology Solutions practice. We just helped a retailer reduce fulfillment time by 30% through technology modernization. I'd like to share how we deliver those results across five specialized practice areas. Please call me back at [phone number]."
+      "key_message": [
+        "We're a specialized technology consulting firm with 35+ years of experience helping organizations like yours deliver complex technology initiatives with measurable business outcomes.",
+        "Our 2,500 consultants work across five core practice areas to address your most critical technology challenges."
+      ],
+      "evidence_point": [
+        "We recently helped a major retailer modernize their entire omnichannel platform, reducing order fulfillment time by 30% and cutting shipping costs by 25% through optimized inventory management.",
+        "The project delivered positive ROI within eight months."
+      ],
+      "engagement_question": [
+        "When you think about your technology roadmap for the next year, what's the one initiative that would have the biggest impact on your business if executed successfully?"
+      ],
+      "voicemail": [
+        "Hi [Prospect Name], this is [Your Name] from Eliassen Group's Technology Solutions practice.",
+        "We just helped a retailer reduce fulfillment time by 30% through technology modernization.",
+        "I'd like to share how we deliver those results across five specialized practice areas.",
+        "Please call me back at [phone number]."
+      ]
     },
     "linkedin": {
       "connection_request": "I lead technology transformation initiatives at Eliassen Group, helping organizations modernize applications, infrastructure, and data capabilities. Given your technology leadership role at [Company], I'd value connecting to share insights.",

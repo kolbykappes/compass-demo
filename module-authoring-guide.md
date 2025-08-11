@@ -24,11 +24,10 @@ All modules MUST conform to the following JSON structure. All fields are require
       "body": "string (Use '\\n' for line breaks)"
     },
     "phone": {
-      "opening": "string",
-      "key_message": "string",
-      "evidence_point": "string",
-      "engagement_question": "string",
-      "voicemail": "string"
+      "key_message": ["string (bullet points)"],
+      "evidence_point": ["string (bullet points)"],
+      "engagement_question": ["string (bullet points)"],
+      "voicemail": ["string (bullet points)"]
     },
     "linkedin": {
       "connection_request": "string (Max 300 characters)",
@@ -88,11 +87,14 @@ To ensure modules are easy to create and maintain, each module should contain on
   - **Call to Action:** End with low-friction questions that **indicate potential value/savings** and suggest realistic timeframes
 
 ### **`content.phone`**
-- **`opening`**: Direct and professional: who you are and your area of expertise
-- **`key_message`**: Single most important idea conveyed in 15 seconds, focused on **proven capability**
-- **`evidence_point`**: **Most compelling data point or client success with specific metrics**
-- **`engagement_question`**: Open-ended question that **hints at potential value** (e.g., "What challenges are you seeing with...")
-- **`voicemail`**: Compressed version with **specific value proposition** and callback information
+- **IMPORTANT**: Phone scripts are now structured as bulleted talking points, not verbatim scripts. They provide a framework for a natural conversation.
+- **Disclaimer**: Always preface delivery with, "Use as a talking points guide, not a verbatim script."
+- **Flexibility is Key**: Adapt the conversation based on the recipient's responses. The goal is a dialogue, not a monologue. The talking points below provide the core message to deliver.
+
+- **`key_message`**: Bullet points summarizing the single most important idea. Should be conveyable in ~15 seconds and focus on **proven capability**.
+- **`evidence_point`**: Bullet points for your **most compelling data point or client success with specific metrics**.
+- **`engagement_question`**: Bullet points for open-ended questions that **hint at potential value** (e.g., "What challenges are you seeing with...").
+- **`voicemail`**: Bullet points for a compressed version of the key message with a **specific value proposition** and callback information.
 
 ### **`content.linkedin`**
 - **`connection_request`**: Brief, professional, mention expertise area and their role

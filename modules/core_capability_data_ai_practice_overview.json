@@ -32,11 +32,24 @@
             }
         },
         "phone": {
-            "opening": "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice. Do you have about 30 seconds for me to explain why I'm calling?",
-            "key_message": "We're a $500M technology consulting firm specializing in helping financial institutions like yours transform their data capabilities into competitive advantages. Our proprietary NucleusAI platform, which can be deployed across multiple cloud environments, has delivered documented results - including 70% faster insights and $1.2M+ annual savings for similar organizations.",
-            "evidence_point": "Just recently, we helped a regional bank similar to yours reduce their regulatory reporting time from 3 weeks to 4 days, while cutting infrastructure costs by 50% through our cloud-native approach. They achieved full ROI within 8 months.",
-            "engagement_question": "I'm curious - when you think about your current data initiatives at Regional Bank Corp, what's your biggest frustration? Is it the time it takes to get insights, the cost of your current infrastructure, or something else entirely?",
-            "voicemail": "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice. We've helped 50+ financial institutions achieve 70% faster data insights while cutting costs. I'd appreciate just 15 minutes to discuss how similar banks have accelerated their transformation. Please reach me at [phone number]. Again, that's [Your Name] at [phone number]. Thanks.",
+            "key_message": [
+                "We're a $500M technology consulting firm specializing in helping financial institutions like yours transform their data capabilities into competitive advantages.",
+                "Our proprietary NucleusAI platform, which can be deployed across multiple cloud environments, has delivered documented results - including 70% faster insights and $1.2M+ annual savings for similar organizations."
+            ],
+            "evidence_point": [
+                "Just recently, we helped a regional bank similar to yours reduce their regulatory reporting time from 3 weeks to 4 days, while cutting infrastructure costs by 50% through our cloud-native approach.",
+                "They achieved full ROI within 8 months."
+            ],
+            "engagement_question": [
+                "I'm curious - when you think about your current data initiatives at Regional Bank Corp, what's your biggest frustration?",
+                "Is it the time it takes to get insights, the cost of your current infrastructure, or something else entirely?"
+            ],
+            "voicemail": [
+                "Hello [Prospect Name], this is [Your Name] from Eliassen Group's Data & AI practice.",
+                "We've helped 50+ financial institutions achieve 70% faster data insights while cutting costs.",
+                "I'd appreciate just 15 minutes to discuss how similar banks have accelerated their transformation.",
+                "Please reach me at [phone number]. Again, that's [Your Name] at [phone number]. Thanks."
+            ],
             "follow_up": {
               "opening_options": [
                 "Hi [Prospect Name], [Your Name] from Eliassen Group following up on our previous conversation about Data & AI transformation.",

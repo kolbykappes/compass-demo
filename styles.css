@@ -748,6 +748,26 @@ pre {
     text-align: left;
 }
 
+.talking-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 1rem;
+}
+
+.talking-points li {
+    margin-bottom: 0.75rem;
+}
+
+.disclaimer {
+    background-color: #fff3cd;
+    color: #664d03;
+    border-left: 4px solid #ffc107;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
 /* Pursuit List Header */
 .pursuit-list-header {
     display: flex;

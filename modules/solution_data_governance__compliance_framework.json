@@ -18,12 +18,22 @@
       "subject": "Make data governance an accelerator, not a brake",
       "body": "Hi [Prospect Name],\\n\\nMany financial firms tell us that data governance feels like a constant struggle between keeping regulators happy and empowering their teams to innovate. It's a tough balance to strike.\\n\\nOur approach turns governance into an asset. We build automated frameworks that embed compliance directly into your data workflows, ensuring security without creating bottlenecks.\\n\\nWe recently helped an insurance client automate their compliance reporting, which reduced the effort required by their data team by more than 50% and gave their analytics team secure, self-service access to the data they needed.\\n\\nWould you be open to a 20-minute discussion on how this 'governance-as-an-accelerator' approach could work for you?\\n\\nBest,\\n[Your Name]"
     },
-    "phone": {
-      "opening": "Hi [Prospect Name], this is [Your Name] with Eliassen Group's data governance practice.",
-      "key_message": "We specialize in helping financial firms build data governance frameworks that actually speed up their business, rather than slowing it down, by automating compliance and enabling safe data access.",
-      "evidence_point": "For a recent banking client, the governance framework we implemented cut their audit preparation time in half and reduced data-related compliance tickets by over 60%.",
-      "engagement_question": "When your teams need access to data, how much of a delay does the current governance and compliance process typically create?",
-      "voicemail": "Hi [Prospect Name], it's [Your Name] from Eliassen Group. We just helped a client cut their audit prep time in half with a modern data governance framework. I'd be happy to share how. You can reach me at [phone number]."
+            "phone": {
+            "key_message": [
+        "We specialize in helping financial firms build data governance frameworks that actually speed up their business, rather than slowing it down, by automating compliance and enabling safe data access."
+      ],
+      "evidence_point": [
+        "For a recent banking client, the governance framework we implemented cut their audit preparation time in half and reduced data-related compliance tickets by over 60%."
+      ],
+      "engagement_question": [
+        "When your teams need access to data, how much of a delay does the current governance and compliance process typically create?"
+      ],
+      "voicemail": [
+        "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
+        "We just helped a client cut their audit prep time in half with a modern data governance framework.",
+        "I'd be happy to share how.",
+        "You can reach me at [phone number]."
+      ]
     },
     "linkedin": {
       "connection_request": "Hi [Prospect Name], as a leader in the data governance space for financial services, I'm always keen to connect with peers. Your work at [Company] is impressive.",
