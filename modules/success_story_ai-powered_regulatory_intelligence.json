@@ -16,7 +16,7 @@
   "content": {
     "email": {
       "subject": "Case Study: 85% faster regulatory compliance",
-      "body": "Hi [Prospect Name],\\n\\nAre your teams struggling to keep pace with the volume and complexity of regulatory changes? It's a significant drain on resources for many financial firms.\\n\\nWe recently built an AI-powered regulatory intelligence platform for a client that completely transformed their compliance process. The platform automates the monitoring and analysis of regulatory updates, delivering actionable insights in near real-time.\\n\\nThe result was an 85% reduction in the time it took them to become compliant with new regulations and a 60% decrease in the manual effort required from their compliance team.\\n\\nI'd be happy to share how we built this solution and the impact it had. Are you available for a brief 20-minute call next week?\\n\\nBest,\\n[Your Name]"
+      "body": "Hi [Prospect Name],\\n\\nAre your teams struggling to keep pace with the volume and complexity of regulatory changes? It's a significant drain on resources for many financial firms.\\n\\nWe recently built an AI-powered regulatory intelligence platform for a client that completely transformed their compliance process. The platform automates the monitoring and analysis of regulatory updates, delivering actionable insights in near real-time.\\n\\nThe result was an 85% reduction in the time it took them to become compliant with new regulations and a 60% decrease in the manual effort required from their compliance team.\\n\\nI'd be happy to share how we built this solution and the impact it had. Are you available for a 25-minute call to discuss this further?\\n\\nBest,\\n[Your Name]"
     },
     "phone": {
       "key_message": [
@@ -34,13 +34,13 @@
       "voicemail": [
         "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
         "We just helped a client cut their regulatory compliance time by 85% using a custom AI platform.",
-        "I'd be happy to share how. My number is [phone number]."
+        "I'd be happy to share how. Please call me back at [phone number] to schedule a 25-minute conversation."
       ]
     },
     "linkedin": {
       "connection_request": "I help companies solve complex regulatory challenges with AI. Would enjoy connecting to share insights on regulatory intelligence.",
       "inmessage_subject": "Cutting regulatory compliance time by 85%",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nWe recently built an AI platform for a client that reduced their time-to-compliance with new regulations by 85%.\\n\\nIt automated the tedious work of monitoring and interpreting regulatory changes, freeing up their experts to focus on strategy.\\n\\nWould you be interested in a 25-minute conversation about applying AI to high-stakes business problems?\\n\\nBest,\\n[Your Name]"
+      "inmessage_body": "Hi [Prospect Name],\\n\\nWe recently built an AI platform for a client that reduced their time-to-compliance with new regulations by 85%.\\n\\nIt automated the tedious work of monitoring and interpreting regulatory changes, freeing up their experts to focus on strategy.\\n\\nWould you be interested in a 25-minute conversation to discuss applying AI to high-stakes business problems?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

@@ -16,7 +16,7 @@
   "content": {
     "email": {
       "subject": "Deploying LLMs: Balancing Productivity and Risk",
-      "body": "Hi [Prospect Name],\\n\\nMany leaders are excited by the potential of LLMs but are rightfully concerned about the security and compliance risks of enterprise deployment. It's the key challenge to unlocking their value safely.\\n\\nOur approach is designed to solve this. We implement LLMs within a secure framework that includes robust data governance, access controls, and compliance monitoring from day one.\\n\\nWe recently enabled a financial services client to deploy a custom LLM for their support center. It increased their agents' productivity by more than 30% and reduced their average response time by half, all while meeting stringent data privacy regulations.\\n\\nWould you be open to a 20-minute discussion about how to approach LLM implementation with a focus on security and clear ROI?\\n\\nBest,\\n[Your Name]"
+      "body": "Hi [Prospect Name],\\n\\nMany leaders are excited by the potential of LLMs but are rightfully concerned about the security and compliance risks of enterprise deployment. It's the key challenge to unlocking their value safely.\\n\\nOur approach is designed to solve this. We implement LLMs within a secure framework that includes robust data governance, access controls, and compliance monitoring from day one.\\n\\nWe recently enabled a financial services client to deploy a custom LLM for their support center. It increased their agents' productivity by more than 30% and reduced their average response time by half, all while meeting stringent data privacy regulations.\\n\\nWould you be open to a 25-minute discussion to explore how to approach LLM implementation with a focus on security and clear ROI?\\n\\nBest,\\n[Your Name]"
     },
     "phone": {
       "key_message": [
@@ -33,13 +33,13 @@
         "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
         "We just helped a client boost productivity by more than 30% using a secure, compliant LLM.",
         "I'd be happy to share how we managed the risk.",
-        "You can reach me at [phone number]."
+        "Please call me back at [phone number] to schedule a 25-minute conversation."
       ]
     },
     "linkedin": {
       "connection_request": "I help companies securely implement LLMs to drive productivity gains. Would enjoy connecting to share insights on AI deployment.",
       "inmessage_subject": "Boosting productivity by 30% with secure LLMs",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nThe biggest hurdle with LLMs isn't the technology, it's deploying it securely and with clear ROI.\\n\\nWe just helped a client increase their support center productivity by over 30% using a custom LLM deployed within their security framework.\\n\\nWould you be interested in a 25-minute conversation about secure LLM implementation?\\n\\nBest,\\n[Your Name]"
+      "inmessage_body": "Hi [Prospect Name],\\n\\nThe biggest hurdle with LLMs isn't the technology, it's deploying it securely and with clear ROI.\\n\\nWe just helped a client increase their support center productivity by over 30% using a custom LLM deployed within their security framework.\\n\\nWould you be interested in a 25-minute conversation to discuss secure LLM implementation?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

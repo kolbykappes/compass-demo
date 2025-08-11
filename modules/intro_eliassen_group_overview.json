@@ -10,7 +10,7 @@
   "content": {
     "email": {
       "subject": "How 400+ clients achieve technology ROI with proven methods",
-              "body": "Hi [Prospect Name],\\n\\nNavigating major technology initiatives like data modernization or application overhauls can be challenging, especially when trying to ensure a clear return on investment.\\n\\nEliassen Group has a 35-year track record of helping leaders like you deliver these projects successfully. We focus on tangible outcomes, not just billable hours.\\n\\nFor example, we recently helped a financial services client reduce their infrastructure costs by more than 40% while simultaneously increasing their data processing speed by 10x. This is the kind of measurable impact we strive for.\\n\\nWould you be open to a 15-minute call to discuss your highest-priority technology initiatives for the year? I'm confident we could share some valuable insights.\\n\\nBest,\\n[Your Name]"
+              "body": "Hi [Prospect Name],\\n\\nNavigating major technology initiatives like data modernization or application overhauls can be challenging, especially when trying to ensure a clear return on investment.\\n\\nEliassen Group has a 35-year track record of helping leaders like you deliver these projects successfully. We focus on tangible outcomes, not just billable hours.\\n\\nFor example, we recently helped a financial services client reduce their infrastructure costs by more than 40% while simultaneously increasing their data processing speed by 10x. This is the kind of measurable impact we strive for.\\n\\nWould you be open to a 20-minute call to discuss your highest-priority technology initiatives for the year? I'm confident we could share some valuable insights.\\n\\nBest,\\n[Your Name]"
     },
     "phone": {
       "key_message": [
@@ -27,14 +27,14 @@
       "voicemail": [
         "Hi [Prospect Name], this is [Your Name] from Eliassen Group.",
         "We just helped a client cut their reporting time by 80% on a major project.",
-        "I'd be happy to share how we deliver those kinds of results.",
-                "You can reach me at [phone number]."
+                "I'd be happy to share how we deliver those kinds of results.",
+        "Please call me back at [phone number] to schedule a 20-minute conversation."
       ]
     },
     "linkedin": {
       "connection_request": "I help technology leaders deliver major projects with measurable ROI. Would enjoy connecting to share insights on technology success.",
       "inmessage_subject": "Cutting reporting time by 80%",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nLeading major technology projects comes with pressure to deliver real business value.\\n\\nWe recently helped a client launch a new platform that cut their reporting time by 80% and passed all compliance audits on the first go.\\n\\nWould you be open to a 25-minute conversation about how we deliver these kinds of measurable outcomes?\\n\\nBest,\\n[Your Name]"
+      "inmessage_body": "Hi [Prospect Name],\\n\\nLeading major technology projects comes with pressure to deliver real business value.\\n\\nWe recently helped a client launch a new platform that cut their reporting time by 80% and passed all compliance audits on the first go.\\n\\nWould you be open to a 25-minute conversation to discuss how we deliver these kinds of measurable outcomes?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {

@@ -84,7 +84,7 @@ To ensure modules are easy to create and maintain, each module should contain on
   - **Hook:** Start with a problem or insight relevant to the prospect's role/industry
   - **Solution:** Briefly introduce how Eliassen Group addresses this problem **with specific team expertise**
   - **Proof:** Provide **specific, metric-driven examples with client data points** (anonymized as needed)
-  - **Call to Action:** End with low-friction questions that **indicate potential value/savings** and suggest realistic timeframes
+  - **Call to Action:** End with specific, actionable CTA that includes time commitment and clear next steps
 
 
 ### **`content.phone`**
@@ -95,7 +95,7 @@ To ensure modules are easy to create and maintain, each module should contain on
 - **`key_message`**: Bullet points summarizing the single most important idea. Should be conveyable in ~15 seconds and focus on **proven capability**.
 - **`evidence_point`**: Bullet points for your **most compelling data point or client success with specific metrics**.
 - **`engagement_question`**: Bullet points for open-ended questions that **hint at potential value** (e.g., "What challenges are you seeing with...").
-- **`voicemail`**: Bullet points for a compressed version of the key message with a **specific value proposition** and callback information.
+- **`voicemail`**: Bullet points for a compressed version of the key message with a **specific value proposition** and clear callback information.
 
 
 ### **`content.linkedin`**
@@ -105,7 +105,7 @@ To ensure modules are easy to create and maintain, each module should contain on
   - Opens with specific, relevant observation about their role/company
   - Delivers single key value proposition with concrete outcome
   - Includes one specific, relevant example (client data point)
-  - Ends with concise, time-specific call-to-action (20-25 minute conversation)
+  - Ends with specific, actionable CTA (25-minute conversation with clear next steps)
   - Focus on single key value proposition
   - Remove domain experience references for initial rollout
 
@@ -124,6 +124,18 @@ To ensure modules are easy to create and maintain, each module should contain on
 - Descriptive title for supporting content (Case Study, Solution Brief, etc.)
 - **Consider visual formats** like infographics for data-heavy content
 - Use placeholder `"#"` for unknown URLs
+
+### **Call-to-Action Standardization Requirements**
+- **Every outreach MUST end with a CTA**: Email, LinkedIn, and phone scripts must include clear next steps
+- **CTAs must be specific and actionable**: Include time commitments and clear next steps
+- **Align CTA complexity with message position**: 
+  - **Early touches**: Simple, low-friction CTAs (15-20 minute calls)
+  - **Later touches**: More detailed CTAs with specific outcomes (25-30 minute discussions)
+- **Standard CTA language library**:
+  - "Would you be open to a [time] call to discuss [specific topic]?"
+  - "Could we schedule a [time] conversation about [specific outcome]?"
+  - "I'd welcome a [time] discussion to explore [specific value proposition]"
+  - "Are you available for a [time] call to share how [specific example] could apply to your situation?"
 
 ### **Follow-Up Strategy Guidelines**
 - **Follow-ups are SITUATIONAL, not mandatory**: Only follow up if initial contact doesn't generate response

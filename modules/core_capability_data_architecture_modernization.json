@@ -20,7 +20,7 @@
     "content": {
         "email": {
             "subject": "Modernize Your Financial Data Architecture for Competitive Advantage",
-            "body": "Dear [Prospect Name],\n\nFinancial institutions today face significant challenges with legacy data architectures that limit agility, impede analytics, and increase regulatory risk. Many organizations struggle with data silos, inconsistent quality, and infrastructure that can't efficiently support modern AI and analytics demands.\n\nEliassen Group's Data Architecture & Modernization practice specializes in transforming financial services data environments through:\n\n• **Data Lakehouse Implementation** - Modern unified architectures combining the best of data lakes and warehouses\n• **Cloud Data Migration** - Secure, compliant transition to cloud-native data platforms like Azure Synapse and Snowflake\n• **Data Mesh Enablement** - Domain-oriented architecture aligning data ownership with business capabilities\n• **Architectural Governance** - Frameworks ensuring consistent data modeling, security, and compliance\n\nOur approach has helped leading financial organizations reduce data platform costs by 40-60% while increasing performance by 5-10x and dramatically accelerating time-to-insight for critical business decisions.\n\nI'd welcome a conversation about your current data architecture challenges and modernization objectives. Could we schedule a 30-minute conversation next week to explore this further?\n\nBest regards,\n\n[Your Name]\nAccount Executive\nEliassen Group",
+            "body": "Dear [Prospect Name],\n\nFinancial institutions today face significant challenges with legacy data architectures that limit agility, impede analytics, and increase regulatory risk. Many organizations struggle with data silos, inconsistent quality, and infrastructure that can't efficiently support modern AI and analytics demands.\n\nEliassen Group's Data Architecture & Modernization practice specializes in transforming financial services data environments through:\n\n• **Data Lakehouse Implementation** - Modern unified architectures combining the best of data lakes and warehouses\n• **Cloud Data Migration** - Secure, compliant transition to cloud-native data platforms like Azure Synapse and Snowflake\n• **Data Mesh Enablement** - Domain-oriented architecture aligning data ownership with business capabilities\n• **Architectural Governance** - Frameworks ensuring consistent data modeling, security, and compliance\n\nOur approach has helped leading financial organizations reduce data platform costs by 40-60% while increasing performance by 5-10x and dramatically accelerating time-to-insight for critical business decisions.\n\nI'd welcome a conversation about your current data architecture challenges and modernization objectives. Could we schedule a 25-minute conversation to explore this further?\n\nBest regards,\n\n[Your Name]\nAccount Executive\nEliassen Group",
             "follow_up": {
               "subject": "Following up: Data Architecture Modernization for [Company Name]",
               "intro_options": [
@@ -48,7 +48,7 @@
                 "Hi [Prospect Name], [Your Name] from Eliassen Group.",
                 "Quick question - are your teams spending more time wrestling with data systems than actually using the data?",
                 "We help banks modernize their data architecture to fix that.",
-                "Worth a conversation? [phone number]. Thanks!"
+                "Please call me back at [phone number] to schedule a 25-minute conversation."
             ],
             "follow_up": {
               "opening_options": [
@@ -67,7 +67,7 @@
         "linkedin": {
             "connection_request": "I help financial institutions modernize data architecture. Would enjoy connecting to share insights on data transformation.",
             "inmessage_subject": "Reducing data platform costs by 40-60%",
-            "inmessage_body": "Hi [Prospect Name],\n\nLegacy data architectures are holding many financial institutions back. We're helping leading firms modernize with cloud-native platforms that reduce costs by 40-60% while accelerating analytics.\n\nWould you be open to a 25-minute conversation about how your organization could address data architecture limitations?\n\nBest regards,\n[Your Name]"
+            "inmessage_body": "Hi [Prospect Name],\n\nLegacy data architectures are holding many financial institutions back. We're helping leading firms modernize with cloud-native platforms that reduce costs by 40-60% while accelerating analytics.\n\nWould you be open to a 25-minute conversation to discuss how your organization could address data architecture limitations?\n\nBest regards,\n[Your Name]"
         },
         "objections": [
             {

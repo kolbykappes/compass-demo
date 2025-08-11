@@ -16,7 +16,7 @@
   "content": {
     "email": {
       "subject": "Case Study: 65% faster technical documentation",
-      "body": "Hi [Prospect Name],\\n\\nIs your team spending too much time on technical documentation? It's a common issue that slows down development and drains resources.\\n\\nWe recently faced this challenge with a financial services client and implemented an AI-powered solution that transformed their process. The results were a 65% reduction in documentation creation time and more than $1.2M in annual savings.\\n\\nOur approach focused on intelligent content extraction and AI-assisted generation, all within their existing compliance framework. We were able to significantly improve both speed and quality.\\n\\nI'd be happy to walk you through how we did it. Are you available for a 15-minute call next week?\\n\\nBest,\\n[Your Name]"
+      "body": "Hi [Prospect Name],\\n\\nIs your team spending too much time on technical documentation? It's a common issue that slows down development and drains resources.\\n\\nWe recently faced this challenge with a financial services client and implemented an AI-powered solution that transformed their process. The results were a 65% reduction in documentation creation time and more than $1.2M in annual savings.\\n\\nOur approach focused on intelligent content extraction and AI-assisted generation, all within their existing compliance framework. We were able to significantly improve both speed and quality.\\n\\nI'd be happy to walk you through how we did it. Are you available for a 20-minute call to discuss this further?\\n\\nBest,\\n[Your Name]"
     },
     "phone": {
       "key_message": [
@@ -33,13 +33,13 @@
       "voicemail": [
         "Hi [Prospect Name], it's [Your Name] from Eliassen Group.",
         "We just helped a client save over $1.2 million and cut their documentation time by 65% with an AI solution.",
-        "I'd be happy to share how. My number is [phone number]."
+        "I'd be happy to share how. Please call me back at [phone number] to schedule a 20-minute conversation."
       ]
     },
     "linkedin": {
       "connection_request": "I help companies solve business problems with AI. Would enjoy connecting to share insights on practical AI solutions.",
       "inmessage_subject": "Saving $1.2M with AI documentation automation",
-      "inmessage_body": "Hi [Prospect Name],\\n\\nWe recently helped a financial services client overhaul their technical documentation process with AI.\\n\\nThe results were a 65% reduction in creation time and over $1.2M in annual savings.\\n\\nWould you be interested in a 25-minute conversation about how targeted AI can solve business bottlenecks?\\n\\nBest,\\n[Your Name]"
+      "inmessage_body": "Hi [Prospect Name],\\n\\nWe recently helped a financial services client overhaul their technical documentation process with AI.\\n\\nThe results were a 65% reduction in creation time and over $1.2M in annual savings.\\n\\nWould you be interested in a 25-minute conversation to discuss how targeted AI can solve business bottlenecks?\\n\\nBest,\\n[Your Name]"
     },
     "objections": [
       {
