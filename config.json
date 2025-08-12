@@ -1,8 +1,8 @@
 {
   "pursuits": {
     "financial-services-ai": {
-      "title": "VP of Data - AI & Data Practice Engagement",
-      "description": "Recommended modules for VP of Data prospects exploring AI and data modernization capabilities",
+      "title": "Chief Digital Officer",
+      "description": "Digital transformation, customer experience, digital platforms",
       "prospect": {
         "company": "Enterprise Corp",
         "role": "VP of Data",
@@ -25,8 +25,8 @@
       ]
     },
     "healthcare-cloud": {
-      "title": "VP of Data - Cloud Data Modernization",
-      "description": "Recommended modules for data leaders focused on cloud infrastructure and data platform modernization",
+      "title": "Chief Data Officer",
+      "description": "Data governance, quality, analytics, compliance",
       "status": "coming-soon",
       "prospect": {
         "company": "Large Enterprise",
@@ -38,21 +38,6 @@
         "m5",
         "m6"
       ]
-    },
-    "manufacturing-app-dev": {
-        "title": "VP of Data - Advanced Analytics & Data Science",
-        "description": "Recommended modules for data executives seeking to scale analytics capabilities and data science operations.",
-        "status": "coming-soon",
-        "prospect": {
-            "company": "Global Enterprise",
-            "role": "VP of Data",
-            "industry": "Enterprise"
-        },
-        "modules": [
-            "m7",
-            "m8",
-            "m1"
-        ]
     }
   }
 } 

@@ -127,6 +127,104 @@ async function renderModuleList(pursuitId) {
     backButton.onclick = () => location.hash = '#pursuits';
 }
 
+async function renderModuleDetailFromId(moduleId) {
+    try {
+        // Find the module file that contains this module ID
+        const moduleFiles = [
+            'intro_eliassen_group_overview.json',
+            'intro_eliassen_tech_services.json',
+            'intro_eliassen_pro_services.json',
+            'into_eliassen_delivery_models.json',
+            'core_capability_data_ai_practice_overview.json',
+            'core_capability_data_architecture_modernization.json',
+            'core_capability_ai_portfolio.json',
+            'core_capability_ai_delivery.json',
+            'solution_data_governance__compliance_framework.json',
+            'solution_enterprise_llm_implementation.json',
+            'success_story_ai-powered_documentation_automation.json',
+            'success_story_ai-powered_regulatory_intelligence.json',
+            'talent_ai__data_expertise.json'
+        ];
+
+        let module = null;
+        for (const file of moduleFiles) {
+            try {
+                const response = await fetch(`modules/${file}?v=${new Date().getTime()}`);
+                if (response.ok) {
+                    const moduleData = await response.json();
+                    if (moduleData.metadata.module_id === moduleId) {
+                        module = moduleData;
+                        break;
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading module:', file, error);
+            }
+        }
+
+        if (!module) {
+            content.innerHTML = '<p>Module not found.</p>';
+            return;
+        }
+
+        // Check if this is a success story module
+        const isSuccessStory = module.metadata.module_type === "Practice-Specific Type D (Success Story)";
+
+        let html = `
+            <div class="module-detail-header">
+                <div class="module-header-left">
+                    <h2>${module.metadata.title}</h2>
+                    <p class="module-overview-text">${module.metadata.overview}</p>
+                </div>
+                <div class="module-header-right">
+                    <details class="module-intel-details">
+                        <summary>View Module Details</summary>
+                        <div class="module-intel-box">
+                            <p><strong>Module ID:</strong> ${module.metadata.module_id}</p>
+                            <p><strong>Module Type:</strong> ${module.metadata.module_type}</p>
+                            <p><strong>Relevant Roles:</strong> ${module.metadata.relevant_roles.join(', ')}</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-link active" onclick="openTab(event, 'email')">Email</button>
+                <button class="tab-link" onclick="openTab(event, 'phone')">Phone Script</button>
+                <button class="tab-link" onclick="openTab(event, 'linkedin')">LinkedIn</button>
+                <button class="tab-link" onclick="openTab(event, 'objections')">Objections</button>
+                ${isSuccessStory ? '<button class="tab-link" onclick="openTab(event, \'collateral\')">Collateral</button>' : ''}
+            </div>
+
+            <div id="email" class="tab-content active">
+                ${renderEmailContent(module.content.email)}
+            </div>
+            <div id="phone" class="tab-content">
+                ${renderPhoneScript(module.content.phone)}
+            </div>
+            <div id="linkedin" class="tab-content">
+                ${renderLinkedInContent(module.content.linkedin)}
+            </div>
+            <div id="objections" class="tab-content">
+                ${renderObjections(module.content.objections)}
+            </div>
+            ${isSuccessStory ? `<div id="collateral" class="tab-content">
+                ${renderCollateral(module.content.collateral)}
+            </div>` : ''}
+        `;
+
+        content.innerHTML = html;
+
+    } catch (error) {
+        console.error("Error rendering module detail:", error);
+        content.innerHTML = `<p>Error loading module details. Please check the console.</p>`;
+    }
+
+    backButton.style.display = 'inline-block';
+    backButton.textContent = `← Back to All Modules`;
+    backButton.onclick = () => location.hash = '#all-modules';
+}
+
 
 async function renderModuleDetail(pursuitId, moduleId) {
     try {
@@ -352,20 +450,15 @@ function renderPursuitList() {
             <div class="pursuit-list">
                 ${pursuitEntries.map(([pursuitId, pursuit]) => `
                     <div class="pursuit-card" onclick="location.hash='#pursuit=${pursuitId}'">
-                        <div class="pursuit-header">
-                            <h3>${pursuit.title}</h3>
-                            <span class="pursuit-type">${pursuit.prospect?.industry || 'General'}</span>
-                        </div>
-                        <p>${pursuit.description}</p>
-                        <div class="pursuit-footer">
-                            <span class="module-count">${pursuit.modules?.length || 0} modules</span>
-                            ${pursuit.status === 'coming-soon' ? '<span class="status-badge">Coming Soon</span>' : '<span class="status-badge">Available</span>'}
-                        </div>
+                        <h3 class="persona-title">${pursuit.title}</h3>
+                        <p class="persona-focus">Focus: ${pursuit.description}</p>
                     </div>
                 `).join('')}
             </div>
             
             <div style="margin-top: 3rem; text-align: center;">
+                <button id="show-all-modules" class="secondary-btn" style="margin-bottom: 1rem;">All Modules - By Type</button>
+                <button id="show-all-modules-practice" class="secondary-btn" style="margin-bottom: 1rem; margin-left: 1rem;">All Modules - By Practice</button>
                 <p style="color: #666; font-style: italic;">Select a pursuit type above to explore the COMPASS methodology with real sales content.</p>
             </div>
         </div>
@@ -374,6 +467,16 @@ function renderPursuitList() {
     backButton.style.display = 'inline-block';
     backButton.textContent = '← Back to Home';
     backButton.onclick = () => location.hash = '';
+    
+    // Add event listener for the show all modules button
+    document.getElementById('show-all-modules').addEventListener('click', () => {
+        location.hash = '#all-modules';
+    });
+    
+    // Add event listener for the show all modules by practice button
+    document.getElementById('show-all-modules-practice').addEventListener('click', () => {
+        location.hash = '#all-modules-practice';
+    });
 }
 
 
@@ -393,13 +496,20 @@ function router() {
     
     const pursuit = getHashParam('pursuit');
     const module = getHashParam('module');
+    const moduleId = getHashParam('module');
 
     if (pursuit && module) {
         renderModuleDetail(pursuit, module);
     } else if (pursuit) {
         renderModuleList(pursuit);
+    } else if (moduleId) {
+        renderModuleDetailFromId(moduleId);
     } else if (hash === 'pursuits') {
         renderPursuitList();
+    } else if (hash === 'all-modules') {
+        renderAllModulesByType();
+    } else if (hash === 'all-modules-practice') {
+        renderAllModulesByPractice();
     } else {
         renderLandingPage();
     }
@@ -449,11 +559,220 @@ function renderLandingPage() {
     });
 }
 
-function renderAllModules() {
-    // This function will need to be implemented
-    content.innerHTML = '<h2>All Modules</h2><p>Feature coming soon.</p>';
+async function renderAllModulesByType() {
+    try {
+        // Get all module files from the modules directory
+        const moduleFiles = [
+            'intro_eliassen_group_overview.json',
+            'intro_eliassen_tech_services.json',
+            'intro_eliassen_pro_services.json',
+            'into_eliassen_delivery_models.json',
+            'core_capability_data_ai_practice_overview.json',
+            'core_capability_data_architecture_modernization.json',
+            'core_capability_ai_portfolio.json',
+            'core_capability_ai_delivery.json',
+            'solution_data_governance__compliance_framework.json',
+            'solution_enterprise_llm_implementation.json',
+            'success_story_ai-powered_documentation_automation.json',
+            'success_story_ai-powered_regulatory_intelligence.json',
+            'talent_ai__data_expertise.json'
+        ];
+
+        // Load all modules
+        const modules = [];
+        for (const file of moduleFiles) {
+            try {
+                const response = await fetch(`modules/${file}?v=${new Date().getTime()}`);
+                if (response.ok) {
+                    const module = await response.json();
+                    modules.push(module);
+                }
+            } catch (error) {
+                console.error('Error loading module:', file, error);
+            }
+        }
+
+        // Group modules by type
+        const modulesByType = {};
+        modules.forEach(module => {
+            const type = module.metadata.module_type;
+            if (!modulesByType[type]) {
+                modulesByType[type] = [];
+            }
+            modulesByType[type].push(module);
+        });
+
+        // Generate HTML
+        let html = `
+            <div style="max-width: 1200px; margin: 0 auto; padding: 2rem;">
+                <h2>All Modules - By Type</h2>
+                <p style="margin-bottom: 2rem; color: #666;">Browse all available modules organized by their type and purpose.</p>
+        `;
+
+        // Sort module types for consistent display
+        const sortedTypes = Object.keys(modulesByType).sort();
+        
+        sortedTypes.forEach(type => {
+            const typeModules = modulesByType[type];
+            html += `
+                <div class="module-type-section" style="margin-bottom: 3rem;">
+                    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
+                        ${type}
+                    </h3>
+                    <div class="module-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 1.5rem;">
+            `;
+
+            typeModules.forEach(module => {
+                html += `
+                    <div class="module-card" style="background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;" 
+                         onclick="location.hash='#module=${module.metadata.module_id}'">
+                        <h4 style="margin: 0 0 0.75rem 0; color: #2c3e50; font-size: 1.1rem;">${module.metadata.title}</h4>
+                        <p style="margin: 0; color: #7f8c8d; font-size: 0.9rem; line-height: 1.4;">${module.metadata.overview}</p>
+                        <div style="margin-top: 1rem;">
+                            <span class="tag practice-area ${convertToClassname(module.metadata.practice_area)}" style="font-size: 0.8rem; padding: 0.2rem 0.5rem;">${module.metadata.practice_area}</span>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `
+                    </div>
+                </div>
+            `;
+        });
+
+        html += `</div>`;
+
+        content.innerHTML = html;
+
+        // Add hover effects
+        document.querySelectorAll('.module-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-2px)';
+                card.style.boxShadow = '0 4px 8px rgba(0,0,0,0.15)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+            });
+        });
+
+    } catch (error) {
+        console.error("Error rendering all modules:", error);
+        content.innerHTML = '<p>Error loading modules. Please check the console.</p>';
+    }
+
     backButton.style.display = 'inline-block';
-    backButton.onclick = () => location.hash = '';
+    backButton.textContent = '← Back to Pursuits';
+    backButton.onclick = () => location.hash = '#pursuits';
+}
+
+async function renderAllModulesByPractice() {
+    try {
+        // Get all module files from the modules directory
+        const moduleFiles = [
+            'intro_eliassen_group_overview.json',
+            'intro_eliassen_tech_services.json',
+            'intro_eliassen_pro_services.json',
+            'into_eliassen_delivery_models.json',
+            'core_capability_data_ai_practice_overview.json',
+            'core_capability_data_architecture_modernization.json',
+            'core_capability_ai_portfolio.json',
+            'core_capability_ai_delivery.json',
+            'solution_data_governance__compliance_framework.json',
+            'solution_enterprise_llm_implementation.json',
+            'success_story_ai-powered_documentation_automation.json',
+            'success_story_ai-powered_regulatory_intelligence.json',
+            'talent_ai__data_expertise.json'
+        ];
+
+        // Load all modules
+        const modules = [];
+        for (const file of moduleFiles) {
+            try {
+                const response = await fetch(`modules/${file}?v=${new Date().getTime()}`);
+                if (response.ok) {
+                    const module = await response.json();
+                    modules.push(module);
+                }
+            } catch (error) {
+                console.error('Error loading module:', file, error);
+            }
+        }
+
+        // Group modules by practice area
+        const modulesByPractice = {};
+        modules.forEach(module => {
+            const practice = module.metadata.practice_area;
+            if (!modulesByPractice[practice]) {
+                modulesByPractice[practice] = [];
+            }
+            modulesByPractice[practice].push(module);
+        });
+
+        // Generate HTML
+        let html = `
+            <div style="max-width: 1200px; margin: 0 auto; padding: 2rem;">
+                <h2>All Modules - By Practice</h2>
+                <p style="margin-bottom: 2rem; color: #666;">Browse all available modules organized by their practice area and specialization.</p>
+        `;
+
+        // Sort practice areas for consistent display
+        const sortedPractices = Object.keys(modulesByPractice).sort();
+        
+        sortedPractices.forEach(practice => {
+            const practiceModules = modulesByPractice[practice];
+            html += `
+                <div class="module-practice-section" style="margin-bottom: 3rem;">
+                    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
+                        ${practice}
+                    </h3>
+                    <div class="module-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 1.5rem;">
+            `;
+
+            practiceModules.forEach(module => {
+                html += `
+                    <div class="module-card" style="background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;" 
+                         onclick="location.hash='#module=${module.metadata.module_id}'">
+                        <h4 style="margin: 0 0 0.75rem 0; color: #2c3e50; font-size: 1.1rem;">${module.metadata.title}</h4>
+                        <p style="margin: 0; color: #7f8c8d; font-size: 0.9rem; line-height: 1.4;">${module.metadata.overview}</p>
+                        <div style="margin-top: 1rem;">
+                            <span class="tag module-type ${convertToClassname(module.metadata.module_type)}" style="font-size: 0.8rem; padding: 0.2rem 0.5rem;">${module.metadata.module_type}</span>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `
+                    </div>
+                </div>
+            `;
+        });
+
+        html += `</div>`;
+
+        content.innerHTML = html;
+
+        // Add hover effects
+        document.querySelectorAll('.module-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-2px)';
+                card.style.boxShadow = '0 4px 8px rgba(0,0,0,0.15)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+            });
+        });
+
+    } catch (error) {
+        console.error("Error rendering all modules by practice:", error);
+        content.innerHTML = '<p>Error loading modules. Please check the console.</p>';
+    }
+
+    backButton.style.display = 'inline-block';
+    backButton.textContent = '← Back to Pursuits';
+    backButton.onclick = () => location.hash = '#pursuits';
 }
 
 function renderComingSoon(pursuit) {
