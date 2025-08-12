@@ -447,14 +447,15 @@ function renderPursuitList() {
             <h2>COMPASS Demo</h2>
             <p>This demonstration shows how COMPASS guides sales teams through strategic outreach sequences. Click any pursuit below to see the recommended module sequence for that sales scenario.</p>
             
-            <div class="pursuit-list">
-                ${pursuitEntries.map(([pursuitId, pursuit]) => `
-                    <div class="pursuit-card" onclick="location.hash='#pursuit=${pursuitId}'">
-                        <h3 class="persona-title">${pursuit.title}</h3>
-                        <p class="persona-focus">Focus: ${pursuit.description}</p>
-                    </div>
-                `).join('')}
-            </div>
+                         <div class="pursuit-list">
+                 ${pursuitEntries.map(([pursuitId, pursuit]) => `
+                     <div class="pursuit-card" onclick="location.hash='#pursuit=${pursuitId}'">
+                         <h3 class="persona-title">${pursuit.title}</h3>
+                         <p class="persona-focus">Focus: ${pursuit.description}</p>
+                         <p class="persona-narrative">Navigate Rapid Pace of AI</p>
+                     </div>
+                 `).join('')}
+             </div>
             
             <div style="margin-top: 3rem; text-align: center;">
                 <button id="show-all-modules" class="secondary-btn" style="margin-bottom: 1rem;">All Modules - By Type</button>

@@ -24,6 +24,14 @@
     flex: 1;
 }
 
+.header-logo a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
 .header-logo .logo {
     height: 50px;
     width: auto;
@@ -362,6 +370,16 @@ a:hover {
     text-align: center;
 }
 
+.persona-narrative {
+    margin: 1rem 0 0 0;
+    color: #3498db;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
 .module-table {
     width: 100%;
     border-collapse: collapse;
@@ -422,6 +440,10 @@ a:hover {
 
 /* Module Type Colors */
 .tag.module-type.company-introduction {
+    background-color: #6f42c1; /* Purple */
+}
+
+.tag.module-type.company-intro {
     background-color: #6f42c1; /* Purple */
 }
 

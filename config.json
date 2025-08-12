@@ -11,20 +11,16 @@
       "modules": [
         { "id": "intro_eliassen_group_overview.json", "sequence": 1, "delay": "Day 0", "notes": "Start with company introduction to establish credibility and set context for all follow-up communications." },
         { "id": "intro_eliassen_tech_services.json", "sequence": 2, "delay": "Day 2", "notes": "Introduce the technology services pillar to provide a comprehensive overview of our capabilities." },
-        { "id": "intro_eliassen_pro_services.json", "sequence": 3, "delay": "Day 4", "notes": "Explain the professional services engagement models to build trust and show flexibility." },
-        { "id": "core_capability_data_ai_practice_overview.json", "sequence": 4, "delay": "Day 7", "notes": "Follow with specific Data & AI practice introduction - establish comprehensive capabilities in target area." },
-        { "id": "into_eliassen_delivery_models.json", "sequence": 5, "delay": "Day 9", "notes": "Introduce delivery models and engagement approaches to show flexibility and build trust." },
-        { "id": "core_capability_data_architecture_modernization.json", "sequence": 6, "delay": "Day 13", "notes": "Build foundation understanding - most AI/data initiatives require modern architecture as prerequisite." },
-        { "id": "solution_data_governance__compliance_framework.json", "sequence": 7, "delay": "Day 17", "notes": "Address data governance and compliance early - critical for enterprise data leadership trust." },
-        { "id": "solution_enterprise_llm_implementation.json", "sequence": 8, "delay": "Day 21", "notes": "Introduce specific AI solutions after foundation and governance are established." },
-        { "id": "success_story_ai-powered_documentation_automation.json", "sequence": 9, "delay": "Day 25", "notes": "Provide concrete proof point with specific ROI - builds confidence in execution capability." },
-        { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 10, "delay": "Day 29", "notes": "Second success story shows breadth of AI applications in enterprise data context." },
-        { "id": "talent_ai__data_expertise.json", "sequence": 11, "delay": "Day 33", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." },
-        { "id": "core_capability_ai_portfolio.json", "sequence": 12, "delay": "Day 37", "notes": "Introduce Enterprise Agility practice capabilities for portfolio optimization and adaptive governance." },
-        { "id": "core_capability_ai_delivery.json", "sequence": 13, "delay": "Day 41", "notes": "Introduce AI Delivery Excellence capabilities for accelerating deployment and getting faster feedback." }
+        { "id": "core_capability_data_ai_practice_overview.json", "sequence": 3, "delay": "Day 4", "notes": "Follow with specific Data & AI practice introduction - establish comprehensive capabilities in target area." },
+        { "id": "core_capability_ai_portfolio.json", "sequence": 4, "delay": "Day 7", "notes": "Introduce Enterprise Agility practice capabilities for portfolio optimization and adaptive governance." },
+        { "id": "into_eliassen_delivery_models.json", "sequence": 5, "delay": "Day 10", "notes": "Introduce delivery models and engagement approaches to show flexibility and build trust." },
+        { "id": "core_capability_data_architecture_modernization.json", "sequence": 6, "delay": "Day 14", "notes": "Build foundation understanding - most AI/data initiatives require modern architecture as prerequisite." },
+        { "id": "solution_enterprise_llm_implementation.json", "sequence": 7, "delay": "Day 18", "notes": "Introduce specific AI solutions after foundation and governance are established." },
+        { "id": "success_story_ai-powered_documentation_automation.json", "sequence": 8, "delay": "Day 22", "notes": "Provide concrete proof point with specific ROI - builds confidence in execution capability." },
+        { "id": "talent_ai__data_expertise.json", "sequence": 9, "delay": "Day 26", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." }
       ]
     },
-    "healthcare-cloud": {
+    "chief-data-officer": {
       "title": "Chief Data Officer",
       "description": "Data governance, quality, analytics, compliance",
       "status": "coming-soon",
@@ -34,9 +30,15 @@
         "industry": "Enterprise"
       },
       "modules": [
-        "m4",
-        "m5",
-        "m6"
+        { "id": "intro_eliassen_group_overview.json", "sequence": 1, "delay": "Day 0", "notes": "Start with company introduction to establish credibility and set context for all follow-up communications." },
+        { "id": "intro_eliassen_pro_services.json", "sequence": 2, "delay": "Day 2", "notes": "Explain the professional services engagement models to build trust and show flexibility." },
+        { "id": "core_capability_data_ai_practice_overview.json", "sequence": 3, "delay": "Day 4", "notes": "Follow with specific Data & AI practice introduction - establish comprehensive capabilities in target area." },
+        { "id": "core_capability_ai_delivery.json", "sequence": 4, "delay": "Day 7", "notes": "Introduce AI Delivery Excellence capabilities for accelerating deployment and getting faster feedback." },
+        { "id": "into_eliassen_delivery_models.json", "sequence": 5, "delay": "Day 10", "notes": "Introduce delivery models and engagement approaches to show flexibility and build trust." },
+        { "id": "core_capability_data_architecture_modernization.json", "sequence": 6, "delay": "Day 14", "notes": "Build foundation understanding - most AI/data initiatives require modern architecture as prerequisite." },
+        { "id": "solution_data_governance__compliance_framework.json", "sequence": 7, "delay": "Day 18", "notes": "Address data governance and compliance early - critical for enterprise data leadership trust." },
+        { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 8, "delay": "Day 22", "notes": "Provide concrete proof point with specific ROI - builds confidence in execution capability." },
+        { "id": "talent_ai__data_expertise.json", "sequence": 9, "delay": "Day 26", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." }
       ]
     }
   }
