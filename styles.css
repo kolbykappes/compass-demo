@@ -438,6 +438,14 @@ a:hover {
     background-color: #20c997; /* Teal */
 }
 
+.tag.practice-area.portfolio-optimization-ai-governance {
+    background-color: #fd7e14; /* Orange */
+}
+
+.tag.practice-area.enterprise-agility {
+    background-color: #6f42c1; /* Purple */
+}
+
 .card-grid {
     /* display: none; /* remove grid display */
 }

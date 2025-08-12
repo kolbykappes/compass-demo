@@ -20,7 +20,8 @@
         { "id": "success_story_ai-powered_documentation_automation.json", "sequence": 9, "delay": "Day 25", "notes": "Provide concrete proof point with specific ROI - builds confidence in execution capability." },
         { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 10, "delay": "Day 29", "notes": "Second success story shows breadth of AI applications in enterprise data context." },
         { "id": "talent_ai__data_expertise.json", "sequence": 11, "delay": "Day 33", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." },
-        { "id": "core_capability_ai_portfolio.json", "sequence": 12, "delay": "Day 37", "notes": "Introduce Enterprise Agility practice capabilities for portfolio optimization and adaptive governance." }
+        { "id": "core_capability_ai_portfolio.json", "sequence": 12, "delay": "Day 37", "notes": "Introduce Enterprise Agility practice capabilities for portfolio optimization and adaptive governance." },
+        { "id": "core_capability_ai_delivery.json", "sequence": 13, "delay": "Day 41", "notes": "Introduce AI Delivery Excellence capabilities for accelerating deployment and getting faster feedback." }
       ]
     },
     "healthcare-cloud": {
