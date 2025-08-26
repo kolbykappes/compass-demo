@@ -456,7 +456,7 @@ function renderPursuitList() {
                      <div class="pursuit-card" onclick="location.hash='#pursuit=${pursuitId}'">
                          <h3 class="persona-title">${pursuit.title}</h3>
                          <p class="persona-focus">Focus: ${pursuit.description}</p>
-                         <p class="persona-narrative">Navigate Rapid Pace of AI</p>
+                         <p class="persona-narrative">${pursuit.title === 'VP App Dev' ? 'Accelerate Application Modernization' : 'Navigate Rapid Pace of AI'}</p>
                      </div>
                  `).join('')}
              </div>

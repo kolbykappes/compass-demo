@@ -40,6 +40,31 @@
         { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 8, "delay": "Day 22", "notes": "Provide concrete proof point with specific ROI - builds confidence in execution capability." },
         { "id": "talent_ai__data_expertise.json", "sequence": 9, "delay": "Day 26", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." }
       ]
+    },
+    "vp-app-dev": {
+      "title": "VP App Dev",
+      "description": "Application development, cloud modernization, enterprise agility, digital transformation",
+      "prospect": {
+        "company": "Enterprise Corp",
+        "role": "VP of App Dev",
+        "industry": "Enterprise"
+      },
+      "modules": [
+        { "id": "intro_eliassen_group_overview.json", "sequence": 1, "delay": "Day 1", "notes": "Start with company introduction to establish credibility and set context for all follow-up communications." },
+        { "id": "intro_eliassen_tech_services.json", "sequence": 2, "delay": "Day 3", "notes": "Introduce the technology services pillar to provide a comprehensive overview of our capabilities." },
+        { "id": "intro_eliassen_pro_services.json", "sequence": 3, "delay": "Day 7", "notes": "Explain the professional services engagement models to build trust and show flexibility." },
+        { "id": "core_capability_data_ai_practice_overview.json", "sequence": 4, "delay": "Day 15", "notes": "Introduce AI & Data practice as primary focus area for VP of App Dev." },
+        { "id": "success_story_ai-powered_documentation_automation.json", "sequence": 5, "delay": "Day 18", "notes": "Showcase AI success story with quantifiable results and operational efficiency gains." },
+        { "id": "talent_ai__data_expertise.json", "sequence": 6, "delay": "Day 22", "notes": "Highlight talent capabilities and execution expertise in AI & Data." },
+        { "id": "core_capability_data_architecture_modernization.json", "sequence": 7, "delay": "Day 27", "notes": "Introduce data architecture modernization as secondary practice area." },
+        { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 8, "delay": "Day 35", "notes": "Showcase data governance and compliance success story." },
+        { "id": "solution_enterprise_llm_implementation.json", "sequence": 9, "delay": "Day 37", "notes": "Present special AI offering with enterprise LLM implementation capabilities." },
+        { "id": "talent_ai__data_expertise.json", "sequence": 10, "delay": "Day 41", "notes": "Reinforce talent capabilities and execution expertise." },
+        { "id": "core_capability_ai_portfolio.json", "sequence": 11, "delay": "Day 43", "notes": "Provide additional AI portfolio optimization capabilities." },
+        { "id": "core_capability_ai_delivery.json", "sequence": 12, "delay": "Day 47", "notes": "Showcase AI delivery excellence and acceleration capabilities." },
+        { "id": "success_story_product_agility_transformation.json", "sequence": 13, "delay": "Day 53", "notes": "Present enterprise agility success story with significant cost savings." },
+        { "id": "success_story_enterprise_agile_transformation.json", "sequence": 14, "delay": "Day 58", "notes": "Close with enterprise transformation success story demonstrating delivery cycle improvements." }
+      ]
     }
   }
 } 
