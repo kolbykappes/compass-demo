@@ -143,6 +143,8 @@ async function renderModuleDetailFromId(moduleId) {
             'solution_enterprise_llm_implementation.json',
             'success_story_ai-powered_documentation_automation.json',
             'success_story_ai-powered_regulatory_intelligence.json',
+            'success_story_product_agility_transformation.json',
+            'success_story_enterprise_agile_transformation.json',
             'talent_ai__data_expertise.json'
         ];
 
@@ -168,7 +170,7 @@ async function renderModuleDetailFromId(moduleId) {
         }
 
         // Check if this is a success story module
-        const isSuccessStory = module.metadata.module_type === "Practice-Specific Type D (Success Story)";
+        const isSuccessStory = module.metadata.module_type === "Success Story";
 
         let html = `
             <div class="module-detail-header">
@@ -232,7 +234,7 @@ async function renderModuleDetail(pursuitId, moduleId) {
         const module = await response.json();
 
         // Check if this is a success story module
-        const isSuccessStory = module.metadata.module_type === "Practice-Specific Type D (Success Story)";
+        const isSuccessStory = module.metadata.module_type === "Success Story";
 
         let html = `
             <div class="module-detail-header">
@@ -363,7 +365,7 @@ function renderPhoneScript(phone) {
         `;
     };
 
-    html += createSection('Key Message', phone.key_message);
+    html += createSection('Key Talking Points', phone.key_talking_points);
     html += createSection('Evidence Point', phone.evidence_point);
     html += createSection('Engagement Question', phone.engagement_question);
     html += createSection('Voicemail Script', phone.voicemail);
@@ -576,6 +578,8 @@ async function renderAllModulesByType() {
             'solution_enterprise_llm_implementation.json',
             'success_story_ai-powered_documentation_automation.json',
             'success_story_ai-powered_regulatory_intelligence.json',
+            'success_story_product_agility_transformation.json',
+            'success_story_enterprise_agile_transformation.json',
             'talent_ai__data_expertise.json'
         ];
 
@@ -684,6 +688,8 @@ async function renderAllModulesByPractice() {
             'solution_enterprise_llm_implementation.json',
             'success_story_ai-powered_documentation_automation.json',
             'success_story_ai-powered_regulatory_intelligence.json',
+            'success_story_product_agility_transformation.json',
+            'success_story_enterprise_agile_transformation.json',
             'talent_ai__data_expertise.json'
         ];
 
