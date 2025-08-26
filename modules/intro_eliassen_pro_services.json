@@ -16,8 +16,8 @@
   },
   "content": {
     "email": {
-      "subject": "The right engagement model for your technology initiatives",
-            "body": "Hi [Prospect Name],\n\nMany technology projects fail not because of technical challenges, but because the engagement model doesn't match the organization's needs, constraints, and internal capabilities.\n\nEliassen Group offers four proven engagement models that we tailor to your specific situation:\n\n• **Talent Services** - Skilled consultants you manage directly for immediate capacity\n• **Managed Teams/PODs** - Cross-functional teams we build and oversee for specific initiatives  \n• **Managed Projects** - Complete project ownership with defined deliverables and timelines\n• **Managed Services** - Long-term operational responsibility for critical functions\n\nThis flexibility is why we maintain 400+ active client relationships with industry-leading satisfaction scores.\n\nRecent example: A healthcare organization needed rapid AI implementation but lacked internal expertise. We started with a managed project approach, delivered a working AI platform in 16 weeks, then transitioned to talent services to build their internal team capabilities.\n\nThe key is matching the engagement model to your specific goals, timeline, and internal capacity.\n\nWould you be open to a 20-minute call to discuss which engagement model would work best for your current technology priorities?\n\nBest regards,\n[Your Name]"
+      "subject": "Exploring Eliassen's Professional Services Capabilities – Tailored Support for Your",
+            "body": "I wanted to follow up off of my earlier email with a closer look at our **Technology Solutions practices**, which are designed to help organizations like yours **accelerate innovation, reduce risk, and scale efficiently**.\n\nOur Technology Solutions team delivers **practitioner-led expertise** across five integrated areas:\n\n**• Application Development & Integration** – Cloud-native, mobile, modernization, UI/UX, testing & QA, and enterprise architecture.\n**• Cybersecurity** – Risk assessment, zero trust architecture, identity management, network/data protection, monitoring, and resiliency planning.\n**• AI & Data Services** – GenAI, architecture & engineering, integration & transformation, modernization, BI & visualization.\n**• Infrastructure & Cloud** – Infrastructure engineering, FinOps, DevOps, and cloud architecture.\n**• Enterprise Agility & Program Management** – Agile delivery & coaching, product/project/program management, OKRs, lean portfolio management, and value stream management\n\nWhat sets us apart is our ability to **blend strategy with execution**—whether through individual consultants, managed teams, or fully outsourced engagements.\n\nWould you be open to a quick conversation to explore how our technology capabilities might support your current initiatives?"
     },
     "phone": {
       "key_message": [
@@ -29,20 +29,21 @@
         "They got a working system in 20 weeks with full knowledge transfer, compared to their previous vendor's 18-month timeline that stalled after a year."
       ],
       "engagement_question": [
-        "When you think about your upcoming technology projects, what's your biggest concern?",
-        "Is it finding the right expertise, managing project complexity, or ensuring successful outcomes?"
+        "Which of these areas—cloud, AI, cybersecurity, or agile delivery—are currently top of mind for your team?",
+        "Are you facing any challenges with scaling your tech stack or modernizing legacy systems?",
+        "Do you have any initiatives underway that could benefit from external support or specialized expertise?"
       ],
       "voicemail": [
-        "Hi [Prospect Name], this is [Your Name] from Eliassen Group.",
-        "We offer four different engagement models for technology projects, from talent augmentation to fully managed services.",
-                "I'd like to discuss which engagement model would work best for your current initiatives.",
-        "Please call me back at [phone number] to schedule a 20-minute conversation."
+        "Hi [Prospect Name], this is [Your Name] with Eliassen Group.",
+        "I wanted to follow up on our previous conversation and share a quick note about our Technology Solutions practice. We help organizations accelerate innovation and scale efficiently across areas like cloud, cybersecurity, AI, and agile delivery.",
+        "If you're open to a quick chat, I'd love to explore how we might support your current initiatives.",
+        "You can reach me at [Your Phone Number]. Looking forward to connecting!"
       ]
     },
     "linkedin": {
       "connection_request": "I help technology leaders select the optimal engagement model for their initiatives. Would enjoy connecting to share insights on service delivery approaches.",
       "inmessage_subject": "Reducing project delivery time by 60%",
-      "inmessage_body": "Hi [Prospect Name],\n\nI've been following [Company]'s technology initiatives and wanted to share a key insight about engagement models.\n\nWe recently helped a financial services company reduce project delivery time by 60% simply by switching from traditional staff augmentation to our managed team approach.\n\nWould you be interested in a 25-minute conversation to discuss which engagement model could accelerate your current technology initiatives?\n\nBest regards,\n[Your Name]"
+      "inmessage_body": "I wanted to reach out and share a bit about Eliassen Group's Technology Solutions practices. We help organizations accelerate innovation and scale efficiently across areas like cloud modernization, cybersecurity, AI/data services, and agile delivery.\n\nOur teams bring practitioner-led expertise and flexible delivery models—whether you need strategic consulting, managed teams, or full outsourcing.\n\nIf you're exploring new initiatives or facing challenges in these areas, I'd welcome a quick conversation to see how we might support your goals.\n\nThanks for considering, and I hope we can connect!"
     },
     "objections": [
       {

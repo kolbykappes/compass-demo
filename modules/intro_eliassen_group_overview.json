@@ -10,7 +10,7 @@
   "content": {
     "email": {
       "subject": "Unlocking Solutions with Eliassen Group - A Quick Introduction",
-      "body": "Hi [Prospect Name],\n\nI hope this note finds you well. I wanted to take a moment to introduce myself and Eliassen Group, and share how we might be able to support your team's goals.\n\nEliassen Group is a professional services firm with over 30 years of experience helping organizations solve complex challenges through tailored, high-impact solutions. We're proud to be recognized for our world-class Net Promoter Scores and long-standing client relationships.\n\nOur three core pillars include:\n\n1. Technology Solutions: From application development and cloud modernization to AI, cybersecurity, and data analytics, our teams deliver scalable solutions that drive innovation and efficiency.\n\n2. Financial, Risk & Compliance and Advisory Solutions: We help clients navigate regulatory landscapes, optimize risk management, and strengthen governance through expert consulting in SOX compliance, internal audit, and transformation initiatives.\n\n3. Clinical Solutions: Our clinical operations and data science teams support life sciences organizations with quality, regulatory, and operational excellence across the product lifecycle.\n\nWhether you're exploring new initiatives or looking to accelerate existing ones, Eliassen Group is ready to partner with you.\n\nWould you be open to a brief conversation to explore how we might support your priorities? Looking forward to connecting."
+      "body": "Hi [Prospect Name],\n\nI hope this note finds you well. I wanted to take a moment to introduce myself and **Eliassen Group**, and share how we might be able to support your team's goals.\n\nEliassen Group is a professional services firm with **over 30 years of experience** helping organizations solve complex challenges through tailored, high-impact solutions. We're proud to be recognized for our **world-class Net Promoter Scores** and long-standing client relationships.\n\nOur offerings are anchored in **three core pillars**:\n\n**1. Technology Solutions:** From application development and cloud modernization to AI, cybersecurity, and data analytics, our teams deliver scalable solutions that drive innovation and efficiency.\n\n**2. Financial, Risk & Compliance and Advisory Solutions:** We help clients navigate regulatory landscapes, optimize risk management, and strengthen governance through expert consulting in SOX compliance, internal audit, and transformation initiatives.\n\n**3. Clinical Solutions:** Our clinical operations and data science teams support life sciences organizations with quality, regulatory, and operational excellence across the product lifecycle.\n\nWhether you're exploring new initiatives or looking to accelerate existing ones, **Eliassen Group is ready to partner with you**.\n\nWould you be open to a brief conversation to explore how we might support your priorities? Looking forward to connecting."
     },
     "phone": {
       "key_talking_points": [
@@ -19,9 +19,9 @@
         "We're recognized for world-class Net Promoter Scores and long-standing client relationships"
       ],
       "evidence_point": [
-        "Over 30 years helping organizations solve complex challenges through tailored solutions",
-        "World-class Net Promoter Scores demonstrate our commitment to client success",
-        "Long-standing client relationships across multiple industries"
+        "Eliassen Group has 30+ years of experience delivering tailored, high-impact solutions",
+        "The company maintains world-class Net Promoter Scores, reflecting strong client satisfaction",
+        "Eliassen's approach is built around three core pillars: Technology Solutions, Financial Risk & Compliance and Advisory Solutions, and Clinical Solutions"
       ],
       "engagement_question": [
         "What are your team's biggest challenges or priorities for the coming year?",
@@ -35,9 +35,9 @@
       ]
     },
     "linkedin": {
-      "connection_request": "I help organizations solve complex challenges through tailored solutions across technology, risk & compliance, and clinical operations. Would enjoy connecting.",
-      "inmessage_subject": "Following up on Eliassen Group introduction",
-      "inmessage_body": "Hi [Prospect Name],\n\nI sent you an email introducing Eliassen Group and our three core pillars: Technology Solutions, Financial Risk & Compliance Advisory, and Clinical Solutions.\n\nWe help organizations solve complex challenges through tailored, high-impact solutions. Would love to have a brief conversation about how we might support your priorities.\n\nBest,\n[Your Name]"
+      "connection_request": "I'd love to connect and briefly introduce Eliassen Group—where we help organizations solve challenges through Technology, Financial Risk & Compliance, and Clinical Solutions.",
+      "inmessage_subject": "Introduction to Eliassen Group",
+      "inmessage_body": "I'd love to connect and briefly introduce Eliassen Group. We help organizations solve complex challenges through tailored solutions across three pillars: Technology, Financial Risk & Compliance, and Clinical. If you're open to a quick chat, I'd be happy to share how we might support your goals.\n\nLooking forward to connecting!\n\nBest,\n[Your First Name]"
     },
     "objections": [
       {
