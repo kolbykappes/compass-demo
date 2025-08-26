@@ -9,34 +9,35 @@
   },
   "content": {
     "email": {
-      "subject": "Technology Solutions: 35+ years delivering measurable outcomes",
-      "body": "Hi [Prospect Name],\n\nEliassen Group is organized into 3 pillars: Technology Solutions, FRCA, and Clinical Solutions. I work within the Technology Solutions pillar, where we focus on delivering measurable business outcomes across 5 practice areas:\n\n• Application Development & Integration\n• Cybersecurity\n• AI & Data Services  \n• Infrastructure & Cloud\n• Enterprise Agility\n\nWith 35+ years of experience and 2,500 consultants supporting 400+ clients, we've built our reputation on tangible results. For example, we recently helped a financial services client reduce infrastructure costs by 40% while increasing data processing speed by 10x.\n\nWould you be open to a 20-minute conversation about your technology priorities for this year?\n\nBest,\n[Your Name]\nEliassen Group Technology Solutions"
+      "subject": "Unlocking Solutions with Eliassen Group - A Quick Introduction",
+      "body": "Hi [Prospect Name],\n\nI hope this note finds you well. I wanted to take a moment to introduce myself and Eliassen Group, and share how we might be able to support your team's goals.\n\nEliassen Group is a professional services firm with over 30 years of experience helping organizations solve complex challenges through tailored, high-impact solutions. We're proud to be recognized for our world-class Net Promoter Scores and long-standing client relationships.\n\nOur three core pillars include:\n\n1. Technology Solutions: From application development and cloud modernization to AI, cybersecurity, and data analytics, our teams deliver scalable solutions that drive innovation and efficiency.\n\n2. Financial, Risk & Compliance and Advisory Solutions: We help clients navigate regulatory landscapes, optimize risk management, and strengthen governance through expert consulting in SOX compliance, internal audit, and transformation initiatives.\n\n3. Clinical Solutions: Our clinical operations and data science teams support life sciences organizations with quality, regulatory, and operational excellence across the product lifecycle.\n\nWhether you're exploring new initiatives or looking to accelerate existing ones, Eliassen Group is ready to partner with you.\n\nWould you be open to a brief conversation to explore how we might support your priorities? Looking forward to connecting."
     },
     "phone": {
       "key_talking_points": [
-        "Eliassen Group has 3 pillars - Technology Solutions, FRCA, and Clinical Solutions",
-        "I work in Technology Solutions covering 5 practice areas: App Dev, Cybersecurity, AI & Data, Infrastructure & Cloud, Enterprise Agility",
-        "35+ years experience, 2,500 consultants, 400+ clients - focus on measurable business outcomes"
+        "Eliassen Group is a professional services firm with over 30 years of experience",
+        "We have three core pillars: Technology Solutions, Financial Risk & Compliance Advisory, and Clinical Solutions",
+        "We're recognized for world-class Net Promoter Scores and long-standing client relationships"
       ],
       "evidence_point": [
-        "Recent client reduced infrastructure costs 40% while increasing processing speed 10x",
-        "We offer flexible engagement models from talent augmentation to fully managed services",
-        "Work across financial services, healthcare, government, manufacturing"
+        "Over 30 years helping organizations solve complex challenges through tailored solutions",
+        "World-class Net Promoter Scores demonstrate our commitment to client success",
+        "Long-standing client relationships across multiple industries"
       ],
       "engagement_question": [
-        "When you think about your technology roadmap for the next 12 months, what's the initiative that absolutely has to succeed?"
+        "What are your team's biggest challenges or priorities for the coming year?",
+        "Are you exploring any new initiatives where external expertise could be valuable?"
       ],
       "voicemail": [
-        "Hi [Prospect Name], this is [Your Name] from Eliassen Group Technology Solutions.",
-        "We just helped a client reduce costs by 40% while improving performance 10x.",
-        "I'd love to share how we deliver measurable technology outcomes.",
-        "Please call me back at [phone number] for a 20-minute conversation."
+        "Hi [Prospect Name], this is [Your Name] from Eliassen Group.",
+        "I wanted to introduce myself and share how we help organizations solve complex challenges.",
+        "I'd love to have a brief conversation about how we might support your priorities.",
+        "Please call me back at [phone number] when convenient."
       ]
     },
     "linkedin": {
-      "connection_request": "I help technology leaders deliver measurable outcomes across app dev, cybersecurity, AI/data, and cloud. Would enjoy connecting.",
-      "inmessage_subject": "Following up on Technology Solutions email",
-      "inmessage_body": "Hi [Prospect Name],\n\nShot you over an email about Eliassen Group's Technology Solutions practice. We've helped clients achieve results like 40% cost reduction while improving performance 10x.\n\nWould love 20 minutes to discuss your technology priorities.\n\nBest,\n[Your Name]"
+      "connection_request": "I help organizations solve complex challenges through tailored solutions across technology, risk & compliance, and clinical operations. Would enjoy connecting.",
+      "inmessage_subject": "Following up on Eliassen Group introduction",
+      "inmessage_body": "Hi [Prospect Name],\n\nI sent you an email introducing Eliassen Group and our three core pillars: Technology Solutions, Financial Risk & Compliance Advisory, and Clinical Solutions.\n\nWe help organizations solve complex challenges through tailored, high-impact solutions. Would love to have a brief conversation about how we might support your priorities.\n\nBest,\n[Your Name]"
     },
     "objections": [
       {

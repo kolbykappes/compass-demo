@@ -41,6 +41,8 @@ function convertToClassname(text) {
 function shortenModuleType(moduleType) {
     const typeMap = {
         'Company Introduction': 'Company Intro',
+        'Company Intro': 'Company Intro',
+        'General / Company Intro': 'General / Company Intro',
         'Core Capability': 'Core Capability',
         'Solution': 'Solution',
         'Success Story': 'Success Story',
@@ -600,7 +602,13 @@ async function renderAllModulesByType() {
         // Group modules by type
         const modulesByType = {};
         modules.forEach(module => {
-            const type = module.metadata.module_type;
+            let type = module.metadata.module_type;
+            
+            // Combine Company Introduction and Company Intro into one section
+            if (type === "Company Introduction" || type === "Company Intro") {
+                type = "General / Company Intro";
+            }
+            
             if (!modulesByType[type]) {
                 modulesByType[type] = [];
             }
