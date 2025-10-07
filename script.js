@@ -155,6 +155,7 @@ async function renderModuleDetailFromId(moduleId) {
             'success_story_scrum_master_as_a_service.json',
             'success_story_healthcare_order_inventory_management.json',
             'success_story_education_student_services_attendance_tracking.json',
+            'success_story_application_test_automation.json',
             'talent_ai__data_expertise.json'
         ];
 
@@ -598,6 +599,7 @@ async function renderAllModulesByType() {
             'success_story_scrum_master_as_a_service.json',
             'success_story_healthcare_order_inventory_management.json',
             'success_story_education_student_services_attendance_tracking.json',
+            'success_story_application_test_automation.json',
             'talent_ai__data_expertise.json'
         ];
 
@@ -722,6 +724,7 @@ async function renderAllModulesByPractice() {
             'success_story_scrum_master_as_a_service.json',
             'success_story_healthcare_order_inventory_management.json',
             'success_story_education_student_services_attendance_tracking.json',
+            'success_story_application_test_automation.json',
             'talent_ai__data_expertise.json'
         ];
 

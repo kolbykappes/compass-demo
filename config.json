@@ -17,7 +17,10 @@
         { "id": "core_capability_data_architecture_modernization.json", "sequence": 6, "delay": "Day 14", "notes": "Build foundation understanding - most AI/data initiatives require modern architecture as prerequisite." },
         { "id": "solution_enterprise_llm_implementation.json", "sequence": 7, "delay": "Day 18", "notes": "Introduce specific AI solutions after foundation and governance are established." },
         { "id": "success_story_ai-powered_documentation_automation.json", "sequence": 8, "delay": "Day 22", "notes": "Provide concrete proof point with specific ROI - builds confidence in execution capability." },
-        { "id": "talent_ai__data_expertise.json", "sequence": 9, "delay": "Day 26", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." }
+        { "id": "talent_ai__data_expertise.json", "sequence": 9, "delay": "Day 26", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." },
+        { "id": "success_story_energy_ai_data_transformation.json", "sequence": 10, "delay": "Day 30", "notes": "Showcase AI & Data transformation success with measurable business impact." },
+        { "id": "success_story_healthcare_data_analytics_warehouse.json", "sequence": 11, "delay": "Day 35", "notes": "Present healthcare data analytics success story demonstrating scalable data solutions." },
+        { "id": "success_story_retail_data_integration_cloud_architecture.json", "sequence": 12, "delay": "Day 40", "notes": "Close with retail data integration success showcasing cloud architecture capabilities." }
       ]
     },
     "chief-data-officer": {
@@ -38,7 +41,10 @@
         { "id": "core_capability_data_architecture_modernization.json", "sequence": 6, "delay": "Day 14", "notes": "Build foundation understanding - most AI/data initiatives require modern architecture as prerequisite." },
         { "id": "solution_data_governance__compliance_framework.json", "sequence": 7, "delay": "Day 18", "notes": "Address data governance and compliance early - critical for enterprise data leadership trust." },
         { "id": "success_story_ai-powered_regulatory_intelligence.json", "sequence": 8, "delay": "Day 22", "notes": "Provide concrete proof point with specific ROI - builds confidence in execution capability." },
-        { "id": "talent_ai__data_expertise.json", "sequence": 9, "delay": "Day 26", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." }
+        { "id": "talent_ai__data_expertise.json", "sequence": 9, "delay": "Day 26", "notes": "End with execution capability and talent - shows how we deliver on the promises made earlier." },
+        { "id": "success_story_healthcare_data_analytics_warehouse.json", "sequence": 10, "delay": "Day 30", "notes": "Present healthcare data analytics success story demonstrating scalable data warehouse solutions." },
+        { "id": "success_story_energy_ai_data_transformation.json", "sequence": 11, "delay": "Day 35", "notes": "Showcase AI & Data transformation success with measurable business impact." },
+        { "id": "success_story_retail_data_integration_cloud_architecture.json", "sequence": 12, "delay": "Day 40", "notes": "Close with retail data integration success showcasing cloud architecture and data processing capabilities." }
       ]
     },
     "vp-app-dev": {
@@ -63,7 +69,11 @@
         { "id": "core_capability_ai_portfolio.json", "sequence": 11, "delay": "Day 43", "notes": "Provide additional AI portfolio optimization capabilities." },
         { "id": "core_capability_ai_delivery.json", "sequence": 12, "delay": "Day 47", "notes": "Showcase AI delivery excellence and acceleration capabilities." },
         { "id": "success_story_product_agility_transformation.json", "sequence": 13, "delay": "Day 53", "notes": "Present enterprise agility success story with significant cost savings." },
-        { "id": "success_story_enterprise_agile_transformation.json", "sequence": 14, "delay": "Day 58", "notes": "Close with enterprise transformation success story demonstrating delivery cycle improvements." }
+        { "id": "success_story_enterprise_agile_transformation.json", "sequence": 14, "delay": "Day 58", "notes": "Close with enterprise transformation success story demonstrating delivery cycle improvements." },
+        { "id": "success_story_application_modernization_ui_enhancement.json", "sequence": 15, "delay": "Day 65", "notes": "Present application modernization success story with comprehensive UI/UX enhancement and test coverage." },
+        { "id": "success_story_application_test_automation.json", "sequence": 16, "delay": "Day 70", "notes": "Showcase test automation success with 98% coverage and modern development practices." },
+        { "id": "core_capability_scrum_master_as_a_service.json", "sequence": 17, "delay": "Day 75", "notes": "Introduce Scrum Master as a Service capability for agile delivery excellence." },
+        { "id": "success_story_scrum_master_as_a_service.json", "sequence": 18, "delay": "Day 80", "notes": "Close with Scrum Master as a Service success story demonstrating agile transformation results." }
       ]
     }
   }
