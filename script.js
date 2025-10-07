@@ -141,12 +141,20 @@ async function renderModuleDetailFromId(moduleId) {
             'core_capability_data_architecture_modernization.json',
             'core_capability_ai_portfolio.json',
             'core_capability_ai_delivery.json',
+            'core_capability_scrum_master_as_a_service.json',
             'solution_data_governance__compliance_framework.json',
             'solution_enterprise_llm_implementation.json',
             'success_story_ai-powered_documentation_automation.json',
             'success_story_ai-powered_regulatory_intelligence.json',
             'success_story_product_agility_transformation.json',
             'success_story_enterprise_agile_transformation.json',
+            'success_story_energy_ai_data_transformation.json',
+            'success_story_healthcare_data_analytics_warehouse.json',
+            'success_story_retail_data_integration_cloud_architecture.json',
+            'success_story_application_modernization_ui_enhancement.json',
+            'success_story_scrum_master_as_a_service.json',
+            'success_story_healthcare_order_inventory_management.json',
+            'success_story_education_student_services_attendance_tracking.json',
             'talent_ai__data_expertise.json'
         ];
 
@@ -576,12 +584,20 @@ async function renderAllModulesByType() {
             'core_capability_data_architecture_modernization.json',
             'core_capability_ai_portfolio.json',
             'core_capability_ai_delivery.json',
+            'core_capability_scrum_master_as_a_service.json',
             'solution_data_governance__compliance_framework.json',
             'solution_enterprise_llm_implementation.json',
             'success_story_ai-powered_documentation_automation.json',
             'success_story_ai-powered_regulatory_intelligence.json',
             'success_story_product_agility_transformation.json',
             'success_story_enterprise_agile_transformation.json',
+            'success_story_energy_ai_data_transformation.json',
+            'success_story_healthcare_data_analytics_warehouse.json',
+            'success_story_retail_data_integration_cloud_architecture.json',
+            'success_story_application_modernization_ui_enhancement.json',
+            'success_story_scrum_master_as_a_service.json',
+            'success_story_healthcare_order_inventory_management.json',
+            'success_story_education_student_services_attendance_tracking.json',
             'talent_ai__data_expertise.json'
         ];
 
@@ -692,12 +708,20 @@ async function renderAllModulesByPractice() {
             'core_capability_data_architecture_modernization.json',
             'core_capability_ai_portfolio.json',
             'core_capability_ai_delivery.json',
+            'core_capability_scrum_master_as_a_service.json',
             'solution_data_governance__compliance_framework.json',
             'solution_enterprise_llm_implementation.json',
             'success_story_ai-powered_documentation_automation.json',
             'success_story_ai-powered_regulatory_intelligence.json',
             'success_story_product_agility_transformation.json',
             'success_story_enterprise_agile_transformation.json',
+            'success_story_energy_ai_data_transformation.json',
+            'success_story_healthcare_data_analytics_warehouse.json',
+            'success_story_retail_data_integration_cloud_architecture.json',
+            'success_story_application_modernization_ui_enhancement.json',
+            'success_story_scrum_master_as_a_service.json',
+            'success_story_healthcare_order_inventory_management.json',
+            'success_story_education_student_services_attendance_tracking.json',
             'talent_ai__data_expertise.json'
         ];
 
