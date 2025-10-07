@@ -3,7 +3,7 @@
     "module_id": "success_story_retail_data_integration_cloud_architecture",
     "title": "Retail Data Integration: Brierley Platform Modernization with Real-Time Processing",
     "module_type": "Success Story",
-    "practice_area": "AI & Data Services",
+    "practice_area": "AI & Data",
     "relevant_roles": ["CTO", "VP of Engineering", "VP of Data & Analytics", "Chief Technology Officer", "VP of IT"],
     "overview": "A retail organization successfully modernized their data integration infrastructure as part of a major Brierley platform upgrade, implementing secure API gateway architecture, cloud-native GCP infrastructure, and real-time data processing capabilities. The solution included comprehensive API security, automated testing with 1,000+ test cases, and Infrastructure as Code deployment for scalable retail operations."
   },

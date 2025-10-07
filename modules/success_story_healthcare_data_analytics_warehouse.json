@@ -3,7 +3,7 @@
     "module_id": "success_story_healthcare_data_analytics_warehouse",
     "title": "Healthcare Data Warehouse: 110,000+ Participants Analytics Platform",
     "module_type": "Success Story",
-    "practice_area": "AI & Data Services",
+    "practice_area": "AI & Data",
     "relevant_roles": ["CTO", "VP of Data & Analytics", "Chief Data Officer", "VP of IT", "Healthcare IT Director"],
     "overview": "A healthcare organization serving over 110,000 program participants successfully implemented a comprehensive data warehouse solution integrating claims data, CDC information, and healthcare provider data. The secure Azure FedRAMP cloud-based analytics infrastructure enabled real-time reporting, improved data quality, and streamlined claims processing through automated BI dashboards and data integration pipelines."
   },
